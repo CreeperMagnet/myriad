@@ -1,55 +1,56 @@
 A. Introduction
 
-  This license describes how you, the user, may use The Creeper's Code (henceforth referred to as "TCC") and related assets. This license is subject to change by CreeperMagnet_, the owner, at any time.
+  This license describes how you, the user, may use Myriad and related assets. This license is subject to change by CreeperMagnet_, the owner, at any time.
 
-  Last Edited: August 12, 2023
+  Last Edited: December 22nd, 2025
 
 
 B. Allowed Uses
 
-  1. You may play with TCC in any form on any singleplayer or multiplayer server you choose.
+  1. You may play with Myriad in any form on any singleplayer or multiplayer server you choose.
 
-  2. You may edit TCC and its assets for your own personal use, so long as you do not redistribute said edited content publicly. This does not apply to edited content that is sufficiently distinguishable as original and distinct from TCC content and that does not break any of the rest of this license.
+  2. You may edit Myriad and its assets for your own personal use, so long as you do not redistribute said edited content publicly. This does not apply to edited content that is sufficiently identifiable as original and distinct from Myriad content and that does not violate the rest of this license.
 
     For example:
     - You are allowed to create an edited version without all features you dislike for personal use. You are not allowed to redistribute it.
     - You are allowed to use a personal edited version on your own private or public server.
-    - You are allowed to create a "TCC but I remade every texture by hand in MS Paint" add-on pack and redistribute it.
+    - You are allowed to create a "Myriad but I remade every texture by hand in MS Paint" add-on pack and redistribute it.
 
-  3. You may create and share your own TCC-related content, such as videos, fanart, and images so long as you do not charge for said content and it does not redistribute TCC or any of its assets.
+  3. You may create and share your own Myriad-related content, such as videos, fanart, and images so long as you do not charge for said content and it does not redistribute Myriad or any of its assets.
 
     For example:
     - You are allowed to create a video series of your gameplay.
-    - You are not allowed to create TCC merchandise and charge for it.
+    - You are not allowed to create merchandise based on Myriad or its features and charge for it.
 
 
 C. Denied Uses
 
-  1. You may not redistribute TCC or any of its assets. This does not apply to simple mcfunction concepts. You are free to read TCC code and use it to learn.
+  1. You may not redistribute Myriad or any of its assets. This does not apply to simple mcfunction concepts. You are free to read Myriad code and use it to learn.
 
     i. You may not use any of our resource pack assets or models for your own projects.
       For example:
-      - You are not allowed to take TCC's wrench texture and create your own wrench data pack using it.
-      - You are not allowed to use TCC's illager model for your own project.
-      - You are not allowed to make TCC NFTs.
+      - You are not allowed to take Myriad's wrench texture and create your own wrench data pack using it.
+      - You are not allowed to use Myriad's illager model for your own project.
+      - You are not allowed to make Myriad NFTs.
 
-    ii. You may not use TCC's mcfunction code for your own projects. However, as noted above, this does not apply to simple, sufficiently generic mcfunction concepts.
+    ii. You may not use Myriad's mcfunction code for your own projects. However, as noted above, this does not apply to simple, sufficiently generic mcfunction concepts.
       For example:
       - You may use simple concepts such as block placement or randomization techniques and use them in your own data pack.
       - You may not take all of the code for the wandering witch and redistribute it in your own "wandering mob" data pack.
       - You may not use the advanced, specialized soul conductor algorithm for your own data pack.
 
-  2. You may not use TCC in any public modpack, datapackpack, or any type of compilation without express permission from the owner, which may be revoked at any time.
-    For example:
-    - You may not create a public compilation titled "Better Vanilla" combination of vanilla+ datapacks and include TCC without the owner's permission.
-    - You may create your own private compilation and use it. (See B2)
+  2. You may not use Myriad in any public modpack, datapackpack, or any type of compilation without proper attribution.
 
-  3. You may not pass off TCC or its assets as your own. Give proper credit where it is due.
+    For example:
+    - You may not create a datapack-based compilation (singular pack.mcmeta, not properly supported on most hosting sites) including Myriad and not include credit somewhere in the download.
+    - You may create a modpack on Modrinth, as long as you use Modrinth's modpack feature to automatically attribute Myriad with proper linkage.
+
+  3. You may not pass off Myriad or its assets as your own. Give proper credit where it is due.
 
 
 D. Exceptions 
 
-  1. It should be clear that all members of TCC's development team are exempt from any part of the above license at any time, for any reason, given their ownership of the content in question.
+  1. It should be clear that all active members of Myriad's development team are exempt from any part of the above license at any time, for any reason, given their ownership of the content in question.
 
   
 Copyright (c) 2025 CreeperMagnet_
