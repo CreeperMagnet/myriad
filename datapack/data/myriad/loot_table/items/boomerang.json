@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"boomerang\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:boomerang",
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 300,
+                "minecraft:repairable": {
+                  "items": "#myriad:repair_items/boomerang"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.boomerang"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:warped_fungus_on_a_stick"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/boomerang"
+}

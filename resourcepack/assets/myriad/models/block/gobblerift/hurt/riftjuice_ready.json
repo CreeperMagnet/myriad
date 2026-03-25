@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:block/gobblerift/riftjuice_ready",
+	"textures": {
+		"1": "myriad:block/gobblerift_hurt"
+	}
+}

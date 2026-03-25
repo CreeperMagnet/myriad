@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "wax_note_block": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/note_block_waxing/interact/advancement"
+  },
+  "requirements": [
+    [
+      "wax_note_block"
+    ]
+  ]
+}

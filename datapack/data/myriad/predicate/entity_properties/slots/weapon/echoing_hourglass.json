@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:custom_data": "{myriad:{id:\"echoing_hourglass\"}}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:sprouter_egg"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.husbandry.obtain_sprouter_egg.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.husbandry.obtain_sprouter_egg.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"sprouter_egg\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg"
+    ]
+  ]
+}

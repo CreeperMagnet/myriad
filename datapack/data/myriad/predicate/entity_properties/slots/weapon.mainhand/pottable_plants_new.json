@@ -1,0 +1,42 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"frostbloom\"}}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"gobblerift\"}}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "#myriad:pottable_plants"
+          }
+        }
+      }
+    }
+  ]
+}

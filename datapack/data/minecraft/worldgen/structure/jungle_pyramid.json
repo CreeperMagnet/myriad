@@ -8,7 +8,7 @@
     "absolute": 0
   },
   "biomes": "#minecraft:has_structure/jungle_temple",
-  "start_pool": "tcc:jungle_temple/connector",
+  "start_pool": "myriad:jungle_temple/connector",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
   "step": "surface_structures",

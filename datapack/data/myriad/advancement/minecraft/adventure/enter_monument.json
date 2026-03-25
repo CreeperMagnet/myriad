@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.enter_monument.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.enter_monument.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ]
+  },
+  "criteria": {
+    "enter_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:monument"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enter_monument"
+    ]
+  ]
+}

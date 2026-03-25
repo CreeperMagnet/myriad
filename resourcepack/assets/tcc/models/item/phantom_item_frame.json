@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "tcc:item/phantom_item_frame",
-        "particle": "tcc:item/phantom_item_frame"
-    }
-}

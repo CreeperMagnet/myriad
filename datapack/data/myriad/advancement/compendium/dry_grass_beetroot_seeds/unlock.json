@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:short_dry_grass","minecraft:tall_dry_grass","minecraft:beetroot_seeds"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/dry_grass_beetroot_seeds/from_advancement"}}

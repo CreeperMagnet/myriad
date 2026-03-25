@@ -1,0 +1,41 @@
+{
+  "category": "misc",
+  "type": "crafting_shaped",
+  "pattern": [
+    "EEE",
+    "GGG",
+    "EEE"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "G": "minecraft:tinted_glass"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:echoing_hourglass",
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "echoing_hourglass"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "!minecraft:damage": {},
+      "!minecraft:max_damage": {},
+      "!minecraft:enchantments": {},
+      "minecraft:item_name": {
+        "translate": "item.myriad.echoing_hourglass"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

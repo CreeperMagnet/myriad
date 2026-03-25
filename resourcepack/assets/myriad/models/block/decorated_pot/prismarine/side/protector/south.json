@@ -1,0 +1,7 @@
+{
+	"parent": "myriad:block/decorated_pot/template_side/south",
+	"textures": {
+		"0": "myriad:block/decorated_pot/prismarine/side/protector",
+		"particle": "myriad:block/decorated_pot/prismarine/side/protector"
+	}
+}

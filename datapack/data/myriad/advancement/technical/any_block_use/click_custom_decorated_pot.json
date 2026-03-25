@@ -1,0 +1,50 @@
+{
+  "criteria": {
+    "click_decorated_pot": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:reference",
+                   "name": "myriad:entity_properties/sneaking"
+                }
+              },
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:air"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ],
+                "nbt": "{components:{\"minecraft:custom_data\":{myriad:{id:\"decorated_pot\"}}}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/decorated_pot/interact/advancement"
+  },
+  "requirements": [
+    [
+      "click_decorated_pot"
+    ]
+  ]
+}

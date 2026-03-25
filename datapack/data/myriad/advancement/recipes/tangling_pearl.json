@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:tangling_pearl"
+    ]
+  },
+  "criteria": {
+    "has_twisting_vines": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:twisting_vines"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:tangling_pearl"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_twisting_vines",
+      "has_the_recipe"
+    ]
+  ]
+}

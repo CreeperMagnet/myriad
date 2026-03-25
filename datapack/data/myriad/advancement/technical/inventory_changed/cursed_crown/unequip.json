@@ -1,0 +1,41 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "pick_up_cursed_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
+            }
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"myriad.wearing_cursed_crown\"]}"
+            }
+          }
+        ],
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"cursed_crown\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/cursed_crown/unequip/check"
+  },
+  "requirements": [
+    [
+      "pick_up_cursed_crown"
+    ]
+  ]
+}

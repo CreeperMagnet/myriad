@@ -1,0 +1,39 @@
+{
+	"textures": {
+		"0": "myriad:entity/archaeologist/normal",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [11.88, 7.79, 4.663],
+			"to": [16.12, 16.03, 8.903],
+			"faces": {
+				"north": {"uv": [12, 6.5, 13, 8.5], "texture": "#0"},
+				"east": {"uv": [11, 6.5, 12, 8.5], "texture": "#0"},
+				"south": {"uv": [14, 6.5, 15, 8.5], "texture": "#0"},
+				"west": {"uv": [13, 6.5, 14, 8.5], "texture": "#0"},
+				"up": {"uv": [12, 5.5, 13, 6.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [13, 5.5, 14, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-0.12, 7.79, 4.663],
+			"to": [4.12, 16.03, 8.903],
+			"faces": {
+				"north": {"uv": [13, 6.5, 12, 8.5], "texture": "#0"},
+				"east": {"uv": [14, 6.5, 13, 8.5], "texture": "#0"},
+				"south": {"uv": [15, 6.5, 14, 8.5], "texture": "#0"},
+				"west": {"uv": [12, 6.5, 11, 8.5], "texture": "#0"},
+				"up": {"uv": [12, 6.5, 13, 5.5], "texture": "#0"},
+				"down": {"uv": [14, 5.5, 13, 6.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-43, -180, 0],
+			"translation": [0, -2.6, -2.5],
+			"scale": [0.94, 0.94, 0.94]
+		}
+	}
+}

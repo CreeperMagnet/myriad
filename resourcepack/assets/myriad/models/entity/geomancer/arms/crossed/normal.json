@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/arms",
+	"textures": {
+		"0": "myriad:entity/geomancer/main"
+	}
+}

@@ -83,7 +83,7 @@
                   }
                 }
               ],
-              "value": "tcc:charged_creeper/ender_dragon"
+              "value": "myriad:charged_creeper/ender_dragon"
             },
             {
               "type": "minecraft:loot_table",
@@ -96,7 +96,7 @@
                   }
                 }
               ],
-              "value": "tcc:charged_creeper/witch"
+              "value": "myriad:charged_creeper/witch"
             }
           ]
         }

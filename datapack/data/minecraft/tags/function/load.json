@@ -1,7 +1,7 @@
 {
   "values": [
-    "tcc:technical/load",
-    "tcc:technical/second_clock",
-    "tcc:technical/ten_second_clock"
+    "myriad:technical/load",
+    "myriad:technical/second_clock",
+    "myriad:technical/ten_second_clock"
   ]
 }

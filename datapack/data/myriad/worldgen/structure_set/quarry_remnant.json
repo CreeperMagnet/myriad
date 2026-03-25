@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "myriad:quarry_remnant",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 4098679,
+    "spacing": 40,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}

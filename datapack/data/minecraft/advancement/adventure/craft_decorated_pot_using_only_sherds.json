@@ -9,7 +9,7 @@
               "minecraft:decorated_pot"
             ],
             "predicates": {
-              "minecraft:custom_data": "{tcc:{trigger_advancement:1b}}"
+              "minecraft:custom_data": "{myriad:{trigger_advancement:1b}}"
             }
           }
         ]

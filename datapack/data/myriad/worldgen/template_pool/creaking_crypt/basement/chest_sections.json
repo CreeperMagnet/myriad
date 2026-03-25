@@ -1,0 +1,68 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/coffin",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/embedded_eyes",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/embedded_eyes_corner",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/shelf_room",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/shelves",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/tree",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/chest_section/coffins",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

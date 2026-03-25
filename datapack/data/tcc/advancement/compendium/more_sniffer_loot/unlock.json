@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:sniffer_egg","minecraft:torchflower","minecraft:torchflower_seeds","minecraft:pitcher_plant","minecraft:pitcher_pod"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/more_sniffer_loot/from_advancement"}}

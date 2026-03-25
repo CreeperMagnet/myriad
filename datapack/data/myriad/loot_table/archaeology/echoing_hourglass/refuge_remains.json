@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:archaeology/refuge_remains/common",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:archaeology/refuge_remains/rare",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/echoing_hourglass/refuge_remains"
+}

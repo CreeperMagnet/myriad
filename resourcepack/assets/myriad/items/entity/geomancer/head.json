@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_false": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/geomancer/head/normal"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/geomancer/facial_hair/normal"
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/geomancer/head/hurt"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/geomancer/facial_hair/hurt"
+        }
+      ]
+    }
+  }
+}

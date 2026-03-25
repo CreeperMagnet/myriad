@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:blackstone","minecraft:deepslate","minecraft:cobbled_deepslate"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/more_stone_substitutions/from_advancement"}}

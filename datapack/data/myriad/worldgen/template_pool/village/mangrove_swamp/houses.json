@@ -1,0 +1,263 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_1",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_2",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_3",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_4",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_5",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_6",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/small_house_7",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/medium_house_1",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/medium_house_2",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/medium_house_3",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/big_house",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/butcher",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/toolsmith",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/fletcher",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/shepherd",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/armorer",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/fisherman",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/leatherworker",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/cartographer",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/librarian",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/mason",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/weaponsmith",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/cleric",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/farm_1",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/farm_2",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/snail_pen_1",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/snail_pen_2",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/archaeologist",
+        "processors": "myriad:village/mangrove_swamp/street",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "myriad:village/mangrove_swamp/terminators"
+}

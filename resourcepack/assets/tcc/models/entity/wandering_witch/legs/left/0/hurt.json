@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/wandering_witch/legs/left/0/normal",
-	"textures": {
-		"0": "tcc:entity/wandering_witch/legs/middle_hurt"
-	}
-}

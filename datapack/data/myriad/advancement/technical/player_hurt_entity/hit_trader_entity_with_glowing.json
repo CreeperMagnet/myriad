@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:spectral_arrow"
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"myriad.cannot_glow\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/trader_entity/improper_glowing/schedule"
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
+}

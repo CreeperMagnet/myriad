@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{clear:1b,id:\"creaking_connector_comparator_output\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:technical/creaking_connector_comparator_output"
+}

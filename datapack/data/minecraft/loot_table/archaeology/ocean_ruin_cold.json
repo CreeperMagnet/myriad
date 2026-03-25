@@ -6,32 +6,32 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/artifact",
+          "value": "myriad:items/pottery_sherd/prismarine/artifact",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/catch",
+          "value": "myriad:items/pottery_sherd/prismarine/catch",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/ink",
+          "value": "myriad:items/pottery_sherd/prismarine/ink",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/protector",
+          "value": "myriad:items/pottery_sherd/prismarine/protector",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/shell",
+          "value": "myriad:items/pottery_sherd/prismarine/shell",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/sprouter_egg",
+          "value": "myriad:items/sprouter_egg",
           "weight": 2
         },
         {

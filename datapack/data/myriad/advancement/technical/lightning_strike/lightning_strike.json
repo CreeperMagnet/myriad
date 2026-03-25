@@ -1,0 +1,16 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "lightning_strike": {
+      "trigger": "minecraft:lightning_strike"
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/player/lightning_strike"
+  },
+  "requirements": [
+    [
+      "lightning_strike"
+    ]
+  ]
+}

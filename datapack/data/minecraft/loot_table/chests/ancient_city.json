@@ -53,11 +53,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:name_tag",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -345,7 +340,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "value": "tcc:items/enchanted_golden_carrot"
+          "value": "myriad:items/enchanted_golden_carrot"
         },
         {
           "type": "minecraft:item",
@@ -368,7 +363,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "tcc:learning"
+              "options": "myriad:learning"
             }
           ],
           "name": "minecraft:book",
@@ -414,10 +409,18 @@
       },
       {
         "type": "replace",
-        "target": "pools[0].entries[26]",
+        "target": "pools[0].entries[25]",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[20]"
+          "path": "pools[0].entries[19]"
+        }
+      },
+      {
+        "type": "append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[21]"
         }
       },
       {
@@ -445,20 +448,8 @@
         }
       },
       {
-        "type": "append",
-        "target": "pools[0].entries",
-        "source": {
-          "type": "reference",
-          "path": "pools[0].entries[25]"
-        }
-      },
-      {
         "type": "remove",
-        "target": "pools[0].entries[22]"
-      },
-      {
-        "type": "remove",
-        "target": "pools[0].entries[10]"
+        "target": "pools[0].entries[21]"
       },
       {
         "type": "remove",
@@ -475,6 +466,10 @@
       {
         "type": "remove",
         "target": "pools[0].entries[6]"
+      },
+      {
+        "type": "remove",
+        "target": "pools[0].entries[5]"
       }
     ]
   }

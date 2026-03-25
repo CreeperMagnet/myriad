@@ -1,5 +1,5 @@
 {
-  "parent": "tcc:minecraft/adventure/enter_monument",
+  "parent": "myriad:minecraft/adventure/enter_monument",
   "display": {
     "icon": {
       "id": "minecraft:trident"

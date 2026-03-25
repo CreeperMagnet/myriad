@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:red_mushroom","minecraft:brown_mushroom","minecraft:red_mushroom_block","minecraft:brown_mushroom_block"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/mushroom_block_recipes/from_advancement"}}

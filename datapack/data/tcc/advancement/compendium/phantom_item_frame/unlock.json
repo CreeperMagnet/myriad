@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:item_frame","minecraft:glow_item_frame","minecraft:phantom_membrane"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/phantom_item_frame/from_advancement"}}

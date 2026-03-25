@@ -1,3 +1,0 @@
-# Macros in the needed values to place pot properly
-
-$summon minecraft:item_display ~ ~ ~ {Rotation:$(rotation),item:{id:"minecraft:stone",count:1,components:{"minecraft:custom_data":{item:$(item)},"minecraft:item_model":"$(model)","minecraft:custom_model_data":$(model_data)}},Tags:["tcc.decorated_pot","tcc.block","tcc.item_display","smithed.entity","smithed.block"],transformation:{translation:[0.0f,0.5f,0.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.005f,1.005f,1.005f],right_rotation:[0.0f,0.0f,0.0f,1.0f]},view_range:4.0f}

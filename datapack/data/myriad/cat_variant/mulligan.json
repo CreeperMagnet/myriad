@@ -1,0 +1,13 @@
+{
+  "asset_id": "myriad:entity/cat/mulligan",
+  "baby_asset_id": "myriad:entity/cat/mulligan_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": []
+      },
+      "priority": 0
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:block/flower_pot/template",
-	"textures": {
-		"0": "tcc:block/flower_pot/prismarine"
-	}
-}

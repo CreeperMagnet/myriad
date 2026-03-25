@@ -1,0 +1,47 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:dye_compass/purple"
+    ]
+  },
+  "criteria": {
+    "has_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      }
+    },
+    "has_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:dye_compass/purple"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compass",
+      "has_dye",
+      "has_the_recipe"
+    ]
+  ]
+}

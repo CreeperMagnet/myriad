@@ -1,0 +1,47 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:dead_bush_from_firefly_bush"
+    ]
+  },
+  "criteria": {
+    "has_firefly_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firefly_bush"
+            ]
+          }
+        ]
+      }
+    },
+    "has_dead_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_bush"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:dead_bush_from_firefly_bush"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dead_bush",
+      "has_the_recipe",
+      "has_firefly_bush"
+    ]
+  ]
+}

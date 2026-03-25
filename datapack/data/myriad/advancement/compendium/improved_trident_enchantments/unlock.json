@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"pick_up":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:trident"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/improved_trident_enchantments/from_advancement"}}

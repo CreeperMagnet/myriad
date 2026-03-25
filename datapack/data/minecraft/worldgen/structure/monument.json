@@ -7,7 +7,7 @@
   },
   "step": "fluid_springs",
   "terrain_adaptation": "beard_box",
-  "start_pool": "tcc:ocean_monument/main",
+  "start_pool": "myriad:ocean_monument/main",
   "biomes": "#minecraft:has_structure/ocean_monument",
   "spawn_overrides": {
     "axolotls": {

@@ -1,18 +1,18 @@
 {
   "pack": {
-    "min_format": [94,1],
-    "max_format": [94,1],
+    "min_format": [101,1],
+    "max_format": [101,1],
     "description": [
       {
-        "text": "The Creeper's Code",
-        "color": "#008725"
+        "text": "Myriad",
+        "color": "#800090"
       },
       {
         "text": "\n"
       },
       {
         "text": "DEV VERSION DON'T DISTRIBUTE",
-        "color": "green"
+        "color": "light_purple"
       }
     ]
   },
@@ -27,14 +27,14 @@
   "overlays": {
     "entries": [
       {
-        "formats": [45,94],
+        "formats": [45,101],
         "min_format": [45,0],
-        "max_format": [94,0],
+        "max_format": [101,0],
         "directory": "invalid_version"
       },
       {
-        "formats": [94,2147483647],
-        "min_format": [94,2],
+        "formats": [101,2147483647],
+        "min_format": [101,2],
         "max_format": 2147483647,
         "directory": "invalid_version"
       }

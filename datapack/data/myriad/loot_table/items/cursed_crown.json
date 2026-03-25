@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"cursed_crown\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:cursed_crown",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "amount": 3,
+                    "slot": "head",
+                    "id": "myriad:cursed_crown_armor",
+                    "operation": "add_value",
+                    "type": "minecraft:armor",
+                    "display": {
+                      "type": "default"
+                    }
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:binding_curse": 1
+                },
+                "minecraft:damage": 0,
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_damage": 500,
+                "minecraft:equippable": {
+                  "equip_sound": {
+                    "sound_id": "myriad:item.armor.equip_cursed_crown"
+                  },
+                  "slot": "head"
+                },
+                "minecraft:repairable": {
+                  "items": "#myriad:repair_items/cursed_crown"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.cursed_crown"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:golden_helmet"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/cursed_crown"
+}

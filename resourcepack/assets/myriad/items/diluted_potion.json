@@ -1,0 +1,161 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 1.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/0",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 2.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/1",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 3.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/2",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 4.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/3",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 5.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/4",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 6.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/5",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 7.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/6",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 8.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/7",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 9.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/8",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          },
+          {
+            "threshold": 10.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "myriad:item/diluted_potion/liquid/9",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "myriad:item/diluted_potion/glass"
+      }
+    ]
+  }
+}

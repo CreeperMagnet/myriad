@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"trim":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#myriad:trim_templates"}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/armor_trim_addon/from_advancement"}}

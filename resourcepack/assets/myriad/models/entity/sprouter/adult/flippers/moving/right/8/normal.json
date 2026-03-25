@@ -1,0 +1,13 @@
+{
+	"parent": "myriad:entity/sprouter/adult/flippers/moving/right/0/normal",
+	"textures": {
+		"0": "myriad:entity/sprouter/adult/flippers/8"
+	},
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 30],
+			"translation": [-4.07, -16.21, -9.332],
+			"scale": [0.51, 0.51, 0.51]
+		}
+	}
+}

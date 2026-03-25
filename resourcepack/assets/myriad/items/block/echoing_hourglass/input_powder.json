@@ -1,0 +1,88 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "sand",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "entries": [
+            {
+              "threshold": 0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/sand/powder/input/1"
+              }
+            },
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/sand/powder/input/2"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/sand/powder/input/3"
+              }
+            },
+            {
+              "threshold": 3,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/sand/powder/input/4"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "gravel",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "entries": [
+            {
+              "threshold": 0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/gravel/powder/input/1"
+              }
+            },
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/gravel/powder/input/2"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/gravel/powder/input/3"
+              }
+            },
+            {
+              "threshold": 3,
+              "model": {
+                "type": "minecraft:model",
+                "model": "myriad:block/echoing_hourglass/gravel/powder/input/4"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "empty",
+        "model": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

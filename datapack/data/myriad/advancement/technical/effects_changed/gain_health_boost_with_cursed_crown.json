@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "health_boost": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
+          }
+        ],
+        "effects": {
+          "minecraft:health_boost": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "health_boost"
+    ]
+  ],
+  "rewards": {
+    "function": "myriad:item/cursed_crown/health_boost/gain"
+  },
+  "parent": "myriad:technical/root"
+}

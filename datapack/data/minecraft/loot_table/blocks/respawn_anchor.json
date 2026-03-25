@@ -21,14 +21,14 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:block/respawn_anchor"
+                    "minecraft:item_model": "myriad:block/respawn_anchor"
                   }
                 },
                 {
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.respawn_anchor.charges",
+                      "translate": "block.myriad.respawn_anchor.charges",
                       "with": [
                         "1"
                       ],
@@ -51,7 +51,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.respawn_anchor.charges",
+                      "translate": "block.myriad.respawn_anchor.charges",
                       "with": [
                         "2"
                       ],
@@ -74,7 +74,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.respawn_anchor.charges",
+                      "translate": "block.myriad.respawn_anchor.charges",
                       "with": [
                         "3"
                       ],
@@ -97,7 +97,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.respawn_anchor.charges",
+                      "translate": "block.myriad.respawn_anchor.charges",
                       "with": [
                         "4"
                       ],

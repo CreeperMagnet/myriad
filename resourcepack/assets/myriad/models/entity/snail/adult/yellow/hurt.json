@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/snail/adult/template",
+	"textures": {
+		"0": "myriad:entity/snail/adult/yellow/hurt"
+	}
+}

@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:axolotl_bucket"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/axolotl_bucket_variants/from_advancement"}}

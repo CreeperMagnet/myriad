@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "myriad:item/phantom_item_frame",
+        "particle": "myriad:item/phantom_item_frame"
+    }
+}

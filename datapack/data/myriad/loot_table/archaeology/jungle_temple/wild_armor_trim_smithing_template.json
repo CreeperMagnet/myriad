@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wild_armor_trim_smithing_template"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/jungle_temple/wild_armor_trim_smithing_template"
+}

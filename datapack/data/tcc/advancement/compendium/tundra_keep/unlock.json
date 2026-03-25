@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"position":{"y":{"min":50}},"biomes":"#tcc:has_structure/tundra_keep"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/tundra_keep/from_advancement"}}

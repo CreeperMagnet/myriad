@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:gobblerift"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.end.feed_gobblerift.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.end.feed_gobblerift.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "feed_gobblerift": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "feed_gobblerift"
+    ]
+  ]
+}

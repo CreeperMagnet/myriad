@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/sprouter/adult/neck/stage_3/normal",
+	"textures": {
+		"0": "myriad:entity/sprouter/adult/neck/stage_3_hurt"
+	}
+}

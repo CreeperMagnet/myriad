@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:ancient_city",
+    "minecraft:desert_pyramid",
+    "minecraft:jungle_pyramid",
+    "minecraft:mansion",
+    "minecraft:ocean_ruin_cold",
+    "minecraft:ocean_ruin_warm",
+    "minecraft:trail_ruins",
+    "minecraft:trial_chambers",
+    "myriad:badlands_temple",
+    "myriad:desert_well",
+    "myriad:quarry_remnant",
+    "myriad:refuge_remains",
+    "#myriad:creaking_crypt"
+  ]
+}

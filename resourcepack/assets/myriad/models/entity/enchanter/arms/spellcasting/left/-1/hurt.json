@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/enchanter/arms/spellcasting/left/-1/normal",
+	"textures": {
+		"0": "myriad:entity/enchanter/arms_spellcasting/-1_hurt"
+	}
+}

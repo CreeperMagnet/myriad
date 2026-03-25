@@ -1,0 +1,35 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:diamond_nautilus_armor"
+    ]
+  },
+  "criteria": {
+    "has_diamond_or_nautilus_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond",
+              "minecraft:nautilus_shell"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:diamond_nautilus_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_or_nautilus_shell",
+      "has_the_recipe"
+    ]
+  ]
+}

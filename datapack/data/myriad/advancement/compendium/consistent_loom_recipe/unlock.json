@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"recipe_unlocked":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"minecraft:loom"}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/consistent_loom_recipe/from_advancement"}}

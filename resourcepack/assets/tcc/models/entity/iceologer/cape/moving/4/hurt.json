@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/iceologer/cape/moving/4/normal",
-	"textures": {
-		"0": "tcc:entity/iceologer/cape/4_hurt"
-	}
-}

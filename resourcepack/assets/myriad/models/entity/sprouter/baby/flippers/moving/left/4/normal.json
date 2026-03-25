@@ -1,0 +1,13 @@
+{
+	"parent": "myriad:entity/sprouter/baby/flippers/moving/left/0/normal",
+	"textures": {
+		"0": "myriad:entity/sprouter/baby/flippers/12"
+	},
+	"display": {
+		"ground": {
+			"rotation": [0, -150, 0],
+			"translation": [3.98, -13.595, -9.035],
+			"scale": [1.329, 1.329, 1.329]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"textures": {
+		"0": "myriad:entity/enchanter/main",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 8, 13],
+			"faces": {
+				"north": {"uv": [13, 2, 15.5, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 10.5, 2], "texture": "#0"},
+				"south": {"uv": [13, 0, 15.5, 2], "texture": "#0"},
+				"west": {"uv": [10.5, 0, 13, 2], "texture": "#0"},
+				"up": {"uv": [10.5, 2, 13, 4.5], "texture": "#0"},
+				"down": {"uv": [8, 2, 10.5, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 15.406, 0],
+			"scale": [1.601, 1.601, 1.601]
+		}
+	}
+}

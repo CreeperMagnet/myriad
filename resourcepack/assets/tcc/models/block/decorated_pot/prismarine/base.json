@@ -1,7 +1,0 @@
-{
-	"parent": "tcc:block/decorated_pot/template_base",
-	"textures": {
-		"base": "tcc:block/decorated_pot/prismarine/base",
-		"particle": "minecraft:block/prismarine_bricks"
-	}
-}

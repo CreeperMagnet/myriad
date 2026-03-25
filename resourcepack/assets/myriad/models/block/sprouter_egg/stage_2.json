@@ -1,0 +1,7 @@
+{
+	"parent": "myriad:block/sprouter_egg/stage_0",
+	"textures": {
+		"0": "myriad:block/sprouter_egg/stage_2",
+		"particle": "myriad:block/sprouter_egg/stage_2"
+	}
+}

@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"decorated_pot\",type:\"glazed_terracotta\",custom_block:1b,color:\"orange\",sherds:[{id:\"minecraft:orange_glazed_terracotta\"},{id:\"minecraft:orange_glazed_terracotta\"},{id:\"minecraft:orange_glazed_terracotta\"},{id:\"minecraft:orange_glazed_terracotta\"}]}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:block/glazed_terracotta_pot",
+                "minecraft:pot_decorations": [
+                  "minecraft:air",
+                  "minecraft:air",
+                  "minecraft:air",
+                  "minecraft:air"
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:pot_decorations"
+                  ]
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "orange"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.myriad.glazed_terracotta_pot.orange"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:decorated_pot"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/glazed_terracotta_pot/orange"
+}

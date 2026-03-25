@@ -1,0 +1,59 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/town_centers/tree",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 150
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/town_centers/fountain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/town_centers/gate",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/town_centers/tree",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/town_centers/fountain",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/town_centers/gate",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

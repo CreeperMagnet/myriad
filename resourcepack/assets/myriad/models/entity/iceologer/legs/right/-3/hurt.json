@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/iceologer/legs/right/-3/normal",
+	"textures": {
+		"0": "myriad:entity/iceologer/legs/front/2_hurt"
+	}
+}

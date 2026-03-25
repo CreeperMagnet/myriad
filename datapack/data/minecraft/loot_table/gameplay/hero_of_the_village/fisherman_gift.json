@@ -22,7 +22,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"tcc.archaeologist\"]}"
+            "nbt": "{Tags:[\"myriad.archaeologist\"]}"
           }
         }
       ]
@@ -47,7 +47,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"tcc.archaeologist\"]}"
+              "nbt": "{Tags:[\"myriad.archaeologist\"]}"
             }
           }
         }

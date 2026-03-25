@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"bartered_with_piglin":{"trigger":"minecraft:player_interacted_with_entity","conditions":{"entity":{"type":"minecraft:piglin"}}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/piglin_bartering_archaeology/from_advancement"}}

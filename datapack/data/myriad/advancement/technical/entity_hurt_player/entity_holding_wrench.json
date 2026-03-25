@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "player_took_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": "{myriad:{id:\"wrench\"}}"
+                }
+              }
+            }
+          },
+          "type": {
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "player_took_damage"
+    ]
+  ],
+  "rewards": {
+    "function": "myriad:item/wrench/player_rotation/rotate_hit_player"
+  },
+  "parent": "myriad:technical/root"
+}

@@ -1,0 +1,2 @@
+advancement grant @s[tag=myriad.unlockable_compendium] only myriad:compendium/consistent_rib_armor_trim_duplication/toast
+function myriad:item/compendium/unlock/entries/consistent_rib_armor_trim_duplication/unlock

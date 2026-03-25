@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:sculk_sensor","minecraft:calibrated_sculk_sensor"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/hay_vibration_dampening/from_advancement"}}

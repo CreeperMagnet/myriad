@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:husbandry/tactical_fishing",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:snail_bucket",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "brown"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.husbandry.bucket_snail.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.husbandry.bucket_snail.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bucket_snail": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bucket"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"myriad.snail\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "myriad:entity_properties/in_vehicle"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bucket_snail"
+    ]
+  ]
+}

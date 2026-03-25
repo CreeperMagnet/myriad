@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snout_armor_trim_smithing_template",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/beast",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/hunter",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/ranger",
+          "weight": 6
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/piglin_bartering/rare"
+}

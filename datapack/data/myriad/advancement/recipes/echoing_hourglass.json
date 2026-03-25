@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:echoing_hourglass"
+    ]
+  },
+  "criteria": {
+    "has_echo_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:echo_shard"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:echoing_hourglass"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_echo_shard",
+      "has_the_recipe"
+    ]
+  ]
+}

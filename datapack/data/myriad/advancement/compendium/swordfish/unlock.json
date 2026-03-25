@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"predicates":{"minecraft:custom_data":"{myriad:{id:\"swordfish\"}}"}}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/swordfish/from_advancement"}}

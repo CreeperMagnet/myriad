@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structures":"minecraft:end_city"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/dragon_head_renewability/from_advancement"}}

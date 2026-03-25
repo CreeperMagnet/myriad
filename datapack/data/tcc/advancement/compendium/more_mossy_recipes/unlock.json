@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:moss_block","minecraft:mossy_cobblestone","minecraft:mossy_stone_bricks","minecraft:vine"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/more_mossy_recipes/from_advancement"}}

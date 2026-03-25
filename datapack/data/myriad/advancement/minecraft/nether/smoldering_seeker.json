@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:smoldering_seeker",
+        "lodestone_tracker": {}
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.nether.smoldering_seeker.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.nether.smoldering_seeker.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "use_smoldering_seeker": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "use_smoldering_seeker"
+    ]
+  ]
+}

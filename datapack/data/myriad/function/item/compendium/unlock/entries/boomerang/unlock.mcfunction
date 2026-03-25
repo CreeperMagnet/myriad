@@ -1,0 +1,2 @@
+data modify storage myriad:temp root.start_injection set value {entry_name:"boomerang",list:[{page:1,length:341,injection:"item.myriad.boomerang\"}},translate:\"myriadc.icon.spacer\",click_event:{action:\"change_page\",page:38}},{color:\"white\",font:\"myriad.compendium:icons\",translate:\"myriadc.icon.item.myriad:boomerang\",click_event:{action:\"change_page\",page:38},hover_event:{action:\"show_text\",value:{translate:\"item.myriad.boomerang\"}}",name:"boomerang0"}]}
+function myriad:item/compendium/unlock/inject/main with storage myriad:temp root.start_injection

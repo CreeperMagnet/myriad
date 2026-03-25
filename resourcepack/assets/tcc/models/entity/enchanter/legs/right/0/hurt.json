@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/enchanter/legs/right/0/normal",
-	"textures": {
-		"0": "tcc:entity/enchanter/legs/middle_hurt"
-	}
-}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/scalesprouts"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:shearing/sprouter"
+}

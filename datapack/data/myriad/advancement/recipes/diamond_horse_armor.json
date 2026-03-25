@@ -1,0 +1,35 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:diamond_horse_armor"
+    ]
+  },
+  "criteria": {
+    "has_diamond_or_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond",
+              "minecraft:saddle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:diamond_horse_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_or_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

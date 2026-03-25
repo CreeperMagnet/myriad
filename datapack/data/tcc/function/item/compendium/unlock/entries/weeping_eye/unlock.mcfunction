@@ -1,2 +1,0 @@
-data modify storage tcc:temp root.start_injection set value {entry_name:"weeping_eye",list:[{page:1,length:347,injection:"item.tcc.weeping_eye\"}},translate:\"tccc.icon.spacer\",click_event:{action:\"change_page\",page:255}},{color:\"white\",font:\"tcc.compendium:icons\",translate:\"tccc.icon.item.tcc:weeping_eye\",click_event:{action:\"change_page\",page:255},hover_event:{action:\"show_text\",value:{translate:\"item.tcc.weeping_eye\"}}",name:"weeping_eye0"}]}
-function tcc:item/compendium/unlock/inject/main with storage tcc:temp root.start_injection

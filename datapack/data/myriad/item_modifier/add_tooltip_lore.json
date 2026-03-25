@@ -1,0 +1,12 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    {
+      "translate": "pack.myriad",
+      "color": "white",
+      "italic": false,
+      "font": "myriad:tooltip"
+    }
+  ],
+  "mode": "append"
+}

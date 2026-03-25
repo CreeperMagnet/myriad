@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:recovery_compass","minecraft:echo_shard"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/recovery_compass_rework/from_advancement"}}

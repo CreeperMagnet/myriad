@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "myriad:item/armor_stand_with_arms",
+        "particle": "myriad:item/armor_stand_with_arms"
+    }
+}

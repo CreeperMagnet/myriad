@@ -1,7 +1,7 @@
 {
   "values": [
-    "tcc:swordfish_eat",
-    "tcc:diluted_harming",
-    "tcc:iceologer_ice"
+    "myriad:swordfish_eat",
+    "myriad:diluted_harming",
+    "myriad:iceologer_ice"
   ]
 }

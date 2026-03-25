@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#minecraft:fire",
+    "#myriad:air",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:lava",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:dead_bush",
+    "minecraft:vine",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:structure_void",
+    "minecraft:crimson_roots",
+    "minecraft:warped_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:snow",
+    "minecraft:hanging_roots",
+    "minecraft:glow_lichen",
+    "minecraft:sculk_vein",
+    "minecraft:resin_clump",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "tcc:minecraft/nether/smoldering_seeker",
+  "parent": "myriad:minecraft/nether/smoldering_seeker",
   "display": {
     "icon": {
       "id": "minecraft:nether_bricks"

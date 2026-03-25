@@ -275,7 +275,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "tcc:archaeologist_house/snowy",
+        "location": "myriad:archaeologist_house/snowy",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

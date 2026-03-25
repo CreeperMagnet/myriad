@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:block/gobblerift/seedling_2",
+	"textures": {
+		"1": "myriad:block/gobblerift_hurt"
+	}
+}

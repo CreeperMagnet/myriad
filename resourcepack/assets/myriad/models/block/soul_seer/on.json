@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"side_base": "myriad:block/soul_seer/side_on_base",
+		"side_overlay": "myriad:block/soul_seer/side_on_overlay",
+		"top_base": "myriad:block/soul_seer/top_on_base",
+		"top_overlay": "myriad:block/soul_seer/top_on_overlay",
+		"down": "myriad:block/soul_seer/bottom",
+		"particle": "myriad:block/soul_seer/side_off"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side_base"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side_base"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side_base"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side_base"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_base"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_overlay"}
+			}
+		}
+	]
+}

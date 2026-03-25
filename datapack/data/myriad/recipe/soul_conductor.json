@@ -1,0 +1,48 @@
+{
+  "category": "redstone",
+  "type": "crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DPD",
+    "ESE"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "D": "minecraft:cobbled_deepslate",
+    "P": "minecraft:ender_pearl",
+    "S": "minecraft:sculk"
+  },
+  "result": {
+    "id": "minecraft:dropper",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:block/soul_conductor",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "up"
+        ],
+        "flags": [
+          false
+        ]
+      },
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "soul_conductor",
+          "custom_block": true
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "block.myriad.soul_conductor"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

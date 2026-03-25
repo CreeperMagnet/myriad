@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "bred_hoglins": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/hoglin/bred"
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "bred_hoglins"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:jungle_temple/trap_slices/tripwire",
+        "processors": "myriad:jungle_temple",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:jungle_temple/trap_slices/pressure_plate",
+        "processors": "myriad:jungle_temple",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:jungle_temple/trap_slices/observer_1",
+        "processors": "myriad:jungle_temple",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:jungle_temple/trap_slices/observer_2",
+        "processors": "myriad:jungle_temple",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

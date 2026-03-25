@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/surface/staircase/main",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/crack_stone_bricks",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

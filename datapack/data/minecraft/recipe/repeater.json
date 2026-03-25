@@ -7,7 +7,7 @@
   "key": {
     "#": "minecraft:redstone_torch",
     "X": "minecraft:redstone",
-    "I": "#tcc:raw_stone_crafting_materials"
+    "I": "#myriad:raw_stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:repeater"

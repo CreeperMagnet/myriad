@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:locket_of_learning",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_model_data": {
+          "floats": [
+            1.0
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.obtain_locket_of_learning.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.obtain_locket_of_learning.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_locket": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "get_locket"
+    ]
+  ]
+}

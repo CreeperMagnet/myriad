@@ -1,0 +1,20 @@
+{
+  "use_expansion_hack": false,
+  "max_distance_from_center": 116,
+  "size": 10,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "above_bottom": 50
+    },
+    "min_inclusive": {
+      "above_bottom": 15
+    }
+  },
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "start_pool": "myriad:nether_gold_ore_vein/pieces",
+  "biomes": "#myriad:has_structure/nether_gold_ore_vein",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw"
+}

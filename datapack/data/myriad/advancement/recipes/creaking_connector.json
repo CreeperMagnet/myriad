@@ -1,0 +1,47 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:creaking_connector"
+    ]
+  },
+  "criteria": {
+    "has_resin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:resin_clump"
+            ]
+          }
+        ]
+      }
+    },
+    "has_creaking_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creaking_heart"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:creaking_connector"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_resin",
+      "has_creaking_heart",
+      "has_the_recipe"
+    ]
+  ]
+}

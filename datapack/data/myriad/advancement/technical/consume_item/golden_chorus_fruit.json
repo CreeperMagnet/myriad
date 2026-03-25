@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ate_golden_chorus_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"golden_chorus_fruit\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/golden_chorus_fruit"
+  },
+  "requirements": [
+    [
+      "ate_golden_chorus_fruit"
+    ]
+  ]
+}

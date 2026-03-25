@@ -1,0 +1,27 @@
+{
+	"textures": {
+		"0": "myriad:entity/sprouter/adult/flippers/8",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [-2, 5, 3.5],
+			"to": [6, 11, 12.5],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#0"},
+				"east": {"uv": [8.5, 0, 13, 3], "texture": "#0"},
+				"south": {"uv": [4, 0, 0, 3], "texture": "#0"},
+				"west": {"uv": [4, 0, 8.5, 3], "texture": "#0"},
+				"up": {"uv": [0, 7.5, 4, 3], "texture": "#0"},
+				"down": {"uv": [8, 3, 4, 7.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [4.07, -16.21, -9.332],
+			"scale": [0.51, 0.51, 0.51]
+		}
+	}
+}

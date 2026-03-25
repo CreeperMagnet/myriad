@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "myriad:item/dyed_book/base_purple",
+		"layer1": "myriad:item/dyed_book/paper",
+		"layer2": "myriad:item/dyed_book/quill"
+	}
+}

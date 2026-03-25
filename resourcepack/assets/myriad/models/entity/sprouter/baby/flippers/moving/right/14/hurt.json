@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/sprouter/baby/flippers/moving/right/14/normal",
+	"textures": {
+		"0": "myriad:entity/sprouter/baby/flippers/14_hurt"
+	}
+}

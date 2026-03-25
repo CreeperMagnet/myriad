@@ -1,0 +1,2 @@
+data modify storage myriad:temp root.start_injection set value {entry_name:"soul_seer",list:[{page:3,length:341,injection:"block.myriad.soul_seer\"}},translate:\"myriadc.icon.spacer\",click_event:{action:\"change_page\",page:223}},{color:\"white\",font:\"myriad.compendium:icons\",translate:\"myriadc.icon.item.myriad:soul_seer\",click_event:{action:\"change_page\",page:223},hover_event:{action:\"show_text\",value:{translate:\"block.myriad.soul_seer\"}}",name:"soul_seer0"}]}
+function myriad:item/compendium/unlock/inject/main with storage myriad:temp root.start_injection

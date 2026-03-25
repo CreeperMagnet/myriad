@@ -1,6 +1,0 @@
-{
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "structures": "tcc:quarry_remnant"
-  }
-}

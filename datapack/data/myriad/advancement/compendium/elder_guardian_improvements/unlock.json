@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:effects_changed","conditions":{"effects":{"minecraft:mining_fatigue":{}},"source":{"type":"minecraft:elder_guardian"}}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/elder_guardian_improvements/from_advancement"}}

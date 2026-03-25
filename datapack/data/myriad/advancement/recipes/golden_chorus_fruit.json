@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:golden_chorus_fruit"
+    ]
+  },
+  "criteria": {
+    "has_chorus_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_fruit"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:golden_chorus_fruit"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chorus_fruit",
+      "has_the_recipe"
+    ]
+  ]
+}

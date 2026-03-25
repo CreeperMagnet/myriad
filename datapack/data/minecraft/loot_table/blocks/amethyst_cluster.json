@@ -40,7 +40,7 @@
                       "chance": 0.1
                     }
                   ],
-                  "value": "tcc:items/amethyst_dust"
+                  "value": "myriad:items/amethyst_dust"
                 },
                 {
                   "type": "minecraft:item",

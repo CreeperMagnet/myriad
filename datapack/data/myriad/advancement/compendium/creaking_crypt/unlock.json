@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"location":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"position":{"y":{"min":50}},"biomes":"minecraft:pale_garden"}}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/creaking_crypt/from_advancement"}}

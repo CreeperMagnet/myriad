@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "ground",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "myriad:entity/archaeologist/body/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "myriad:entity/archaeologist/arms/normal"
+              }
+            ]
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "myriad:entity/archaeologist/body/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "myriad:entity/archaeologist/arms/hurt"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

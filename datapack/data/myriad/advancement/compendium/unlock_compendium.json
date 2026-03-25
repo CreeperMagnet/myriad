@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "minecraft:air"
+      }
+    },
+    "title": [
+      {
+        "translate": "myriadc.entry_unlocked_toast_background",
+        "font": "myriad.compendium:static"
+      },
+      {
+        "translate": "myriadc.system_toast_decoration",
+        "font": "myriad.compendium:static"
+      },
+      {
+        "translate": "myriadc.compendium_unlocked.spacer",
+        "font": "myriad.compendium:static"
+      },
+      {
+        "translate": "myriadc.compendium_unlocked.text",
+        "font": "minecraft:default"
+      }
+    ],
+    "description": "",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/compendium/toggle_unlockable/revoke_advancement"
+  }
+}

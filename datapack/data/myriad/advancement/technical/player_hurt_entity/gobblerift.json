@@ -1,0 +1,27 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"myriad.gobblerift\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/gobblerift/attack/advancement"
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
+}

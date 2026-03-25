@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/side_addition/small",
+        "processors": "myriad:creaking_crypt/crack_stone_bricks",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/side_addition/large",
+        "processors": "myriad:creaking_crypt/crack_stone_bricks",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/side_addition/medium",
+        "processors": "myriad:creaking_crypt/crack_stone_bricks",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/side_addition/medium_doorway",
+        "processors": "myriad:creaking_crypt/crack_stone_bricks",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

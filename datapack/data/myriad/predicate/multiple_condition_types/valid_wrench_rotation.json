@@ -1,0 +1,149 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "gamemode": [
+                "creative"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#myriad:wrench/creative_only"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#myriad:wrench/rotatable"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:bell"
+          ],
+          "state": {
+            "attachment": "floor"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:piston"
+          ],
+          "state": {
+            "extended": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:sticky_piston"
+          ],
+          "state": {
+            "extended": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:iron_trapdoor"
+          ],
+          "state": {
+            "powered": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:iron_door"
+          ],
+          "state": {
+            "powered": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:repeater"
+          ],
+          "state": {
+            "locked": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "state": {
+            "powered": "false"
+          },
+          "blocks": "#minecraft:fence_gates"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:trapped_chest",
+            "minecraft:chest",
+            "minecraft:copper_chest",
+            "minecraft:waxed_copper_chest",
+            "minecraft:exposed_copper_chest",
+            "minecraft:waxed_exposed_copper_chest",
+            "minecraft:weathered_copper_chest",
+            "minecraft:waxed_weathered_copper_chest",
+            "minecraft:oxidized_copper_chest",
+            "minecraft:waxed_oxidized_copper_chest"
+          ],
+          "state": {
+            "type": "single"
+          }
+        }
+      }
+    }
+  ]
+}

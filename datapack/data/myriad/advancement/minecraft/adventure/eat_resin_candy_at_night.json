@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:resin_candy"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.eat_resin_candy_at_night.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.eat_resin_candy_at_night.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:adventure/heart_transplanter",
+  "criteria": {
+    "ate_resin_candy_at_night": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"resin_candy\"}}"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:time_check/night"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:location_check/in_overworld"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_resin_candy_at_night"
+    ]
+  ]
+}

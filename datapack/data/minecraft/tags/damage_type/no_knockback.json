@@ -1,7 +1,7 @@
 {
   "values": [
-    "tcc:swordfish_eat",
-    "tcc:snail_salt",
-    "tcc:frostbloom_freeze"
+    "myriad:swordfish_eat",
+    "myriad:snail_salt",
+    "myriad:frostbloom_freeze"
   ]
 }

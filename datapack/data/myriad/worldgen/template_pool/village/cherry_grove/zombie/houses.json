@@ -1,0 +1,254 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/small_house_1",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/small_house_2",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/small_house_3",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/small_house_4",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/small_house_5",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/small_house_6",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/medium_house_1",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/medium_house_2",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/medium_house_3",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/big_house_1",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/butcher",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/toolsmith",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/fletcher",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/shepherd",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/armorer",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/fisherman",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/leatherworker",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/cartographer",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/librarian",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/mason",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/weaponsmith",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/cleric_1",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/cleric_2",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/farm_1",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/farm_2",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/houses/farm_3",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/houses/archaeologist",
+        "processors": "myriad:village/cherry_grove/zombie",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "myriad:village/cherry_grove/terminators"
+}

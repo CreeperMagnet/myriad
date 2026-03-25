@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "myriad:cherry_grove_village_map_located",
+              "decoration": "minecraft:target_x",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.cherry_grove_village_map"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"cherry_grove_village_map\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 10066329
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/cherry_grove_village_map"
+}

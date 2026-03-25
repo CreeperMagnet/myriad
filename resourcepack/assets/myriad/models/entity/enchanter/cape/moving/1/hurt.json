@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/enchanter/cape/moving/1/normal",
+	"textures": {
+		"0": "myriad:entity/enchanter/cape/1_hurt"
+	}
+}

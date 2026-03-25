@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "tcc:item/dyed_book/base_light_blue",
-		"layer1": "tcc:item/dyed_book/paper",
-		"layer2": "tcc:item/dyed_book/quill"
-	}
-}

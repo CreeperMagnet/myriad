@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#minecraft:terracotta"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/grouped_glazed_terracotta_recipes/from_advancement"}}

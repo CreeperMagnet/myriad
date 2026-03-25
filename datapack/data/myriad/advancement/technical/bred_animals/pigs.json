@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "bred_pigs": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:pig"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/pig/bred"
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "bred_pigs"
+    ]
+  ]
+}

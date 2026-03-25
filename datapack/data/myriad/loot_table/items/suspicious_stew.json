@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "myriad:items/flowering_azalea_suspicious_stew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "myriad:items/chorus_flower_suspicious_stew"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/suspicious_stew"
+}

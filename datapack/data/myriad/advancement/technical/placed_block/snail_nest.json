@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": "{myriad:{id:\"snail_nest\"}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/snail_nest/stop_sound"
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ]
+}

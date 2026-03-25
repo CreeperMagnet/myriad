@@ -1,0 +1,2 @@
+advancement grant @s[tag=myriad.unlockable_compendium] only myriad:compendium/craftable_snout_banner_pattern/toast
+function myriad:item/compendium/unlock/entries/craftable_snout_banner_pattern/unlock

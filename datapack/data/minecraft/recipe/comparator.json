@@ -8,7 +8,7 @@
   "key": {
     "#": "minecraft:redstone_torch",
     "X": "minecraft:quartz",
-    "I": "#tcc:raw_stone_crafting_materials"
+    "I": "#myriad:raw_stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:comparator"

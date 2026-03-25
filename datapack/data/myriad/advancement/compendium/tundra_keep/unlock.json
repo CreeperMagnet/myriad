@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"position":{"y":{"min":50}},"biomes":"#myriad:has_structure/tundra_keep"}}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/tundra_keep/from_advancement"}}

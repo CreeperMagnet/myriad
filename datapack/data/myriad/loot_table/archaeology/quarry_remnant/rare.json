@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/armor",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/core",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/molten",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/quarry_remnant/rare"
+}

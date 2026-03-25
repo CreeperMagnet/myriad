@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"predicates":{"minecraft:custom_data":"{tcc:{id:\"potion\",potion:{id:\"tcc:fortitude\"}}}"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/fortitude_potion/from_advancement"}}

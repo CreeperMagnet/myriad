@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:weeping_eye"
+    ]
+  },
+  "criteria": {
+    "has_ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ghast_tear"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:weeping_eye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ghast_tear",
+      "has_the_recipe"
+    ]
+  ]
+}

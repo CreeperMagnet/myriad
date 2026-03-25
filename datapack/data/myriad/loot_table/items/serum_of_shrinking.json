@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"serum_of_shrinking\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:serum_of_shrinking",
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:mundane",
+                  "custom_color": 16777215,
+                  "custom_name": "myriad:serum_of_shrinking"
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                },
+                "minecraft:max_stack_size": 16
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.serum_of_shrinking"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "translate": "potion.whenDrank"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "translate": "attribute.modifier.take.1",
+                  "with": [
+                    "17",
+                    {
+                      "translate": "attribute.name.scale"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/serum_of_shrinking"
+}

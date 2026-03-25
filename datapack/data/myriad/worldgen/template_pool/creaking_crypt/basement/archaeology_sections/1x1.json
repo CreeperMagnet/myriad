@@ -1,0 +1,59 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/archaeology_section/1x1/tree",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/archaeology_section/1x1/pillar",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/archaeology_section/1x1/skeleton_spawner",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/archaeology_section/1x1/zombie_spawner",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/archaeology_section/1x1/grave",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/archaeology_section/1x1/blank",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

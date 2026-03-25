@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/illager_template/legs/right/-2",
-	"textures": {
-		"0": "tcc:entity/enchanter/legs/front/1"
-	}
-}

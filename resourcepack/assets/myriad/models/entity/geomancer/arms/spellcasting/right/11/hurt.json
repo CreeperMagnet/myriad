@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/geomancer/arms/spellcasting/right/11/normal",
+	"textures": {
+		"0": "myriad:entity/geomancer/arm_spellcasting/11_hurt"
+	}
+}

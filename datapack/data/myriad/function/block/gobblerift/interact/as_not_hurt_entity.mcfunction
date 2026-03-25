@@ -1,0 +1,10 @@
+# Commands to run as the gobblerift interacted with
+
+execute if entity @s[tag=myriad.gobblerift.bonemealable] unless data storage myriad:temp root.creative if data storage myriad:temp root.item{id:"minecraft:bone_meal"} run function myriad:block/gobblerift/interact/bone_meal/survival
+execute if entity @s[tag=myriad.gobblerift.bonemealable] if data storage myriad:temp root{creative:1b,item:{id:"minecraft:bone_meal"}} run function myriad:block/gobblerift/interact/bone_meal/creative
+execute if entity @s[tag=myriad.gobblerift.hungry] unless data storage myriad:temp root.creative if data storage myriad:temp root{meat:1b} run function myriad:block/gobblerift/interact/feed/survival
+execute if entity @s[tag=myriad.gobblerift.hungry] if data storage myriad:temp root{creative:1b,meat:1b} run function myriad:block/gobblerift/interact/feed/creative
+execute if entity @s[tag=myriad.gobblerift.juice_ready] unless data storage myriad:temp root.creative if data storage myriad:temp root.item{id:"minecraft:glass_bottle"} run function myriad:block/gobblerift/interact/juice/survival
+execute if entity @s[tag=myriad.gobblerift.juice_ready] if data storage myriad:temp root{creative:1b,item:{id:"minecraft:glass_bottle"}} run function myriad:block/gobblerift/interact/juice/creative
+execute unless data storage myriad:temp root.creative if data storage myriad:temp root{item:{id:"minecraft:name_tag"}} if data storage myriad:temp root.item.components."minecraft:custom_name" on target run item modify entity @s weapon.mainhand myriad:reduce_count
+execute if data storage myriad:temp root.item{id:"minecraft:name_tag"} if data storage myriad:temp root.item.components."minecraft:custom_name" on vehicle run data modify entity @s CustomName set from storage myriad:temp root.item.components."minecraft:custom_name"

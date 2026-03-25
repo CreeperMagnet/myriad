@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/enchanter/cape/moving/2/normal",
-	"textures": {
-		"0": "tcc:entity/enchanter/cape/2_hurt"
-	}
-}

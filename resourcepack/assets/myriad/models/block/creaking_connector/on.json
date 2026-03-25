@@ -1,0 +1,12 @@
+{
+  "parent": "myriad:block/creaking_connector/off",
+  "textures": {
+    "particle": "myriad:block/creaking_connector/side_on",
+    "north": "myriad:block/creaking_connector/side_on",
+    "south": "myriad:block/creaking_connector/side_on",
+    "east": "myriad:block/creaking_connector/side_on",
+    "west": "myriad:block/creaking_connector/side_on",
+    "up": "myriad:block/creaking_connector/top_on",
+    "down": "myriad:block/creaking_connector/top_on"
+  }
+}

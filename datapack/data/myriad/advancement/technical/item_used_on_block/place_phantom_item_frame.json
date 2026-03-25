@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "place_phantom_item_frame": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": "{myriad:{id:\"phantom_item_frame\"}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/phantom_item_frame/place/advancement"
+  },
+  "requirements": [
+    [
+      "place_phantom_item_frame"
+    ]
+  ]
+}

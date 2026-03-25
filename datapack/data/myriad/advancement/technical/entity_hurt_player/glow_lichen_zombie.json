@@ -1,0 +1,24 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "nbt": "{Tags:[\"myriad.glow_lichen_zombie\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/glow_lichen_zombie/apply_blindness"
+  },
+  "requirements": [
+    [
+      "hit"
+    ]
+  ]
+}

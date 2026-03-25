@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "myriad:block/soul_seer/side_off",
+    "north": "myriad:block/soul_seer/side_off",
+    "south": "myriad:block/soul_seer/side_off",
+    "east": "myriad:block/soul_seer/side_off",
+    "west": "myriad:block/soul_seer/side_off",
+    "up": "myriad:block/soul_seer/top_off",
+    "down": "myriad:block/soul_seer/bottom"
+  }
+}

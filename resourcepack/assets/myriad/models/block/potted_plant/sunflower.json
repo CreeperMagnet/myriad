@@ -1,0 +1,39 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "myriad:block/potted_plant/sunflower",
+		"particle": "myriad:block/potted_plant/sunflower"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 8],
+			"to": [12, 13, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 0, 11, 4.5], "texture": "#0"},
+				"south": {"uv": [11, 0, 7, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 4, 8],
+			"to": [12, 13, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8]},
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 0, 11, 4.5], "texture": "#0"},
+				"south": {"uv": [11, 0, 7, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.7, 4, 1],
+			"to": [5.7, 18, 15],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 12, 4]},
+			"shade": false,
+			"faces": {
+				"east": {"uv": [7, 9, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		}
+	]
+}

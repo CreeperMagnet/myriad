@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "myriad:item/pottery_sherd/resin_brick/link"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "myriad:item/witch_hat/inventory",
+    "layer1": "myriad:item/witch_hat/inventory_overlay"
+  }
+}

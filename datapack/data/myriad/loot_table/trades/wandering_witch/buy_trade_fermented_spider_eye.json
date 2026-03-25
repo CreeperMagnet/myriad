@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:rabbit_foot"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glistering_melon_slice"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "loot_table",
+          "value": "myriad:items/sightless_eye"
+        },
+        {
+          "type": "loot_table",
+          "value": "myriad:items/heartbeet"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:fermented_spider_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:trades/wandering_witch/buy_trade_fermented_spider_eye"
+}

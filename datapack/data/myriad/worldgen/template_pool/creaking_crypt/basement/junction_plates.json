@@ -1,0 +1,59 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/basement/junction_plate/1",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/basement"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/basement/junction_plate/2",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/basement"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/basement/junction_plate/3",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/basement"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/basement/junction_plate/4",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/basement"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/basement/junction_plate/5",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/basement"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:creaking_crypt/basement/junction_plate/6",
+        "projection": "rigid",
+        "processors": "myriad:creaking_crypt/basement"
+      }
+    }
+  ]
+}

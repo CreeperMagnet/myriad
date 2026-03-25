@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "myriad:item/frostbloom_petals",
+    "particle": "myriad:item/frostbloom_petals"
+  }
+}

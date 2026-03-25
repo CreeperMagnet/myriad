@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "myriad:items/tundra_explorer_map"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:trades/cartographer/trade_1/sell"
+}

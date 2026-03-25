@@ -1,9 +1,9 @@
 {
   "values": [
-    "#tcc:glass",
-    "#tcc:glass_panes",
-    "#tcc:ground_heads",
-    "#tcc:wall_heads",
+    "#myriad:glass",
+    "#myriad:glass_panes",
+    "#myriad:ground_heads",
+    "#myriad:wall_heads",
     "minecraft:redstone_lamp",
     "minecraft:lever",
     "minecraft:frosted_ice",

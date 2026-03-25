@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:heartbeet"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.husbandry.give_away_heartbeet.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.husbandry.give_away_heartbeet.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entity_picks_up_heartbeet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:undead"
+            }
+          }
+        ],
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{myriad:{id:\"heartbeet\"}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entity_picks_up_heartbeet"
+    ]
+  ]
+}

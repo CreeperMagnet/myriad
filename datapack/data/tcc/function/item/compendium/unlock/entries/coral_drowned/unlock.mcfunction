@@ -1,2 +1,0 @@
-data modify storage tcc:temp root.start_injection set value {entry_name:"coral_drowned",list:[{page:4,length:350,injection:"tccc.entry.coral_drowned.title\"}},translate:\"tccc.icon.spacer\",click_event:{action:\"change_page\",page:58}},{color:\"white\",font:\"tcc.compendium:icons\",translate:\"tccc.icon.index.coral_drowned\",click_event:{action:\"change_page\",page:58},hover_event:{action:\"show_text\",value:{translate:\"tccc.entry.coral_drowned.title\"}}",name:"coral_drowned0"}]}
-function tcc:item/compendium/unlock/inject/main with storage tcc:temp root.start_injection

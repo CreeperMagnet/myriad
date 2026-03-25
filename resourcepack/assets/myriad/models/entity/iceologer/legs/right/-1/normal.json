@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/legs/right/-1",
+	"textures": {
+		"0": "myriad:entity/iceologer/legs/front/0"
+	}
+}

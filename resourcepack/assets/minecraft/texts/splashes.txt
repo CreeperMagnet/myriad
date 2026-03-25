@@ -1,153 +1,151 @@
-§2The underscore is all that matters
-§2Now contains §mNBT§r§2 component crafting!
-§2TCC secret: The carrot on a stick texture was backwards for 2+ years
-§2Eat the rotten porkchops
-§2Don’t eat the rotten porkchops
-§2Changing my mind about important features!
-§2I have a bad feeling about this datapack...
-§2Don't eat the swordfish!
-§2Eat the swordfish, they're a tasty snack!
-§2Swordfish taste rather odd.
-§2Contains berry good food!
-§2Jeb’s law!
-§2Rule 1 of datapacking
-§2Half of these splashes used to be about lag, then I optimized
-§2r/TheCreepersCode
-§2Join TCC's discord server!
-§2Don’t look directly at the bugs.
-§2May contain nuts and a hint of lag
-§2If you can’t see this message, download Minecraft.
-§2If you can read this, thank us!
-§2If you're reading this, it's already too late.
-§2Here I go breaking backwards compatibility again!
-§2May contain feature creep
-§2RIP obsidian shards, peculiar berries, rings, tea, and every other removed feature that should never have been made in the first place.
-§2Please do not mix with mods
-§2Datapacks, not data packs
-§2Datapacks, not data-packs
-§2Data packs, not datapacks
-§2Data packs, not data-packs
-§2Data-packs, not datapacks
-§2Data-packs, not data packs
-§2Now contains 300+ more ring types!
-§2Please don't play Grimcraft.
-§2Please don't play Undermagic.
-§2Also play Mechanization!
-§2Also play Dinos and Dodos!
-§2Also play Call of Chaos!
-§2Also play Incendium!
-§2Also play Ocean Additions!
-§2Also play The Wastes!
-§2Also play Valiance!
-§2Also play Fathoms!
-§2Also play(?) Worldtool!
-§2Play something else! Variety!
-§2Big Pack Suffering!
-§2Don't Explode: Code!
-§2RIP Chroma
-§2Proudly sponsored by Smithed
-§2RIP DPC
-§2MAXIMUM MONKE ENGAGED
-§2The real CreeperMagnet_ is the friends we made along the way
-§2Monkey brain approved!
-§2Now with less optimizations and more lag!
-§2Wait, it's all wandering traders?
-§2eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-§2Now with more creepers and code!
-§2Powered by Infinite Monkey Theorem
-§2Boom!
-§2Attracting creepers since 2017
-§2Almost official!
-§2Often confused with vanilla!
-§2Creeper magnets not included
-§2It's all just a retextured flipped pig
-§2Free lag!
-§2Not as many explosions as advertised
-§2Lazy devs!
-§2The latest in datapack technology!
-§2Oops, all macros!
-§2le monke
-§2It's fun I promise! (Source: Dude trust me)
-§2Compatibility?
-§2Vanilla!
-§2Vanilla++;
-§2Vanilla--;
-§2Vanilla#!
-§2Vanilla-!
-§2Vanilla+!
-§2Vanilla?
-§2Vanilla*!
-§2Broken!
-§2Fixed!
-§2Reworked!
-§2Reworked (again)!
-§2[insert funny]
-§2Not made by ICY!
-§2Get me out of here!
-§2Only one command!
-§2Based on the popular anime!
-§2Does not attract creepers :(
-§2Not magnetic :(
-§2Not made by creepers :(
-§2Made with 100% effort!
-§2Powered by LEGO!
-§2The devs are here of their own free will
-§2:boqheart:
-§2Works as intended!
-§2Snails in pails!
-§2Pain and suffering!
-§2PIF!
-§2Geode geezers!
-§2#008725
-§2#006e1e
-§2Contains unhealthy amounts of green!
-§2Font magic!
-§2:beta:
-§2No more postgen! (Please, Mojang. Please.)
-§l§n§6E
-§2§oMaybe compatible?
-§2"When will you update to the snapshots?"
-§2Now in Spanish!
-§2Now in French!
-§2Now (mostly) open source!
-§2Easter eggs included!
-§2Villager companion sold separately
-§2Thanks, DanTDM!
-§2LogDotZip owes me $20
-§2International law prohibits uninstalling this datapack
-§2Fun for the whole family!
-§2Soon to be a major religion
-§2Soon to be a hit television show
-§2Some splashes brought to you by Futurama!
-§2Made you look!
-§2No refunds
-§2Provides a full day's supply of Vitamins T, C, and C!
-§2Part of a balanced br... game!
-§2Ask your doctor if TCC is right for you
-§2The one bright spot in your life!
-§2#1 most downloaded datapack among download-bots
-§2For external use only
-§2Known to cause insanity in laboratory mice
-§2Slightly radioactive!
-§2Rots your teeth!
-§2Definitely cursed!
-§2All hail Mully
-§2Loved by penguins!
-§2In my understanding, I think...
-§2How many reworks of a rework can there be?
-§2Imagine the pottabilities!
-§2Don't worry, we sherd your complaints about not enough archaeology content!
-§2Featuring conductable souls!
-§2May contain worldbuilding.
-§2Bet you've never seen green splashes before!
-§2How much compendium code could there possibly be?
-§2The most note-able spot for rewaxation!
-§2Armor trims sold separately
-§2Sniffer 2: Electric Boogaloo
-§2The sponge has been exterminated
-§2Now with wireless redstone!
-§2Now featuring shameless theft!
-§2Who up creaking they crypt?
-§2Make sure to check your resin candy for pale oak splinters!
-§2I think I may be addicted to pottery.
-§2[insert 1.7 joke here]
+§5The underscore is all that matters
+§5Now contains §mNBT§r§2 component crafting!
+§5Secret: The carrot on a stick texture was backwards for 2+ years
+§5Eat the rotten porkchops
+§5Don’t eat the rotten porkchops
+§5Changing my mind about important features!
+§5I have a bad feeling about this datapack...
+§5Don't eat the swordfish!
+§5Eat the swordfish, they're a tasty snack!
+§5Swordfish taste rather odd.
+§5Contains berry good food!
+§5Jeb’s law!
+§5Rule 1 of datapacking
+§5Half of these splashes used to be about lag, then I optimized
+§5Join Myriad's discord server!
+§5Don’t look directly at the bugs.
+§5May contain nuts and a hint of lag
+§5If you can’t see this message, download Minecraft.
+§5If you can read this, thank us!
+§5If you're reading this, it's already too late.
+§5Here I go breaking backwards compatibility again!
+§5May contain feature creep
+§5RIP obsidian shards, peculiar berries, rings, tea, and every other removed feature that should never have been made in the first place.
+§5Please do not mix with mods
+§5Datapacks, not data packs
+§5Datapacks, not data-packs
+§5Data packs, not datapacks
+§5Data packs, not data-packs
+§5Data-packs, not datapacks
+§5Data-packs, not data packs
+§5Now contains 300+ more ring types!
+§5Please don't play Grimcraft.
+§5Please don't play Undermagic.
+§5Also play Mechanization!
+§5Also play Dinos and Dodos!
+§5Also play Call of Chaos!
+§5Also play Incendium!
+§5Also play Ocean Additions!
+§5Also play The Wastes!
+§5Also play Valiance!
+§5Also play Fathoms!
+§5Also play(?) Worldtool!
+§5Play something else! Variety!
+§5Big Pack Suffering!
+§5Don't Explode: Code!
+§5RIP Chroma
+§5Proudly sponsored by Smithed
+§5RIP DPC
+§5MAXIMUM MONKE ENGAGED
+§5The real CreeperMagnet_ is the friends we made along the way
+§5Monkey brain approved!
+§5Now with less optimizations and more lag!
+§5Wait, it's all wandering traders?
+§5eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+§5Now with less creepers and code!
+§5Powered by Infinite Monkey Theorem
+§5Boom!
+§5Attracting creepers since 2017
+§5Almost official!
+§5Often confused with vanilla!
+§5Creeper magnets not included
+§5It's all just a retextured flipped pig
+§5Free lag!
+§5Not as many explosions as advertised
+§5Lazy devs!
+§5The latest in datapack technology!
+§5Oops, all macros!
+§5le monke
+§5It's fun I promise! (Source: Dude trust me)
+§5Compatibility?
+§5Vanilla!
+§5Vanilla++;
+§5Vanilla--;
+§5Vanilla#!
+§5Vanilla-!
+§5Vanilla+!
+§5Vanilla?
+§5Vanilla*!
+§5Broken!
+§5Fixed!
+§5Reworked!
+§5Reworked (again)!
+§5[insert funny]
+§5Not made by ICY!
+§5Get me out of here!
+§5Only one command!
+§5Based on the popular anime!
+§5Does not attract creepers :(
+§5Not magnetic :(
+§5Not made by creepers :(
+§5Made with 100% effort!
+§5Powered by LEGO!
+§5The devs are here of their own free will
+§5:boqheart:
+§5Works as intended!
+§5Snails in pails!
+§5Pain and suffering!
+§5PIF!
+§5Geode geezers!
+§5#500060
+§5Contains unhealthy amounts of green!
+§5Font magic!
+§5:beta:
+§5No more postgen! (Please, Mojang. Please.)
+§5§n§6E
+§5§oMaybe compatible?
+§5"When will you update to the snapshots?"
+§5Now in Spanish!
+§5Now in French!
+§5Now (mostly) open source!
+§5Easter eggs included!
+§5Villager companion sold separately
+§5Thanks, DanTDM!
+§5LogDotZip owes me $20
+§5International law prohibits uninstalling this datapack
+§5Fun for the whole family!
+§5Soon to be a major religion
+§5Soon to be a hit television show
+§5Some splashes brought to you by Futurama!
+§5Made you look!
+§5No refunds
+§5Part of a balanced br... game!
+§5Ask your doctor if Myriad is right for you
+§5The one bright spot in your life!
+§5#1 most downloaded datapack among download-bots
+§5For external use only
+§5Known to cause insanity in laboratory mice
+§5Slightly radioactive!
+§5Rots your teeth!
+§5Definitely cursed!
+§5All hail Mully
+§5Loved by penguins!
+§5In my understanding, I think...
+§5How many reworks of a rework can there be?
+§5Imagine the pottabilities!
+§5Don't worry, we sherd your complaints about not enough archaeology content!
+§5Featuring conductable souls!
+§5May contain worldbuilding.
+§5Bet you've never seen green splashes before!
+§5How much compendium code could there possibly be?
+§5The most note-able spot for rewaxation!
+§5Armor trims sold separately
+§5Sniffer 2: Electric Boogaloo
+§5The sponge has been exterminated
+§5Now with wireless redstone!
+§5Now featuring shameless theft!
+§5Who up creaking they crypt?
+§5Make sure to check your resin candy for pale oak splinters!
+§5I think I may be addicted to pottery.
+§5Formerly known as The Creeper's Code
+§5[insert 1.7 joke here]

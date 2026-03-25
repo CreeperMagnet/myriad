@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"pick_up":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#tcc:music_discs"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/accessible_music_discs/from_advancement"}}

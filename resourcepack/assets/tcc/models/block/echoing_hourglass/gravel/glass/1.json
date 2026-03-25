@@ -1,7 +1,0 @@
-{
-  "parent": "tcc:block/echoing_hourglass/template_glass/1",
-  "textures": {
-		"falling": "tcc:block/echoing_hourglass/falling_gravel",
-		"input": "tcc:block/echoing_hourglass/gravel"
-  }
-}

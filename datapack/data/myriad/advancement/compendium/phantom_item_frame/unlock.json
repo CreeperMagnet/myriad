@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:item_frame","minecraft:glow_item_frame","minecraft:phantom_membrane"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/phantom_item_frame/from_advancement"}}

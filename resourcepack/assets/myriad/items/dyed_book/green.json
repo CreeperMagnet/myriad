@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:written_book_content",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "myriad:item/dyed_book/written/green"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:has_component",
+      "component": "minecraft:writable_book_content",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "myriad:item/dyed_book/written/green"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "myriad:item/dyed_book/writable/green"
+      }
+    }
+  }
+}

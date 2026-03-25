@@ -32,7 +32,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -100,7 +100,7 @@
           "predicate": {
             "tags": [
               {
-                "id": "tcc:sonic_boom",
+                "id": "myriad:sonic_boom",
                 "expected": true
               }
             ]
@@ -119,7 +119,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.tcc.easter_egg.lore"
+                  "translate": "item.myriad.easter_egg.lore"
                 }
               ],
               "mode": "replace_all"

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "myriad:item/snail_bucket/spiral"
+    }
+}

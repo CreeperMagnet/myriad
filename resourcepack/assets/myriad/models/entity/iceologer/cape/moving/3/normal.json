@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/cape/moving/3",
+	"textures": {
+		"0": "myriad:entity/iceologer/cape/3"
+	}
+}

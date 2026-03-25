@@ -1,0 +1,78 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Sonic Screwdriver",
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:item/saplink/sonic_screwdriver"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "minecraft:acacia_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/acacia"
+          }
+        },
+        {
+          "when": "minecraft:birch_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/birch"
+          }
+        },
+        {
+          "when": "minecraft:cherry_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/cherry"
+          }
+        },
+        {
+          "when": "minecraft:dark_oak_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/dark_oak"
+          }
+        },
+        {
+          "when": "minecraft:jungle_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/jungle"
+          }
+        },
+        {
+          "when": "minecraft:oak_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/oak"
+          }
+        },
+        {
+          "when": "minecraft:pale_oak_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/pale_oak"
+          }
+        },
+        {
+          "when": "minecraft:spruce_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/spruce"
+          }
+        }
+      ]
+    }
+  }
+}

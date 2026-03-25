@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:archaeology/piglin_bartering/rare",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:archaeology/piglin_bartering/common",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/piglin_bartering/main"
+}

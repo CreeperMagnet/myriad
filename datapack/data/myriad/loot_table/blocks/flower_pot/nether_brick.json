@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#count"
+        },
+        "score": "myriad.dummy"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/nether_brick_flower_pot"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:blocks/flower_pot/nether_brick"
+}

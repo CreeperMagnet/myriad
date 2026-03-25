@@ -1,0 +1,25 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "pick_up_clear_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{clear:1b}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/clear_item"
+  },
+  "requirements": [
+    [
+      "pick_up_clear_item"
+    ]
+  ]
+}

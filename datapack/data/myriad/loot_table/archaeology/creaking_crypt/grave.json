@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "myriad:archaeology/creaking_crypt/rare",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:bone",
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:skeleton_skull",
+                  "weight": 1
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:emerald",
+                  "weight": 2
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:resin_brick",
+                  "weight": 7
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/creaking_crypt/grave"
+}

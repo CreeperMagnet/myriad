@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/enchanter/arms/crossed/normal",
-	"textures": {
-		"0": "tcc:entity/enchanter/main_hurt"
-	}
-}

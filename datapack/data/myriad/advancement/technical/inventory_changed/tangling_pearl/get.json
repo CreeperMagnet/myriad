@@ -1,0 +1,37 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"myriad.has_enabled_tangling_pearl\"]}"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{enabled:1b,id:\"tangling_pearl\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/tangling_pearl/inventory_changed/get"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ]
+}

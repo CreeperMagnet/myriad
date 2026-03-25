@@ -8,8 +8,8 @@
     "absolute": 0
   },
   "biomes": "#minecraft:has_structure/woodland_mansion",
-  "start_pool": "tcc:woodland_mansion/main",
-  "start_jigsaw_name": "tcc:anchor",
+  "start_pool": "myriad:woodland_mansion/main",
+  "start_jigsaw_name": "myriad:anchor",
   "spawn_overrides": {
     "monster": {
       "spawns": [],

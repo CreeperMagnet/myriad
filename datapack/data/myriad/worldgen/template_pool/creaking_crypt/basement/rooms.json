@@ -1,0 +1,104 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/tree_coffins",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/embedded_eyes",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/embedded_eyes_double_spawner",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/fountain_stairs",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/dropdown",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/tree_altars",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/tree_balcony",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/spawner_pillars",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/staircase_up",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/chapel",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/rooms/coffins",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

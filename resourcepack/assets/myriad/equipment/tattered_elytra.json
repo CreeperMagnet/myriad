@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "myriad:tattered_elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

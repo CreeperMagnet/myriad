@@ -1,0 +1,10 @@
+{
+	"parent": "myriad:entity/illager_template/cape/moving/0",
+	"display": {
+		"ground": {
+			"rotation": [14, -180, 0],
+			"translation": [0, 2.9, -10],
+			"scale": [1.0518, 1.0518, 1.0518]
+		}
+	}
+}

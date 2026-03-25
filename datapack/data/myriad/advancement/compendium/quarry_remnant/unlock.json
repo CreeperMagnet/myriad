@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structures":"myriad:quarry_remnant"}}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/quarry_remnant/from_advancement"}}

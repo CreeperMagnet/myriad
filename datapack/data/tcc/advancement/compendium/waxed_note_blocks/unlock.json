@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:note_block"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/waxed_note_blocks/from_advancement"}}

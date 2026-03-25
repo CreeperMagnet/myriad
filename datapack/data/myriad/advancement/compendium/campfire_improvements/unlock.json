@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:campfire","minecraft:soul_campfire"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/campfire_improvements/from_advancement"}}

@@ -6,7 +6,7 @@
   ],
   "key": {
     "I": "minecraft:iron_ingot",
-    "#": "#tcc:raw_stone_crafting_materials"
+    "#": "#myriad:raw_stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:stonecutter"

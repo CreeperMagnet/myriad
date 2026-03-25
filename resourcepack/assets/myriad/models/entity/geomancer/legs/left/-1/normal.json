@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/legs/left/-1",
+	"textures": {
+		"0": "myriad:entity/geomancer/legs/back/0"
+	}
+}

@@ -1,0 +1,44 @@
+{
+  "category": "redstone",
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "DED",
+    "DGD"
+  ],
+  "key": {
+    "S": "minecraft:sculk",
+    "D": "minecraft:cobbled_deepslate",
+    "E": "minecraft:ender_eye",
+    "G": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "id": "minecraft:dropper",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:block/soul_seer",
+      "minecraft:custom_model_data": {
+        "flags": [
+          false
+        ]
+      },
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "soul_seer",
+          "custom_block": true
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "block.myriad.soul_seer"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ]
+    }
+  }
+}

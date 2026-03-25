@@ -1,0 +1,20 @@
+{
+	"textures": {
+		"0": "myriad:block/geomancer_pillar/explosive",
+		"particle": "myriad:block/geomancer_pillar/explosive_particles"
+	},
+	"elements": [
+		{
+			"from": [0, -16, 0],
+			"to": [16, 32, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 5.33333, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 5.33333, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 5.33333, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 5.33333, 16], "texture": "#0"},
+				"up": {"uv": [10.66667, 0, 16, 5.33333], "texture": "#0"},
+				"down": {"uv": [10.66667, 5.33333, 16, 10.66667], "texture": "#0"}
+			}
+		}
+	]
+}

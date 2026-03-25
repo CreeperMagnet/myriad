@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/geomancer/legs/left/2/normal",
+	"textures": {
+		"0": "myriad:entity/geomancer/legs/front/1_hurt"
+	}
+}

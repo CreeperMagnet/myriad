@@ -1,0 +1,157 @@
+{
+  "parent": "minecraft:adventure/voluntary_exile",
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "color": "green",
+            "pattern": "minecraft:rhombus"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:stripe_bottom"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:stripe_center"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:stripe_middle"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:half_horizontal"
+          },
+          {
+            "color": "light_blue",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:stripe_top"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:stripe_top"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:border"
+          },
+          {
+            "color": "green",
+            "pattern": "minecraft:border"
+          }
+        ]
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.obtain_all_illager_banners.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.obtain_all_illager_banners.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sinister_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"sinister_banner\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "chilling_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"chilling_banner\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "ominous_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "color": "cyan",
+                  "pattern": "minecraft:rhombus"
+                },
+                {
+                  "color": "light_gray",
+                  "pattern": "minecraft:stripe_bottom"
+                },
+                {
+                  "color": "gray",
+                  "pattern": "minecraft:stripe_center"
+                },
+                {
+                  "color": "light_gray",
+                  "pattern": "minecraft:border"
+                },
+                {
+                  "color": "black",
+                  "pattern": "minecraft:stripe_middle"
+                },
+                {
+                  "color": "light_gray",
+                  "pattern": "minecraft:half_horizontal"
+                },
+                {
+                  "color": "light_gray",
+                  "pattern": "minecraft:circle"
+                },
+                {
+                  "color": "black",
+                  "pattern": "minecraft:border"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sinister_banner"
+    ],
+    [
+      "chilling_banner"
+    ],
+    [
+      "ominous_banner"
+    ]
+  ]
+}

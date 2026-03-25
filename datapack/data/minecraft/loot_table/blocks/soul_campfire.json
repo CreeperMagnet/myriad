@@ -42,7 +42,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:unlit_soul_campfire",
+                    "minecraft:item_model": "myriad:unlit_soul_campfire",
                     "minecraft:block_state": {
                       "lit": "false"
                     }

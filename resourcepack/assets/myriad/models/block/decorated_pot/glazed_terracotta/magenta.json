@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:block/decorated_pot/glazed_terracotta/template",
+	"textures": {
+		"0": "myriad:block/decorated_pot/glazed_terracotta/magenta"
+	}
+}

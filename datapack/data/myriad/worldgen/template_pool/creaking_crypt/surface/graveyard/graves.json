@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/graveyard/grave/default",
+        "processors": "myriad:creaking_crypt/grave",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/graveyard/grave/flower",
+        "processors": "myriad:creaking_crypt/grave",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/graveyard/grave/candle",
+        "processors": "myriad:creaking_crypt/grave",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "myriad:creaking_crypt/surface/graveyard/grave/creaking_heart",
+        "processors": "myriad:creaking_crypt/grave_creaking_heart",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

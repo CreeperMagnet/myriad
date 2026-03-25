@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#minecraft:stairs"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/consistent_stair_recipe_yield/from_advancement"}}

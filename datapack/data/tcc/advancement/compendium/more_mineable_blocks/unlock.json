@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#minecraft:pickaxes"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/more_mineable_blocks/from_advancement"}}

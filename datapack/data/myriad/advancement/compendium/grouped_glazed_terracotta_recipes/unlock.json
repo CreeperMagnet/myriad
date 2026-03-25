@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#minecraft:terracotta"}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/grouped_glazed_terracotta_recipes/from_advancement"}}

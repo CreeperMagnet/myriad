@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:cursed_crown",
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.cursed_crown.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.cursed_crown.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "wear_cursed_crown": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "requirements": [
+    [
+      "wear_cursed_crown"
+    ]
+  ]
+}

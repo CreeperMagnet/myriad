@@ -57,7 +57,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }

@@ -1,0 +1,25 @@
+{
+  "category": "equipment",
+  "type": "minecraft:crafting_transmute",
+  "input": "minecraft:writable_book",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "minecraft:writable_book",
+    "components": {
+      "minecraft:item_model": "myriad:dyed_book/green",
+      "minecraft:item_name": {
+        "translate": "item.myriad.dyed_writable_book.green"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:enchantment_glint_override": false
+    }
+  },
+  "group": "myriad:dye_writable_book"
+}

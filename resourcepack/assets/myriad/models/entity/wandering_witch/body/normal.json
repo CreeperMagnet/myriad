@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/body",
+	"textures": {
+		"0": "myriad:entity/wandering_witch/main"
+	}
+}

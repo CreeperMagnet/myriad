@@ -1,2 +1,0 @@
-data modify storage tcc:temp root.start_injection set value {entry_name:"dyed_compasses",list:[{page:1,length:353,injection:"tccc.entry.dyed_compasses.title\"}},translate:\"tccc.icon.spacer\",click_event:{action:\"change_page\",page:84}},{color:\"white\",font:\"tcc.compendium:icons\",translate:\"tccc.icon.index.dyed_compasses\",click_event:{action:\"change_page\",page:84},hover_event:{action:\"show_text\",value:{translate:\"tccc.entry.dyed_compasses.title\"}}",name:"dyed_compasses0"}]}
-function tcc:item/compendium/unlock/inject/main with storage tcc:temp root.start_injection

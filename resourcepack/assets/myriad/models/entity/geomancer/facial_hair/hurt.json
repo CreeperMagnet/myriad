@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/geomancer/facial_hair/normal",
+	"textures": {
+		"0": "myriad:entity/geomancer/main_hurt"
+	}
+}

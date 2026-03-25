@@ -1,0 +1,32 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "name_no_nametag_entity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "myriad.no_nametag"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/no_nametag/advancement"
+  },
+  "requirements": [
+    [
+      "name_no_nametag_entity"
+    ]
+  ]
+}

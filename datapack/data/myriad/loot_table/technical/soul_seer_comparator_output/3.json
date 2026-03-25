@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ],
+          "value": "myriad:technical/soul_seer_comparator_output/base"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 19
+            }
+          ],
+          "value": "myriad:technical/soul_seer_comparator_output/base"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:technical/soul_seer_comparator_output/3"
+}

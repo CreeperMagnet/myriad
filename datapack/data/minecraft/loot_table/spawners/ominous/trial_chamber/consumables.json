@@ -87,11 +87,11 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "name": "tcc:set_potion_data/type/blind_rage"
+              "name": "myriad:set_potion_data/type/blind_rage"
             },
             {
               "function": "minecraft:reference",
-              "name": "tcc:set_potion_data/extend/blind_rage"
+              "name": "myriad:set_potion_data/extend/blind_rage"
             }
           ],
           "name": "minecraft:potion"
@@ -101,11 +101,11 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "name": "tcc:set_potion_data/type/fortitude"
+              "name": "myriad:set_potion_data/type/fortitude"
             },
             {
               "function": "minecraft:reference",
-              "name": "tcc:set_potion_data/amplify/fortitude"
+              "name": "myriad:set_potion_data/amplify/fortitude"
             }
           ],
           "name": "minecraft:potion"

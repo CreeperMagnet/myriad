@@ -1,0 +1,41 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/terminators/terminator_01",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/terminators/terminator_02",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/terminators/terminator_03",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/terminators/terminator_04",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

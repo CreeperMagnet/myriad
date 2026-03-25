@@ -17,12 +17,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_tcc_sherd": {
+    "has_myriad_sherd": {
       "conditions": {
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\"}}"
+              "minecraft:custom_data": "{myriad:{id:\"pottery_sherd\"}}"
             }
           }
         ]
@@ -53,201 +53,201 @@
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:refuge_remains_rare": {
+    "myriad:refuge_remains_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/refuge_remains/rare"
+        "loot_table": "myriad:archaeology/refuge_remains/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:refuge_remains_common": {
+    "myriad:refuge_remains_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/refuge_remains/common"
+        "loot_table": "myriad:archaeology/refuge_remains/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:piglin_bartering": {
+    "myriad:piglin_bartering": {
       "conditions": {
-        "loot_table": "tcc:archaeology/piglin_bartering/main"
+        "loot_table": "myriad:archaeology/piglin_bartering/main"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:ancient_city_common": {
+    "myriad:ancient_city_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/ancient_city/common"
+        "loot_table": "myriad:archaeology/ancient_city/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:ancient_city_rare": {
+    "myriad:ancient_city_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/ancient_city/rare"
+        "loot_table": "myriad:archaeology/ancient_city/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:badlands_temple_common": {
+    "myriad:badlands_temple_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/badlands_temple/common"
+        "loot_table": "myriad:archaeology/badlands_temple/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:badlands_temple_rare": {
+    "myriad:badlands_temple_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/badlands_temple/rare"
+        "loot_table": "myriad:archaeology/badlands_temple/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:jungle_temple_common": {
+    "myriad:jungle_temple_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/jungle_temple/common"
+        "loot_table": "myriad:archaeology/jungle_temple/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:jungle_temple_rare": {
+    "myriad:jungle_temple_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/jungle_temple/rare"
+        "loot_table": "myriad:archaeology/jungle_temple/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:quarry_remnant_common": {
+    "myriad:quarry_remnant_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/quarry_remnant/common"
+        "loot_table": "myriad:archaeology/quarry_remnant/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:quarry_remnant_rare": {
+    "myriad:quarry_remnant_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/quarry_remnant/rare"
+        "loot_table": "myriad:archaeology/quarry_remnant/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:desert_well_common": {
+    "myriad:desert_well_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/desert_well/common"
+        "loot_table": "myriad:archaeology/desert_well/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:desert_well_rare": {
+    "myriad:desert_well_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/desert_well/rare"
+        "loot_table": "myriad:archaeology/desert_well/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:trial_chambers_common": {
+    "myriad:trial_chambers_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/trial_chambers/common"
+        "loot_table": "myriad:archaeology/trial_chambers/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:trial_chambers_rare": {
+    "myriad:trial_chambers_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/trial_chambers/rare"
+        "loot_table": "myriad:archaeology/trial_chambers/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:woodland_mansion_common": {
+    "myriad:woodland_mansion_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/woodland_mansion/common"
+        "loot_table": "myriad:archaeology/woodland_mansion/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:woodland_mansion_rare": {
+    "myriad:woodland_mansion_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/woodland_mansion/rare"
+        "loot_table": "myriad:archaeology/woodland_mansion/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_ancient_city": {
+    "myriad:echoing_hourglass_ancient_city": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/ancient_city"
+        "loot_table": "myriad:archaeology/echoing_hourglass/ancient_city"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_badlands_temple": {
+    "myriad:echoing_hourglass_badlands_temple": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/badlands_temple"
+        "loot_table": "myriad:archaeology/echoing_hourglass/badlands_temple"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_desert_pyramid": {
+    "myriad:echoing_hourglass_desert_pyramid": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/desert_pyramid"
+        "loot_table": "myriad:archaeology/echoing_hourglass/desert_pyramid"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_desert_well": {
+    "myriad:echoing_hourglass_desert_well": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/desert_well"
+        "loot_table": "myriad:archaeology/echoing_hourglass/desert_well"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_jungle_pyramid": {
+    "myriad:echoing_hourglass_jungle_pyramid": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/jungle_pyramid"
+        "loot_table": "myriad:archaeology/echoing_hourglass/jungle_pyramid"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_ocean_ruin_cold": {
+    "myriad:echoing_hourglass_ocean_ruin_cold": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/ocean_ruin_cold"
+        "loot_table": "myriad:archaeology/echoing_hourglass/ocean_ruin_cold"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_ocean_ruin_warm": {
+    "myriad:echoing_hourglass_ocean_ruin_warm": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/ocean_ruin_warm"
+        "loot_table": "myriad:archaeology/echoing_hourglass/ocean_ruin_warm"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_quarry_remnant": {
+    "myriad:echoing_hourglass_quarry_remnant": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/quarry_remnant"
+        "loot_table": "myriad:archaeology/echoing_hourglass/quarry_remnant"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_refuge_remains": {
+    "myriad:echoing_hourglass_refuge_remains": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/refuge_remains"
+        "loot_table": "myriad:archaeology/echoing_hourglass/refuge_remains"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_trail_ruins": {
+    "myriad:echoing_hourglass_trail_ruins": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/trail_ruins"
+        "loot_table": "myriad:archaeology/echoing_hourglass/trail_ruins"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_trial_chambers": {
+    "myriad:echoing_hourglass_trial_chambers": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/trial_chambers"
+        "loot_table": "myriad:archaeology/echoing_hourglass/trial_chambers"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_woodland_mansion": {
+    "myriad:echoing_hourglass_woodland_mansion": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/woodland_mansion"
+        "loot_table": "myriad:archaeology/echoing_hourglass/woodland_mansion"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:echoing_hourglass_creaking_crypt": {
+    "myriad:echoing_hourglass_creaking_crypt": {
       "conditions": {
-        "loot_table": "tcc:archaeology/echoing_hourglass/creaking_crypt"
+        "loot_table": "myriad:archaeology/echoing_hourglass/creaking_crypt"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:creaking_crypt_common": {
+    "myriad:creaking_crypt_common": {
       "conditions": {
-        "loot_table": "tcc:archaeology/creaking_crypt/common"
+        "loot_table": "myriad:archaeology/creaking_crypt/common"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:creaking_crypt_rare": {
+    "myriad:creaking_crypt_rare": {
       "conditions": {
-        "loot_table": "tcc:archaeology/creaking_crypt/rare"
+        "loot_table": "myriad:archaeology/creaking_crypt/rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:creaking_crypt_grave": {
+    "myriad:creaking_crypt_grave": {
       "conditions": {
-        "loot_table": "tcc:archaeology/creaking_crypt/grave"
+        "loot_table": "myriad:archaeology/creaking_crypt/grave"
       },
       "trigger": "minecraft:player_generates_container_loot"
     }
@@ -274,43 +274,43 @@
       "ocean_ruin_warm",
       "trail_ruins_rare",
       "trail_ruins_common",
-      "tcc:refuge_remains_common",
-      "tcc:refuge_remains_rare",
-      "tcc:piglin_bartering",
-      "tcc:ancient_city_common",
-      "tcc:ancient_city_rare",
-      "tcc:badlands_temple_common",
-      "tcc:badlands_temple_rare",
-      "tcc:desert_well_common",
-      "tcc:desert_well_rare",
-      "tcc:jungle_temple_common",
-      "tcc:jungle_temple_rare",
-      "tcc:quarry_remnant_common",
-      "tcc:quarry_remnant_rare",
-      "tcc:trial_chambers_common",
-      "tcc:trial_chambers_rare",
-      "tcc:woodland_mansion_common",
-      "tcc:woodland_mansion_rare",
-      "tcc:echoing_hourglass_ancient_city",
-      "tcc:echoing_hourglass_badlands_temple",
-      "tcc:echoing_hourglass_desert_pyramid",
-      "tcc:echoing_hourglass_desert_well",
-      "tcc:echoing_hourglass_jungle_pyramid",
-      "tcc:echoing_hourglass_ocean_ruin_cold",
-      "tcc:echoing_hourglass_ocean_ruin_warm",
-      "tcc:echoing_hourglass_quarry_remnant",
-      "tcc:echoing_hourglass_refuge_remains",
-      "tcc:echoing_hourglass_trail_ruins",
-      "tcc:echoing_hourglass_trial_chambers",
-      "tcc:echoing_hourglass_woodland_mansion",
-      "tcc:echoing_hourglass_creaking_crypt",
-      "tcc:creaking_crypt_common",
-      "tcc:creaking_crypt_rare",
-      "tcc:creaking_crypt_grave"
+      "myriad:refuge_remains_common",
+      "myriad:refuge_remains_rare",
+      "myriad:piglin_bartering",
+      "myriad:ancient_city_common",
+      "myriad:ancient_city_rare",
+      "myriad:badlands_temple_common",
+      "myriad:badlands_temple_rare",
+      "myriad:desert_well_common",
+      "myriad:desert_well_rare",
+      "myriad:jungle_temple_common",
+      "myriad:jungle_temple_rare",
+      "myriad:quarry_remnant_common",
+      "myriad:quarry_remnant_rare",
+      "myriad:trial_chambers_common",
+      "myriad:trial_chambers_rare",
+      "myriad:woodland_mansion_common",
+      "myriad:woodland_mansion_rare",
+      "myriad:echoing_hourglass_ancient_city",
+      "myriad:echoing_hourglass_badlands_temple",
+      "myriad:echoing_hourglass_desert_pyramid",
+      "myriad:echoing_hourglass_desert_well",
+      "myriad:echoing_hourglass_jungle_pyramid",
+      "myriad:echoing_hourglass_ocean_ruin_cold",
+      "myriad:echoing_hourglass_ocean_ruin_warm",
+      "myriad:echoing_hourglass_quarry_remnant",
+      "myriad:echoing_hourglass_refuge_remains",
+      "myriad:echoing_hourglass_trail_ruins",
+      "myriad:echoing_hourglass_trial_chambers",
+      "myriad:echoing_hourglass_woodland_mansion",
+      "myriad:echoing_hourglass_creaking_crypt",
+      "myriad:creaking_crypt_common",
+      "myriad:creaking_crypt_rare",
+      "myriad:creaking_crypt_grave"
     ],
     [
       "has_sherd",
-      "has_tcc_sherd"
+      "has_myriad_sherd"
     ]
   ],
   "sends_telemetry_event": true

@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/illager_template/arms_spellcasting/right/2",
-	"textures": {
-		"0": "tcc:entity/enchanter/arms_spellcasting/2"
-	}
-}

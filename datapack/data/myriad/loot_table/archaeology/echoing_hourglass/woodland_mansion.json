@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:archaeology/woodland_mansion/common",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:archaeology/woodland_mansion/rare",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/echoing_hourglass/woodland_mansion"
+}

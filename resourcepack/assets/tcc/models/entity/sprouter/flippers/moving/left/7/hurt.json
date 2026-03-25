@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/sprouter/flippers/moving/left/7/normal",
-	"textures": {
-		"0": "tcc:entity/sprouter/flippers/15_hurt"
-	}
-}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "myriad:item/locket_of_learning/filled_5"
+    }
+  }
+  

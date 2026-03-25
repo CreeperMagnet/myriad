@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/legs/right/-4",
+	"textures": {
+		"0": "myriad:entity/wandering_witch/legs/front/3"
+	}
+}

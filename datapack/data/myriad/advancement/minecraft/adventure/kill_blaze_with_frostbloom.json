@@ -1,0 +1,40 @@
+{
+  "parent": "myriad:minecraft/adventure/plant_frostbloom",
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.kill_blaze_with_frostbloom.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.kill_blaze_with_frostbloom.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}

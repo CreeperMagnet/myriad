@@ -22,14 +22,14 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:block/composter"
+                    "minecraft:item_model": "myriad:block/composter"
                   }
                 },
                 {
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "1"
                       ],
@@ -52,7 +52,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "2"
                       ],
@@ -75,7 +75,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "3"
                       ],
@@ -98,7 +98,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "4"
                       ],
@@ -121,7 +121,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "5"
                       ],
@@ -144,7 +144,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "6"
                       ],
@@ -167,7 +167,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "7"
                       ],
@@ -238,7 +238,7 @@
                   "function": "minecraft:set_lore",
                   "lore": [
                     {
-                      "translate": "block.tcc.filled_composter.compost_level",
+                      "translate": "block.myriad.filled_composter.compost_level",
                       "with": [
                         "7"
                       ],
@@ -251,7 +251,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:block/composter"
+                    "minecraft:item_model": "myriad:block/composter"
                   }
                 }
               ],

@@ -1,0 +1,104 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/all_directions",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/horizontal_bend_small",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/horizontal_bend",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/horizontal_corner",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/horizontal_small",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/horizontal_split_up",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/horizontal_split",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/vertical_corner",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/vertical_large",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/vertical_small",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:nether_gold_ore_vein/vertical_split",
+        "processors": "myriad:nether_gold_ore_vein",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

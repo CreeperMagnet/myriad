@@ -1,0 +1,104 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:witch_hat"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.use_witch_hat.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.use_witch_hat.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "myriad:minecraft/adventure/wandering_witch_trade",
+  "criteria": {
+    "kill_normal_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/witch_hat_this"
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": [
+                "minecraft:breeze",
+                "minecraft:cave_spider",
+                "minecraft:creeper",
+                "minecraft:ghast",
+                "minecraft:magma_cube",
+                "minecraft:phantom",
+                "minecraft:rabbit",
+                "minecraft:spider",
+                "minecraft:witch"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"smithed.entity\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kill_geomancer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/witch_hat_this"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"myriad.geomancer\"]}"
+        }
+      }
+    },
+    "kill_glow_lichen_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/witch_hat_this"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"myriad.glow_lichen_zombie\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_normal_mob",
+      "kill_geomancer",
+      "kill_glow_lichen_zombie"
+    ]
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "myriad:ruins_explorer_map_located/ocean_ruin_warm",
+              "decoration": "minecraft:target_point",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 9393207
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.ruins_explorer_map"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"ruins_explorer_map\",destination:\"ocean_ruin_warm\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.myriad.ruins_explorer_map.destination_lore",
+                  "with": [
+                    {
+                      "translate": "item.myriad.ruins_explorer_map.destination_lore.ocean_ruin_warm"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/ruins_explorer_map/ocean_ruin_warm"
+}

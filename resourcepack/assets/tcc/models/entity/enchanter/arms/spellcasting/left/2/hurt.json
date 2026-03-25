@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/enchanter/arms/spellcasting/left/2/normal",
-	"textures": {
-		"0": "tcc:entity/enchanter/arms_spellcasting/2_hurt"
-	}
-}

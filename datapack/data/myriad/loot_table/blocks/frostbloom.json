@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#count"
+        },
+        "score": "myriad.dummy"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/frostbloom"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:blocks/frostbloom"
+}

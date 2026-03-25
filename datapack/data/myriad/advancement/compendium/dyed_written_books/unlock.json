@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:written_book","minecraft:writable_book"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/dyed_written_books/from_advancement"}}

@@ -37,12 +37,12 @@
               "condition": "minecraft:location_check",
               "predicate": {
                 "structures": [
-                  "tcc:tundra_keep"
+                  "myriad:tundra_keep"
                 ]
               }
             }
           ],
-          "value": "tcc:items/frostbloom"
+          "value": "myriad:items/frostbloom"
         }
       ],
       "rolls": 1

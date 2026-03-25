@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\uc000": -138,
+        "\uc003": -169
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "myriad:gui/pottery_table/recipe_book.png",
+      "ascent": 13,
+      "height": 133,
+      "chars": [
+        "\uc001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "myriad:gui/pottery_table/main.png",
+      "ascent": 13,
+      "height": 176,
+      "chars": [
+        "\uc002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#myriad:enchanter_affected"
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/is_affected_by_enchanter"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/enchanter/hit_enchanted_illager/advancement"
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
+}

@@ -1,7 +1,0 @@
-{
-	"parent": "tcc:block/decorated_pot/template_side/south",
-	"textures": {
-		"0": "tcc:block/decorated_pot/prismarine/side/blank",
-		"particle": "tcc:block/decorated_pot/prismarine/side/blank"
-	}
-}

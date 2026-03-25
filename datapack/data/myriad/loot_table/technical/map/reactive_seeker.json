@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "destination": "myriad:reactive_seeker_located",
+              "function": "minecraft:exploration_map",
+              "decoration": "minecraft:target_point",
+              "zoom": 1,
+              "skip_existing_chunks": true,
+              "search_radius": 150
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"reactive_seeker_map\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:reactive_seeker/main"
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:technical/map/reactive_seeker"
+}

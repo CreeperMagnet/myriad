@@ -3,18 +3,18 @@
     {
       "type": "paletted_permutations",
       "textures": [
-        "tcc:trims/entity/humanoid/barren",
-        "tcc:trims/entity/humanoid_leggings/barren",
-        "tcc:trims/entity/humanoid/aurora",
-        "tcc:trims/entity/humanoid_leggings/aurora",
-        "tcc:trims/entity/humanoid/crystalline",
-        "tcc:trims/entity/humanoid_leggings/crystalline",
-        "tcc:trims/entity/humanoid/remnant",
-        "tcc:trims/entity/humanoid_leggings/remnant",
-        "tcc:trims/entity/humanoid/interloper",
-        "tcc:trims/entity/humanoid_leggings/interloper",
-        "tcc:trims/entity/humanoid/dusk",
-        "tcc:trims/entity/humanoid_leggings/dusk"
+        "myriad:trims/entity/humanoid/barren",
+        "myriad:trims/entity/humanoid_leggings/barren",
+        "myriad:trims/entity/humanoid/aurora",
+        "myriad:trims/entity/humanoid_leggings/aurora",
+        "myriad:trims/entity/humanoid/crystalline",
+        "myriad:trims/entity/humanoid_leggings/crystalline",
+        "myriad:trims/entity/humanoid/remnant",
+        "myriad:trims/entity/humanoid_leggings/remnant",
+        "myriad:trims/entity/humanoid/interloper",
+        "myriad:trims/entity/humanoid_leggings/interloper",
+        "myriad:trims/entity/humanoid/dusk",
+        "myriad:trims/entity/humanoid_leggings/dusk"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {

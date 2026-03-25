@@ -6,27 +6,27 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/idol",
+          "value": "myriad:items/pottery_sherd/prismarine/idol",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/pickle",
+          "value": "myriad:items/pottery_sherd/prismarine/pickle",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/reef",
+          "value": "myriad:items/pottery_sherd/prismarine/reef",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/turtle",
+          "value": "myriad:items/pottery_sherd/prismarine/turtle",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/prismarine/voyager",
+          "value": "myriad:items/pottery_sherd/prismarine/voyager",
           "weight": 2
         },
         {

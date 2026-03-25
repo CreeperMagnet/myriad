@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "#north",
+    "north": "myriad:block/creaking_connector/side_off",
+    "south": "myriad:block/creaking_connector/side_off",
+    "east": "myriad:block/creaking_connector/side_off",
+    "west": "myriad:block/creaking_connector/side_off",
+    "up": "myriad:block/creaking_connector/top_off",
+    "down": "myriad:block/creaking_connector/top_off"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Gary",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "myriad:item/snail_bucket/gary"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "myriad:item/snail_bucket/gary_baby"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "brown",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/brown"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/brown_baby"
+            }
+          }
+        },
+        {
+          "when": "black",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/black"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/black_baby"
+            }
+          }
+        },
+        {
+          "when": "yellow",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/yellow"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/yellow_baby"
+            }
+          }
+        },
+        {
+          "when": "spiral",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/spiral"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/spiral_baby"
+            }
+          }
+        },
+        {
+          "when": "light_blue",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/light_blue"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/light_blue_baby"
+            }
+          }
+        },
+        {
+          "when": "skull",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/skull"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:item/snail_bucket/skull_baby"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

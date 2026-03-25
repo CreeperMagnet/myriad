@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "myriad:badlands_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 61294861,
+    "spacing": 32,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

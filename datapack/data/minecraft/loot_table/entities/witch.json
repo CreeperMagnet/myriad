@@ -32,7 +32,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -67,7 +67,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -102,7 +102,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -161,7 +161,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -231,7 +231,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -271,7 +271,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "tcc:items/witch_hat"
+          "value": "myriad:items/witch_hat"
         }
       ]
     }

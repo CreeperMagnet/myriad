@@ -1,0 +1,2 @@
+advancement grant @s[tag=myriad.unlockable_compendium] only myriad:compendium/cracked_deepslate_tile_recipes/toast
+function myriad:item/compendium/unlock/entries/cracked_deepslate_tile_recipes/unlock

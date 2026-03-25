@@ -1,0 +1,40 @@
+{
+  "parent": "myriad:minecraft/adventure/enter_tundra_keep",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:frostbloom"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.plant_frostbloom.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.plant_frostbloom.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

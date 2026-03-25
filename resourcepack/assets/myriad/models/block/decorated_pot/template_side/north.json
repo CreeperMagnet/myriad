@@ -1,0 +1,16 @@
+{
+	"parent": "myriad:block/decorated_pot/template_base",
+	"textures": {
+		"0": "myriad:block/decorated_pot/nether_brick/side/blank",
+		"particle": "myriad:block/decorated_pot/nether_brick/side/blank"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 16, 1],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#0"}
+			}
+		}
+	]
+}

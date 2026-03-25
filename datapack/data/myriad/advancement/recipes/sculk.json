@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:sculk"
+    ]
+  },
+  "criteria": {
+    "has_sculk_vein": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_vein"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:sculk"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sculk_vein",
+      "has_the_recipe"
+    ]
+  ]
+}

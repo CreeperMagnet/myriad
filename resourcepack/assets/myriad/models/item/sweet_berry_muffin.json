@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "myriad:item/sweet_berry_muffin",
+        "particle": "myriad:item/sweet_berry_muffin"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "myriad:block/pottery_table/front",
+    "north": "myriad:block/pottery_table/front",
+    "south": "myriad:block/pottery_table/front",
+    "east": "myriad:block/pottery_table/side",
+    "west": "myriad:block/pottery_table/side",
+    "up": "myriad:block/pottery_table/top",
+    "down": "myriad:block/pottery_table/bottom"
+  }
+}

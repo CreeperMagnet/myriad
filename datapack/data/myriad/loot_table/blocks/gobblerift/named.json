@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "CustomName",
+                "entity": "@s",
+                "interpret": true
+              }
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "item.components.\"minecraft:custom_data\".id",
+                  "target": "myriad.gobblerift_id",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.myriad.riftjuice_bottle.lore.id",
+                  "with": [
+                    {
+                      "nbt": "item.components.\"minecraft:custom_data\".id",
+                      "entity": "@s",
+                      "plain": true
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "value": "myriad:items/gobblerift"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:blocks/gobblerift"
+}

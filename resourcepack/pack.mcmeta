@@ -1,19 +1,19 @@
 {
   "pack": {
-    "pack_format": 75,
-    "min_format": 75,
-    "max_format": 75,
+    "pack_format": 84,
+    "min_format": 84,
+    "max_format": 84,
     "description": [
       {
-        "text": "The Creeper's Code",
-        "color": "#008725"
+        "text": "Myriad",
+        "color": "#800090"
       },
       {
         "text": "\n"
       },
       {
         "text": "DEV VERSION DON'T DISTRIBUTE",
-        "color": "green"
+        "color": "light_purple"
       }
     ]
   }

@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"dusk_armor_trim_smithing_template\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "myriad:dusk_armor_trim_smithing_template"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "trim_pattern.myriad.dusk"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.minecraft.smithing_template",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "item.minecraft.smithing_template.applies_to",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "item.minecraft.smithing_template.armor_trim.applies_to",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.minecraft.smithing_template.ingredients",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "item.minecraft.smithing_template.armor_trim.ingredients",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:test_block"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/dusk_armor_trim_smithing_template"
+}

@@ -1,0 +1,212 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/blank",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/raised_shelf/flower_pots",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/raised_shelf/pots",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/raised_shelf/flower_pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/raised_shelf/pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/shelf/candle",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/shelf/candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/shelf/flower_pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/shelf/pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/candle",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/flower_pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/flower_pot_and_candle",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/flower_pots_and_candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/pot_and_candle",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/altar/pots_and_candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/table/candle",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/table/candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/table/flower_pot_and_candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/table/flower_pot",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/table/pot_and_candles",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "myriad:creaking_crypt/basement/wall/corner/table/pots",
+        "processors": "myriad:creaking_crypt/basement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

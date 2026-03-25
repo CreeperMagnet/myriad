@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:white_tulip","minecraft:magenta_dye","minecraft:purple_dye"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/consistent_dye_recipes/from_advancement"}}

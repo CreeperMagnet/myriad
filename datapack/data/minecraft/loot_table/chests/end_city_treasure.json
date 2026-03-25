@@ -70,7 +70,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/gobblerift_seeds",
+          "value": "myriad:items/gobblerift_seeds",
           "weight": 5
         },
         {

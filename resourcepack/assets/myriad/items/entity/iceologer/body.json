@@ -1,0 +1,602 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:local_time",
+    "pattern": "MM-dd",
+    "cases": [
+      {
+        "when": [
+          "12-24",
+          "12-25",
+          "12-26"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "myriad:entity/iceologer/santa/body/normal"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "myriad:entity/iceologer/santa/body/hurt"
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "index": 2,
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/arms/crossed/normal"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/arms/spellcasting/normal"
+                }
+              },
+              "on_true": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "index": 2,
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/arms/crossed/hurt"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/arms/spellcasting/hurt"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/legs/static/normal"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/legs/static/hurt"
+                }
+              },
+              "on_true": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "on_false": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-4/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-3/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-2/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-1/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/0/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/1/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/2/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/3/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/4/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-4/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-3/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-2/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-1/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/0/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/1/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/2/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/3/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/4/normal"
+                    }
+                  ]
+                },
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-4/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-3/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-2/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/-1/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/0/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/1/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/2/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/3/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/left/4/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-4/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-3/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-2/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/-1/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/0/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/1/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/2/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/3/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/legs/right/4/hurt"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/cape/static/normal"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/santa/cape/static/hurt"
+                }
+              },
+              "on_true": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "on_false": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/0/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/1/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/2/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/3/normal"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/4/normal"
+                    }
+                  ]
+                },
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/0/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/1/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/2/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/3/hurt"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "myriad:entity/iceologer/santa/cape/moving/4/hurt"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "myriad:entity/iceologer/body/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "myriad:entity/iceologer/body/hurt"
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "index": 2,
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/arms/crossed/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/arms/spellcasting/normal"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "index": 2,
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/arms/crossed/hurt"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/arms/spellcasting/hurt"
+            }
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/legs/static/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/legs/static/hurt"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-4/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-3/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-2/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-1/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/0/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/1/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/2/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/3/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/4/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-4/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-3/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-2/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-1/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/0/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/1/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/2/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/3/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/4/normal"
+                }
+              ]
+            },
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-4/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-3/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-2/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/-1/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/0/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/1/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/2/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/3/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/left/4/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-4/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-3/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-2/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/-1/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/0/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/1/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/2/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/3/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/legs/right/4/hurt"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/cape/static/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/iceologer/cape/static/hurt"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/0/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/1/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/2/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/3/normal"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/4/normal"
+                }
+              ]
+            },
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/0/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/1/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/2/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/3/hurt"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "myriad:entity/iceologer/cape/moving/4/hurt"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

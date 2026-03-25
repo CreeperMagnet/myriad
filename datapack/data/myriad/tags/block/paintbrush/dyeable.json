@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#minecraft:shulker_boxes",
+    "#minecraft:wool_carpets",
+    "#minecraft:beds",
+    "#minecraft:wool",
+    "#minecraft:concrete_powder",
+    "#minecraft:candles",
+    "#myriad:candle_cakes",
+    "#myriad:concrete",
+    "#myriad:glazed_terracotta",
+    "#myriad:terracotta",
+    "#myriad:glass",
+    "#myriad:glass_panes"
+  ]
+}

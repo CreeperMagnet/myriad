@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_model": "myriad:riftjuice_bottle",
+        "minecraft:potion_contents": {
+          "custom_color": 16777215
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.end.drink_riftjuice.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.end.drink_riftjuice.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "myriad:minecraft/end/feed_gobblerift",
+  "criteria": {
+    "drank_riftjuice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"riftjuice_bottle\"}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drank_riftjuice"
+    ]
+  ]
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/illager_template/cape/moving/2",
-	"textures": {
-		"0": "tcc:entity/enchanter/cape/2"
-	}
-}

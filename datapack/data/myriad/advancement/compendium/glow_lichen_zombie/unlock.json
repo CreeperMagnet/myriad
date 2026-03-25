@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"deepslate_layer":{"trigger":"minecraft:enter_block","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"position":{"y":{"max":-10}}}}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/glow_lichen_zombie/from_advancement"}}

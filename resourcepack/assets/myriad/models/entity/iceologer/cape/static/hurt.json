@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/iceologer/cape/static/normal",
+	"textures": {
+		"0": "myriad:entity/iceologer/main_hurt"
+	}
+}

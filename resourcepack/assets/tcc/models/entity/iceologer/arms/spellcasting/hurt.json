@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/iceologer/arms/spellcasting/normal",
-	"textures": {
-		"0": "tcc:entity/iceologer/main_hurt"
-	}
-}

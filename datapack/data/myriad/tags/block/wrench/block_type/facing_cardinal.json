@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#minecraft:anvil",
+    "#minecraft:beehives",
+    "#myriad:glazed_terracotta",
+    "#myriad:furnaces",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:stonecutter",
+    "minecraft:loom",
+    "minecraft:grindstone",
+    "minecraft:lectern",
+    "minecraft:comparator",
+    "minecraft:chiseled_bookshelf"
+  ]
+}

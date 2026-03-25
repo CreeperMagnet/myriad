@@ -1,0 +1,25 @@
+{
+  "category": "equipment",
+  "type": "minecraft:crafting_transmute",
+  "input": "minecraft:written_book",
+  "material": "minecraft:red_dye",
+  "result": {
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:item_model": "myriad:dyed_book/red",
+      "minecraft:item_name": {
+        "translate": "item.myriad.dyed_written_book.red"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:enchantment_glint_override": false
+    }
+  },
+  "group": "myriad:dye_written_book"
+}

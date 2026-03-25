@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "myriad:item/dyed_compass/base/light",
+		"layer1": "myriad:item/dyed_compass/overlay/19_light_gray"
+	}
+}

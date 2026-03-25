@@ -1,2 +1,0 @@
-data modify storage tcc:temp root.start_injection set value {entry_name:"sculk_recipe",list:[{page:6,length:349,injection:"tccc.entry.sculk_recipe.title\"}},translate:\"tccc.icon.spacer\",click_event:{action:\"change_page\",page:210}},{color:\"white\",font:\"tcc.compendium:icons\",translate:\"tccc.icon.item.minecraft:sculk\",click_event:{action:\"change_page\",page:210},hover_event:{action:\"show_text\",value:{translate:\"tccc.entry.sculk_recipe.title\"}}",name:"sculk_recipe0"}]}
-function tcc:item/compendium/unlock/inject/main with storage tcc:temp root.start_injection

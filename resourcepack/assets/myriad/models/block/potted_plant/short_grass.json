@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:block/potted_plant/template_tinted",
+	"textures": {
+		"cross": "myriad:block/potted_plant/short_grass"
+	}
+}

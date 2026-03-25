@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:block/gobblerift/digesting",
-	"textures": {
-		"1": "tcc:block/gobblerift_hurt"
-	}
-}

@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "myriad:entity/sprouter/adult/head/normal"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "myriad:entity/sprouter/adult/head/hurt"
+    }
+  }
+}

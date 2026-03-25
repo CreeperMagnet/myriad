@@ -1,0 +1,644 @@
+{
+  "type": "minecraft:multi_action",
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  },
+  "actions": [
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.expressionless.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 2"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.expressionless"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.happy.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 3"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.happy"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.laughing.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 4"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.laughing"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.crazy.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 5"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.crazy"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.cool.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 6"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.cool"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.fancy.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 7"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.fancy"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.confused.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 8"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.confused"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.staring.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 9"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.staring"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.flushed.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 10"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.flushed"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.pleading.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 11"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.pleading"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.sad.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 12"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.sad"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.sobbing.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 13"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.sobbing"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.scared.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 14"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.scared"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.queasy.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 15"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.queasy"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.angry.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 16"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.angry"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.eye_roll.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 17"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.eye_roll"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.smirk.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 18"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.smirk"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.imp.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 19"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.imp"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.hollow.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 20"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.hollow"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.mindblown.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 21"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.mindblown"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.love.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 22"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.love"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.sleepy.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 23"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.sleepy"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.nerd.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 24"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.nerd"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.clown.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 25"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.clown"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.thumbs_up.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 26"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.thumbs_up"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.thumbs_down.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 27"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.thumbs_down"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.shrug.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 28"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.shrug"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.facepalm.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 29"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.facepalm"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.works_as_intended.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 30"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.works_as_intended"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.dab.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 31"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.dab"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.troll.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 32"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.troll"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.zombified.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 33"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.zombified"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.illager.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 34"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.illager"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.spooky.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 35"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.spooky"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.alien.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 36"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.alien"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.creeper.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 37"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.creeper"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.skull.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 38"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.skull"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.fire.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 39"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.fire"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.sparkles.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 40"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.sparkles"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.food.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 41"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.food"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.pickaxe.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 42"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.pickaxe"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "font": "myriad:emoji",
+        "translate": "chat.myriad.emoji.sword.icon",
+        "shadow_color": 0
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger myriad.emoji set 43"
+      },
+      "tooltip": {
+        "translate": "chat.myriad.emoji.sword"
+      },
+      "width": 20
+    }
+  ],
+  "title": "Emoji",
+  "can_close_with_escape": true,
+  "columns": 6
+}

@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "use_pig_spawn_egg": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:pig_spawn_egg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "use_witch_spawn_egg": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:witch_spawn_egg"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_pig_spawn_egg",
+      "use_witch_spawn_egg"
+    ]
+  ],
+  "rewards": {
+    "function": "myriad:entity/converted_mobs/spawn_egg_fix"
+  },
+  "parent": "myriad:technical/root"
+}

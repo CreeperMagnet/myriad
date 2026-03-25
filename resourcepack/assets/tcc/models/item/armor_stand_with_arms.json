@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "tcc:item/armor_stand_with_arms",
-        "particle": "tcc:item/armor_stand_with_arms"
-    }
-}

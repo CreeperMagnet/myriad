@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "ate_rotten_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"rotten_porkchop\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/rotten_porkchop/eat"
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "ate_rotten_porkchop"
+    ]
+  ]
+}

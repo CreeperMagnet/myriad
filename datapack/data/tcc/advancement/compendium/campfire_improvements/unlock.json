@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:campfire","minecraft:soul_campfire"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/campfire_improvements/from_advancement"}}

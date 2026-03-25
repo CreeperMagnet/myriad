@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-      "layer0": "tcc:item/locket_of_learning/filled_2"
-    }
-  }
-  

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/player/initiate",
+    "recipes": [
+      "myriad:compendium"
+    ]
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

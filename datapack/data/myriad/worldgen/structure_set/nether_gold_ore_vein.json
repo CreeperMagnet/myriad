@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "myriad:nether_gold_ore_vein",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1016801,
+    "spacing": 50,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "myriad:temp"
+              },
+              "ops": [
+                {
+                  "source": "root.id",
+                  "target": "myriad.riftjuice_id",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"riftjuice_bottle\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:riftjuice_bottle",
+                "minecraft:rarity": "uncommon",
+                "minecraft:consumable": {
+                  "animation": "drink",
+                  "has_consume_particles": false,
+                  "sound": "minecraft:entity.generic.drink"
+                },
+                "minecraft:food": {
+                  "can_always_eat": true,
+                  "nutrition": 0,
+                  "saturation": 0
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle"
+                },
+                "minecraft:max_stack_size": 16
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.riftjuice_bottle"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.myriad.riftjuice_bottle.lore.id",
+                  "with": [
+                    {
+                      "nbt": "root.id",
+                      "storage": "myriad:temp",
+                      "plain": true
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:technical/riftjuice_bottle/unnamed"
+}

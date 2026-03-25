@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/iceologer/santa/legs/left/-1/normal",
+	"textures": {
+		"0": "myriad:entity/iceologer/santa/legs/back/0_hurt"
+	}
+}

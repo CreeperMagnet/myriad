@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:block/flower_pot/template",
+	"textures": {
+		"0": "myriad:block/flower_pot/prismarine"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "myriad.dummy"
+              }
+            }
+          ],
+          "value": "myriad:items/compendium"
+        }
+      ]
+    }
+  ]
+}

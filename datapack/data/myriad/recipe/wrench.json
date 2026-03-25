@@ -1,0 +1,40 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    "I I",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:wrench",
+      "minecraft:damage": 0,
+      "minecraft:max_damage": 200,
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "wrench"
+        }
+      },
+      "minecraft:repairable": {
+        "items": "#myriad:repair_items/wrench"
+      },
+      "minecraft:item_name": {
+        "translate": "item.myriad.wrench"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ]
+    }
+  }
+}

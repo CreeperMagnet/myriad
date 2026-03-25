@@ -84,7 +84,7 @@
               "condition": "minecraft:random_chance"
             }
           ],
-          "value": "tcc:items/heartbeet"
+          "value": "myriad:items/heartbeet"
         }
       ],
       "rolls": 1.0

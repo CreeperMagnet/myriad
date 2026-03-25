@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "ate_resin_candy_at_night": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"resin_candy\"}}"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:time_check/night"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:location_check/in_overworld"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/resin_candy"
+  },
+  "requirements": [
+    [
+      "ate_resin_candy_at_night"
+    ]
+  ]
+}

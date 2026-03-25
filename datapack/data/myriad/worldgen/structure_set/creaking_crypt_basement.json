@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "myriad:creaking_crypt_basement",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 91827869,
+    "separation": 8,
+    "spacing": 9,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_1",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_2",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_3",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_4",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_5",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_6",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/small_house_7",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/medium_house_1",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/medium_house_2",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/medium_house_3",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/big_house",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/butcher",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/toolsmith",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/fletcher",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/shepherd",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/armorer",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/fisherman",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/leatherworker",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/cartographer",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/librarian",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/mason",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/weaponsmith",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/cleric",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/farm_1",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/farm_2",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/snail_pen_1",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/zombie/houses/snail_pen_2",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/mangrove_swamp/houses/archaeologist",
+        "processors": "myriad:village/mangrove_swamp/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "myriad:village/mangrove_swamp/terminators"
+}

@@ -1,0 +1,37 @@
+{
+  "category": "misc",
+  "group": "armor_stand",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:armor_stand"
+  ],
+  "result": {
+    "id": "minecraft:armor_stand",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:armor_stand_with_arms",
+      "minecraft:entity_data": {
+        "ShowArms": true,
+        "Tags": [
+          "myriad.armor_stand_with_arms"
+        ],
+        "id": "minecraft:armor_stand"
+      },
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "armor_stand_with_arms"
+        }
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ]
+    }
+  }
+}

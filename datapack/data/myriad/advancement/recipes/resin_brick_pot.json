@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:resin_brick_pot"
+    ]
+  },
+  "criteria": {
+    "has_resin_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:resin_brick"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:resin_brick_pot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_resin_brick",
+      "has_the_recipe"
+    ]
+  ]
+}

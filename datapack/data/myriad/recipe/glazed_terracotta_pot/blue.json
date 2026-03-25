@@ -1,0 +1,67 @@
+{
+  "category": "building",
+  "group": "myriad:glazed_terracotta_pot",
+  "type": "crafting_shaped",
+  "pattern": [
+    " T ",
+    "T T",
+    " T "
+  ],
+  "key": {
+    "T": "minecraft:blue_glazed_terracotta"
+  },
+  "result": {
+    "id": "minecraft:decorated_pot",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:block/glazed_terracotta_pot",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "blue"
+        ]
+      },
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "decorated_pot",
+          "type": "glazed_terracotta",
+          "color": "blue",
+          "custom_block": true,
+          "sherds": [
+            {
+              "id": "minecraft:blue_glazed_terracotta"
+            },
+            {
+              "id": "minecraft:blue_glazed_terracotta"
+            },
+            {
+              "id": "minecraft:blue_glazed_terracotta"
+            },
+            {
+              "id": "minecraft:blue_glazed_terracotta"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {"translate":"block.myriad.glazed_terracotta_pot.blue"},
+      "minecraft:pot_decorations": [
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:air"
+      ],
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:pot_decorations"
+        ]
+      }
+    }
+  }
+}

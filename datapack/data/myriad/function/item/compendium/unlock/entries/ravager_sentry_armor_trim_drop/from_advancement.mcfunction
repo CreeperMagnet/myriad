@@ -1,0 +1,2 @@
+advancement grant @s[tag=myriad.unlockable_compendium] only myriad:compendium/ravager_sentry_armor_trim_drop/toast
+function myriad:item/compendium/unlock/entries/ravager_sentry_armor_trim_drop/unlock

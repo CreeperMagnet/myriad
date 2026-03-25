@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"witch_hat\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:witch_hat",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "amount": 3,
+                    "slot": "head",
+                    "id": "myriad:witch_hat_armor",
+                    "operation": "add_value",
+                    "type": "minecraft:armor",
+                    "display": {
+                      "type": "default"
+                    }
+                  }
+                ],
+                "minecraft:rarity": "uncommon",
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 200,
+                "minecraft:equippable": {
+                  "equip_sound": {
+                    "sound_id": "myriad:item.armor.equip_witch_hat"
+                  },
+                  "slot": "head"
+                },
+                "minecraft:repairable": {
+                  "items": "#myriad:repair_items/witch_hat"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.witch_hat"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/witch_hat"
+}

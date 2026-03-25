@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/arms_spellcasting/right/-2",
+	"textures": {
+		"0": "myriad:entity/enchanter/arms_spellcasting/-2"
+	}
+}

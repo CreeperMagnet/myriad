@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/enchanter/legs/left/1/normal",
+	"textures": {
+		"0": "myriad:entity/enchanter/legs/front/0_hurt"
+	}
+}

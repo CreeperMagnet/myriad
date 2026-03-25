@@ -1,0 +1,35 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:iron_horse_armor"
+    ]
+  },
+  "criteria": {
+    "has_iron_ingot_or_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:saddle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:iron_horse_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_ingot_or_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

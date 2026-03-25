@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:block/nether_reactor_core",
+        "minecraft:custom_model_data": {
+          "flags": [
+            true
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.nether.nether_reactor.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.nether.nether_reactor.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "activate_nether_reactor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "activate_nether_reactor"
+    ]
+  ]
+}

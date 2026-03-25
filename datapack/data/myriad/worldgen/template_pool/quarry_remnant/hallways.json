@@ -1,0 +1,167 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/vertical/archaeology",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 30
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/vertical/magma_cube_spawner",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 40
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/vertical/crumbled_bridge",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 90
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/vertical/magma_cube_t",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 60
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/straight/lava_spill",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 60
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/straight/quarry",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 90
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/straight/broken_bridge_magma_cube_spawner",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 90
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/straight/magma_cube_chamber",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 60
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/straight/archaeology",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 30
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/cross/lodestone",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/cross/lava_pool",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 30
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/cross/crimson_nylium",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 30
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/corner/plain",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 150
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/corner/lava_spill",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/t/loot",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 40
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/t/plain",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 40
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/end",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:quarry_remnant/hallways/small_end",
+        "processors": "myriad:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "myriad:quarry_remnant/hallway_fallback"
+}

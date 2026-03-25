@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "place_hopper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/hopper_updating/advancement"
+  },
+  "requirements": [
+    [
+      "place_hopper"
+    ]
+  ]
+}

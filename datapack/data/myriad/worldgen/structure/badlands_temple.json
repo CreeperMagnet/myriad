@@ -1,0 +1,16 @@
+{
+  "use_expansion_hack": false,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 20,
+  "size": 7,
+  "start_height": {
+    "absolute": 0
+  },
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "myriad:badlands_temple/connector",
+  "biomes": "#myriad:has_structure/badlands_temple",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw",
+  "liquid_settings": "ignore_waterlogging"
+}

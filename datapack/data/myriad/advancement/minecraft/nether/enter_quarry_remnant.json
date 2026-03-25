@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.nether.enter_quarry_remnant.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.nether.enter_quarry_remnant.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "frame": "task"
+  },
+  "parent": "myriad:minecraft/nether/reactive_seeker",
+  "criteria": {
+    "enter_quarry_remnant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "myriad:quarry_remnant"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enter_quarry_remnant"
+    ]
+  ]
+}

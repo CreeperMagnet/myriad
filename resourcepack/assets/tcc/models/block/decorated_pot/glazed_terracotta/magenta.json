@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:block/decorated_pot/glazed_terracotta/template",
-	"textures": {
-		"0": "tcc:block/decorated_pot/glazed_terracotta/magenta"
-	}
-}

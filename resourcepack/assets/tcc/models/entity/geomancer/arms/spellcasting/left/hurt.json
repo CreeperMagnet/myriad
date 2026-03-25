@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/geomancer/arms/spellcasting/left/normal",
-	"textures": {
-		"0": "tcc:entity/geomancer/main_hurt"
-	}
-}

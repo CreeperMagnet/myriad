@@ -1,0 +1,27 @@
+{
+	"textures": {
+		"0": "myriad:entity/sprouter/baby/flippers/0",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [9, 5, 6],
+			"to": [12, 8, 10],
+			"faces": {
+				"north": {"uv": [7, 4, 4, 7], "texture": "#0"},
+				"east": {"uv": [11, 4, 7, 7], "texture": "#0"},
+				"south": {"uv": [11, 4, 14, 7], "texture": "#0"},
+				"west": {"uv": [4, 4, 0, 7], "texture": "#0"},
+				"up": {"uv": [4, 4, 7, 0], "texture": "#0"},
+				"down": {"uv": [7, 0, 10, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [-3.98, -13.595, -9.035],
+			"scale": [1.329, 1.329, 1.329]
+		}
+	}
+}

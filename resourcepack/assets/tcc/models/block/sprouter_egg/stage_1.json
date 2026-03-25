@@ -1,7 +1,0 @@
-{
-	"parent": "tcc:block/sprouter_egg/stage_0",
-	"textures": {
-		"0": "tcc:block/sprouter_egg/stage_1",
-		"particle": "tcc:block/sprouter_egg/stage_1"
-	}
-}

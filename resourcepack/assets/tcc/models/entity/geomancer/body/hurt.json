@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/geomancer/body/normal",
-	"textures": {
-		"0": "tcc:entity/geomancer/main_hurt"
-	}
-}

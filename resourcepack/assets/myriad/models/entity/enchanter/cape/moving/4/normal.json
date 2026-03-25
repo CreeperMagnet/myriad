@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/illager_template/cape/moving/4",
+	"textures": {
+		"0": "myriad:entity/enchanter/cape/4"
+	}
+}

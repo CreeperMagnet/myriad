@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/enchanter/head/normal",
+	"textures": {
+		"0": "myriad:entity/enchanter/main_hurt"
+	}
+}

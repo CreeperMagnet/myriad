@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:deepslate","minecraft:cobbled_deepslate","minecraft:deepslate_bricks","minecraft:deepslate_tiles"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/cracked_deepslate_tile_recipes/from_advancement"}}

@@ -27,15 +27,15 @@
       "weight": 1
     },
     {
-      "structure": "tcc:village_mangrove_swamp",
+      "structure": "myriad:village_mangrove_swamp",
       "weight": 1
     },
     {
-      "structure": "tcc:village_sparse_jungle",
+      "structure": "myriad:village_sparse_jungle",
       "weight": 1
     },
     {
-      "structure": "tcc:village_cherry_grove",
+      "structure": "myriad:village_cherry_grove",
       "weight": 1
     }
   ]

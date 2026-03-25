@@ -1,6 +1,0 @@
-{
-  "parent": "tcc:block/echoing_hourglass/template_powder/bottom",
-  "textures": {
-		"powder": "tcc:block/echoing_hourglass/gravel"
-  }
-}

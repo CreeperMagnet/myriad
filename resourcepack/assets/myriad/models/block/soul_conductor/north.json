@@ -1,0 +1,11 @@
+{
+  "parent": "myriad:block/soul_conductor/up",
+  "textures": {
+    "north": "minecraft:block/sculk",
+    "south": "myriad:block/soul_conductor/top",
+    "east": "myriad:block/soul_conductor/side/left",
+    "west": "myriad:block/soul_conductor/side/right",
+    "up": "myriad:block/soul_conductor/side/down",
+    "down": "myriad:block/soul_conductor/side/up"
+  }
+}

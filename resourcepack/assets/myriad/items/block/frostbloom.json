@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "myriad:block/frostbloom/grass"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "myriad:block/frostbloom/other"
+    }
+  }
+}

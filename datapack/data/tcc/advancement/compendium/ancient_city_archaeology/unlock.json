@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"structure":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structures":"minecraft:ancient_city"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/ancient_city_archaeology/from_advancement"}}

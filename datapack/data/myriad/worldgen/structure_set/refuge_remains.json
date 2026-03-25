@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "myriad:refuge_remains",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 83469867,
+    "separation": 8,
+    "spacing": 34
+  }
+}

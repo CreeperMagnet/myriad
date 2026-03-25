@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        }
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/cursed_crown/eat_golden_apple"
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "enchanted_golden_apple",
+      "golden_apple"
+    ]
+  ]
+}

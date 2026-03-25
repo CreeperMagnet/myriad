@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/archaeologist/arms/normal",
+	"textures": {
+		"0": "myriad:entity/archaeologist/hurt"
+	}
+}

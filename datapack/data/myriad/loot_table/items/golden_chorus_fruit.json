@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"golden_chorus_fruit\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:golden_chorus_fruit",
+                "minecraft:consumable": {
+                  "consume_seconds": 5.0
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 12,
+                  "can_always_eat": true
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 10,
+                  "cooldown_group": "myriad:golden_chorus_fruit"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.golden_chorus_fruit"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/golden_chorus_fruit"
+}

@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:fishing_rod_hooked"}},"rewards":{"function":"tcc:item/compendium/unlock/entries/fishing_treasure_particles/from_advancement"}}

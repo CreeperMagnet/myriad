@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"location":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"position":{"y":{"min":50}},"biomes":"#minecraft:is_jungle"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/jungle_temple_rework/from_advancement"}}

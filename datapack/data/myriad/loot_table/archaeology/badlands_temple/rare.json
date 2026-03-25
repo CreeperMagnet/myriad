@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/horror",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/riches",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/nether_brick/star",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/cursed_crown",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/badlands_temple/rare"
+}

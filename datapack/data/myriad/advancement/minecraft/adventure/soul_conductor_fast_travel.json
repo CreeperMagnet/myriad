@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:adventure/avoid_vibration",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:block/soul_conductor",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "up"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.soul_conductor_fast_travel.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.soul_conductor_fast_travel.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use_conductor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "requirements": [
+    [
+      "use_conductor"
+    ]
+  ]
+}

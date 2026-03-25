@@ -14,7 +14,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:cake"
+                    "minecraft:item_model": "myriad:cake"
                   }
                 },
                 {

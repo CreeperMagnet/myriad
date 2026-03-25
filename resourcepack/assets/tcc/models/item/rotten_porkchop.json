@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "tcc:item/rotten_porkchop",
-        "particle": "tcc:item/rotten_porkchop"
-    }
-}

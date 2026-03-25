@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"location":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structures":"#minecraft:ocean_ruin"}}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/ocean_ruin_archaeology_rework/from_advancement"}}

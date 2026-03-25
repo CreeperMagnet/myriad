@@ -1,0 +1,122 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/corner_1",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/corner_2",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/corner_3",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/straight_1",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/straight_2",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/straight_3",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/straight_4",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/straight_5",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/crossroad_1",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/crossroad_2",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/crossroad_3",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/crossroad_4",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/cherry_grove/zombie/streets/crossroad_5",
+        "processors": "myriad:village/cherry_grove/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "myriad:village/cherry_grove/terminators"
+}

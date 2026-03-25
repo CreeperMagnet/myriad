@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/iceologer/legs/right/2/normal",
-	"textures": {
-		"0": "tcc:entity/iceologer/legs/back/1_hurt"
-	}
-}

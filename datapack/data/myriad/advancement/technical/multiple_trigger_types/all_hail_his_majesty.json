@@ -1,0 +1,54 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "name_cat": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Mulligan"
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "use_spawn_egg": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:cat_spawn_egg"
+              ],
+              "components": {
+                "minecraft:custom_name": "Mulligan"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/mulligan/apply/advancement"
+  },
+  "requirements": [
+    [
+      "name_cat",
+      "use_spawn_egg"
+    ]
+  ]
+}

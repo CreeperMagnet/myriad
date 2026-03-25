@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:item/witch_hat/head",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": 0
+            }
+          ]
+        },
+        "when": "head"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "myriad:item/witch_hat/inventory",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -14306251
+        }
+      ]
+    }
+  }
+}

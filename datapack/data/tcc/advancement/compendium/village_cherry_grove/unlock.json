@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"position":{"y":{"min":50}},"biomes":"minecraft:cherry_grove"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/village_cherry_grove/from_advancement"}}

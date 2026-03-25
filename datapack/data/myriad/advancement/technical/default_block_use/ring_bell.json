@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ring_bell": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bell"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/illager/ring_bell"
+  },
+  "requirements": [
+    [
+      "ring_bell"
+    ]
+  ]
+}

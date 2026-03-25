@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/wandering_witch/legs/right/-3/normal",
+	"textures": {
+		"0": "myriad:entity/wandering_witch/legs/front/2_hurt"
+	}
+}

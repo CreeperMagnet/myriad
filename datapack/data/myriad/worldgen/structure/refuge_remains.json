@@ -1,0 +1,18 @@
+{
+  "use_expansion_hack": false,
+  "max_distance_from_center": 80,
+  "size": 7,
+  "terrain_adaptation": "bury",
+  "start_jigsaw_name": "myriad:anchor",
+  "start_height": {
+    "type": "minecraft:constant",
+    "value": {
+      "absolute": 25
+    }
+  },
+  "step": "underground_decoration",
+  "start_pool": "myriad:refuge_remains/tower_bottom",
+  "biomes": "#myriad:has_structure/refuge_remains",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw"
+}

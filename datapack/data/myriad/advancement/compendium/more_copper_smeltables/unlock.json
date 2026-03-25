@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"pick_up":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:copper_nugget","minecraft:copper_ingot","minecraft:spyglass","minecraft:trial_key","minecraft:ominous_trial_key"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/more_copper_smeltables/from_advancement"}}

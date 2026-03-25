@@ -1,0 +1,71 @@
+{
+  "category": "building",
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "B B",
+    " B "
+  ],
+  "key": {
+    "B": "minecraft:prismarine_shard"
+  },
+  "result": {
+    "id": "minecraft:decorated_pot",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:block/prismarine_pot",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "blank",
+          "blank",
+          "blank",
+          "blank"
+        ]
+      },
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "decorated_pot",
+          "type": "prismarine",
+          "custom_block": true,
+          "raw_pot": true,
+          "sherds": [
+            {
+              "id": "minecraft:prismarine_shard"
+            },
+            {
+              "id": "minecraft:prismarine_shard"
+            },
+            {
+              "id": "minecraft:prismarine_shard"
+            },
+            {
+              "id": "minecraft:prismarine_shard"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "block.myriad.prismarine_pot"
+      },
+      "minecraft:pot_decorations": [
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:air"
+      ],
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:pot_decorations"
+        ]
+      }
+    }
+  }
+}

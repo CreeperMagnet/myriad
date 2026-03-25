@@ -1,0 +1,2 @@
+advancement grant @s[tag=myriad.unlockable_compendium] only myriad:compendium/grouped_glazed_terracotta_recipes/toast
+function myriad:item/compendium/unlock/entries/grouped_glazed_terracotta_recipes/unlock

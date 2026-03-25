@@ -1,0 +1,210 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "probability": 0.2,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:pale_moss_carpet",
+              "Properties": {
+                "bottom": "true",
+                "east": "none",
+                "north": "none",
+                "west": "none",
+                "south": "none"
+              }
+            },
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:pale_moss_carpet",
+              "Properties": {
+                "bottom": "true",
+                "east": "low",
+                "north": "none",
+                "west": "none",
+                "south": "none"
+              }
+            },
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:pale_moss_carpet",
+              "Properties": {
+                "bottom": "true",
+                "east": "none",
+                "north": "low",
+                "west": "none",
+                "south": "none"
+              }
+            },
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:pale_moss_carpet",
+              "Properties": {
+                "bottom": "true",
+                "east": "none",
+                "north": "none",
+                "west": "low",
+                "south": "none"
+              }
+            },
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:pale_moss_carpet",
+              "Properties": {
+                "bottom": "true",
+                "east": "none",
+                "north": "none",
+                "west": "none",
+                "south": "low"
+              }
+            },
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:closed_eyeblossom"
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:pale_moss_carpet",
+              "Properties": {
+                "bottom": "true",
+                "east": "none",
+                "north": "none",
+                "west": "none",
+                "south": "none"
+              }
+            },
+            "probability": 0.04,
+            "predicate_type": "minecraft:random_blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "myriad:archaeology/creaking_crypt/common"
+            },
+            "input_predicate": {
+              "block": "minecraft:gravel",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 5,
+      "processor_type": "minecraft:capped"
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "myriad:archaeology/creaking_crypt/rare"
+            },
+            "input_predicate": {
+              "block": "minecraft:gravel",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 5,
+      "processor_type": "minecraft:capped"
+    }
+  ]
+}

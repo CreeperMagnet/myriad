@@ -1,0 +1,37 @@
+{
+  "category": "misc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:apple",
+    "minecraft:sugar",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:apple_pie",
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "apple_pie"
+        }
+      },
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 4.8
+      },
+      "minecraft:item_name": {
+        "translate": "item.myriad.apple_pie"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ]
+    }
+  }
+}

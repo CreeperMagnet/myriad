@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/sprouter/head/adult/normal",
-	"textures": {
-		"0": "tcc:entity/sprouter/head_hurt"
-	}
-}

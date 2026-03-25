@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#myriad:wrench/block_type/axis",
+    "#myriad:wrench/block_type/axis_waterloggable",
+    "#myriad:wrench/block_type/facing_all",
+    "#myriad:wrench/block_type/facing_all_waterloggable",
+    "#myriad:wrench/block_type/facing_all_triggerable",
+    "#myriad:wrench/block_type/facing_cardinal",
+    "#myriad:wrench/block_type/facing_cardinal_waterloggable",
+    "#myriad:wrench/block_type/rotation",
+    "#myriad:wrench/block_type/rotation_waterloggable",
+    "#myriad:wrench/block_type/segmented",
+    "#minecraft:rails",
+    "#minecraft:stairs",
+    "#minecraft:all_hanging_signs",
+    "minecraft:hopper",
+    "minecraft:crafter"
+  ]
+}

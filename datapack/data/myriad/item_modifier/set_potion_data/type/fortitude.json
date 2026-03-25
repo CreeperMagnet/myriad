@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 16738851,
+        "potion": "minecraft:mundane",
+        "custom_effects": [
+          {
+            "id": "minecraft:health_boost",
+            "amplifier": 0,
+            "duration": 3600
+          }
+        ],
+        "custom_name": "myriad:fortitude"
+      }
+    }
+  },
+  {
+    "function": "minecraft:reference",
+    "name": "myriad:add_tooltip_lore"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{myriad:{id:\"potion\",potion:{id:\"myriad:fortitude\",can_extend:1b,can_amplify:1b}}}"
+  }
+]

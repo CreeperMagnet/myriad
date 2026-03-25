@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "myriad:item/golden_chorus_fruit",
+    "particle": "myriad:item/golden_chorus_fruit"
+  }
+}

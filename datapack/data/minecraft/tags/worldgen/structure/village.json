@@ -1,7 +1,7 @@
 {
   "values": [
-    "tcc:village_mangrove_swamp",
-    "tcc:village_sparse_jungle",
-    "tcc:village_cherry_grove"
+    "myriad:village_mangrove_swamp",
+    "myriad:village_sparse_jungle",
+    "myriad:village_cherry_grove"
   ]
 }

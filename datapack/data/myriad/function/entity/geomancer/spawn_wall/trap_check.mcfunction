@@ -1,0 +1,7 @@
+# Traps a player using normal geomancer pillars
+
+execute if block ~ ~-1 ~ #myriad:opaque if block ~ ~ ~ #myriad:replaceable if block ~ ~1 ~ #myriad:replaceable if block ~ ~2 ~ #myriad:replaceable run function myriad:block/geomancer_pillars/normal/check_for_entity
+execute unless block ~ ~-1 ~ #myriad:opaque positioned ~ ~-1 ~ if block ~ ~-1 ~ #myriad:opaque if block ~ ~ ~ #myriad:replaceable if block ~ ~1 ~ #myriad:replaceable if block ~ ~2 ~ #myriad:replaceable run function myriad:block/geomancer_pillars/normal/check_for_entity
+execute unless block ~ ~-1 ~ #myriad:opaque unless block ~ ~-2 ~ #myriad:opaque positioned ~ ~-2 ~ if block ~ ~-1 ~ #myriad:opaque if block ~ ~ ~ #myriad:replaceable if block ~ ~1 ~ #myriad:replaceable if block ~ ~2 ~ #myriad:replaceable run function myriad:block/geomancer_pillars/normal/check_for_entity
+execute unless block ~ ~ ~ #myriad:replaceable positioned ~ ~1 ~ if block ~ ~-1 ~ #myriad:opaque if block ~ ~ ~ #myriad:replaceable if block ~ ~1 ~ #myriad:replaceable if block ~ ~2 ~ #myriad:replaceable run function myriad:block/geomancer_pillars/normal/check_for_entity
+execute unless block ~ ~ ~ #myriad:replaceable unless block ~ ~1 ~ #myriad:replaceable positioned ~ ~2 ~ if block ~ ~-1 ~ #myriad:opaque if block ~ ~ ~ #myriad:replaceable if block ~ ~1 ~ #myriad:replaceable if block ~ ~2 ~ #myriad:replaceable run function myriad:block/geomancer_pillars/normal/check_for_entity

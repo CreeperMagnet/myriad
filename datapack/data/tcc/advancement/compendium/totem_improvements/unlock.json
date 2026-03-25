@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"item":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:totem_of_undying"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/totem_improvements/from_advancement"}}

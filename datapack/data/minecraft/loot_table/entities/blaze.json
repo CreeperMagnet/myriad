@@ -15,7 +15,7 @@
               "predicate": {
                 "tags": [
                   {
-                    "id": "tcc:frostbloom_freeze",
+                    "id": "myriad:frostbloom_freeze",
                     "expected": true
                   }
                 ]

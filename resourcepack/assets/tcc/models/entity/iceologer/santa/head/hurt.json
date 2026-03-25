@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/iceologer/santa/head/normal",
-	"textures": {
-		"0": "tcc:entity/iceologer/santa/main_hurt"
-	}
-}

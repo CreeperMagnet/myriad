@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/illager_template/body",
-	"textures": {
-		"0": "tcc:entity/iceologer/santa/main"
-	}
-}

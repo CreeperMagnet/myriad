@@ -1,0 +1,42 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "wrench_armor_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "myriad:entity_properties/sneaking"
+            }
+          }
+        ],
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"wrench\"}}"
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armor_stand",
+              "nbt": "{Tags:[\"myriad.armor_stand_with_arms\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/wrench/armor_stand_poses/advancement"
+  },
+  "requirements": [
+    [
+      "wrench_armor_stand"
+    ]
+  ]
+}

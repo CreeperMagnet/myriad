@@ -1,0 +1,44 @@
+{
+  "parent": "myriad:minecraft/husbandry/shear_sprouter",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_model": "myriad:serum_of_sprouting",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane",
+          "custom_color": 16777215
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.husbandry.maximum_scale.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.husbandry.maximum_scale.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

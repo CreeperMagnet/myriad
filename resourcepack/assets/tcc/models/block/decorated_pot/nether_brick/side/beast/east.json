@@ -1,7 +1,0 @@
-{
-	"parent": "tcc:block/decorated_pot/template_side/east",
-	"textures": {
-		"0": "tcc:block/decorated_pot/nether_brick/side/beast",
-		"particle": "tcc:block/decorated_pot/nether_brick/side/beast"
-	}
-}

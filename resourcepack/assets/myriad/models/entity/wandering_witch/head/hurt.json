@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/wandering_witch/head/normal",
+	"textures": {
+		"0": "myriad:entity/wandering_witch/main_hurt"
+	}
+}

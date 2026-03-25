@@ -1,0 +1,55 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "myriad:block/potted_plant/chorus_flower",
+		"particle": "myriad:block/potted_plant/chorus_flower"
+	},
+	"elements": [
+		{
+			"from": [6, 6, 6],
+			"to": [10, 11, 10],
+			"faces": {
+				"north": {"uv": [4, 11, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 11, 4, 16], "texture": "#0"},
+				"south": {"uv": [12, 11, 16, 16], "texture": "#0"},
+				"west": {"uv": [8, 11, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 11, 5],
+			"to": [11, 17, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"west": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 11, 6],
+			"to": [11, 17, 10],
+			"faces": {
+				"north": {"uv": [10, 0, 16, 6], "texture": "#0"},
+				"south": {"uv": [10, 0, 16, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 11, 5],
+			"to": [10, 17, 11],
+			"faces": {
+				"east": {"uv": [10, 0, 16, 6], "texture": "#0"},
+				"west": {"uv": [10, 0, 16, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 12, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"up": {"uv": [10, 0, 16, 6], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10, 0, 16, 6], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "tcc:item/glow_berry_muffin",
-        "particle": "tcc:item/glow_berry_muffin"
-    }
-}

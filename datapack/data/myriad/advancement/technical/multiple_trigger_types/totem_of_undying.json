@@ -1,0 +1,57 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem"
+    },
+    "took_void_damage_with_totem_and_no_levitation": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "myriad:totem_out_of_bounds",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.*": {
+                  "items": "minecraft:totem_of_undying"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:levitation": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_totem",
+      "took_void_damage_with_totem_and_no_levitation"
+    ]
+  ],
+  "rewards": {
+    "function": "myriad:item/totem_of_undying/trigger"
+  }
+}

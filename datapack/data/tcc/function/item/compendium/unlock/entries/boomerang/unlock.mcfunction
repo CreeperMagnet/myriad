@@ -1,2 +1,0 @@
-data modify storage tcc:temp root.start_injection set value {entry_name:"boomerang",list:[{page:1,length:341,injection:"item.tcc.boomerang\"}},translate:\"tccc.icon.spacer\",click_event:{action:\"change_page\",page:38}},{color:\"white\",font:\"tcc.compendium:icons\",translate:\"tccc.icon.item.tcc:boomerang\",click_event:{action:\"change_page\",page:38},hover_event:{action:\"show_text\",value:{translate:\"item.tcc.boomerang\"}}",name:"boomerang0"}]}
-function tcc:item/compendium/unlock/inject/main with storage tcc:temp root.start_injection

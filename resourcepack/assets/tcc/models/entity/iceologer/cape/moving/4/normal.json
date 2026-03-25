@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/illager_template/cape/moving/4",
-	"textures": {
-		"0": "tcc:entity/iceologer/cape/4"
-	}
-}

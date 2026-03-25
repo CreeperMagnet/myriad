@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#tcc:raw_stone_crafting_materials"
+            "items": "#myriad:raw_stone_crafting_materials"
           }
         ]
       }

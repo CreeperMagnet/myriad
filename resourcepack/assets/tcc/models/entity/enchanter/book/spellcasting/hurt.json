@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/enchanter/book/spellcasting/normal",
-	"textures": {
-		"0": "tcc:entity/enchanter/book_hurt"
-	}
-}

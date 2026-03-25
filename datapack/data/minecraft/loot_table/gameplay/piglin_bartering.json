@@ -273,7 +273,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:block_entity_data": {
-                  "LootTable": "tcc:archaeology/piglin_bartering/main",
+                  "LootTable": "myriad:archaeology/piglin_bartering/main",
                   "id": "minecraft:brushable_block"
                 }
               }
@@ -282,7 +282,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.tcc.suspicious_block.lore.piglin_bartering",
+                  "translate": "item.myriad.suspicious_block.lore.piglin_bartering",
                   "color": "gray",
                   "italic": false
                 }

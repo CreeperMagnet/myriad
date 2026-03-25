@@ -209,8 +209,8 @@
         "elements": [
           {
             "element_type": "minecraft:single_pool_element",
-            "location": "tcc:ancient_city_archaeology/hidden_room",
-            "processors": "tcc:ancient_city_archaeology",
+            "location": "myriad:ancient_city_archaeology/hidden_room",
+            "processors": "myriad:ancient_city_archaeology",
             "projection": "rigid"
           }
         ],
@@ -224,8 +224,8 @@
         "elements": [
           {
             "element_type": "minecraft:single_pool_element",
-            "location": "tcc:ancient_city_archaeology/small_statue",
-            "processors": "tcc:ancient_city_archaeology",
+            "location": "myriad:ancient_city_archaeology/small_statue",
+            "processors": "myriad:ancient_city_archaeology",
             "projection": "rigid"
           }
         ],
@@ -239,8 +239,8 @@
         "elements": [
           {
             "element_type": "minecraft:single_pool_element",
-            "location": "tcc:ancient_city_archaeology/redstone_tutorial",
-            "processors": "tcc:ancient_city_archaeology",
+            "location": "myriad:ancient_city_archaeology/redstone_tutorial",
+            "processors": "myriad:ancient_city_archaeology",
             "projection": "rigid"
           }
         ],
@@ -254,8 +254,8 @@
         "elements": [
           {
             "element_type": "minecraft:single_pool_element",
-            "location": "tcc:ancient_city_archaeology/tall_ruin",
-            "processors": "tcc:ancient_city_archaeology",
+            "location": "myriad:ancient_city_archaeology/tall_ruin",
+            "processors": "myriad:ancient_city_archaeology",
             "projection": "rigid"
           }
         ],
@@ -269,8 +269,8 @@
         "elements": [
           {
             "element_type": "minecraft:single_pool_element",
-            "location": "tcc:ancient_city_archaeology/vex_statue",
-            "processors": "tcc:ancient_city_archaeology",
+            "location": "myriad:ancient_city_archaeology/vex_statue",
+            "processors": "myriad:ancient_city_archaeology",
             "projection": "rigid"
           }
         ],

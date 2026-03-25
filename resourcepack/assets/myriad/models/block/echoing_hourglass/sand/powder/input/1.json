@@ -1,0 +1,6 @@
+{
+  "parent": "myriad:block/echoing_hourglass/template_powder/top",
+  "textures": {
+		"powder": "myriad:block/echoing_hourglass/sand"
+  }
+}

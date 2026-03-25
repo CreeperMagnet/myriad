@@ -1,0 +1,34 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:soul_seer"
+    ]
+  },
+  "criteria": {
+    "has_sculk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:soul_seer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sculk",
+      "has_the_recipe"
+    ]
+  ]
+}

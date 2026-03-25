@@ -1,0 +1,44 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    "ICI",
+    "IRI"
+  ],
+  "key": {
+    "C": "minecraft:creaking_heart",
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:dropper",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:block/creaking_connector",
+      "minecraft:custom_model_data": {
+        "flags": [
+          false
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "creaking_connector",
+          "custom_block": true
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "block.myriad.creaking_connector"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ]
+    }
+  }
+}

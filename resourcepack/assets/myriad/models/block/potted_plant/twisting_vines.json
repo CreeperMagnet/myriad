@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:block/potted_plant/template",
+	"textures": {
+		"cross": "myriad:block/potted_plant/twisting_vines"
+	}
+}

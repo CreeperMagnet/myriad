@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 1
+      }
+    },
+    {
+      "type": "bitmap",
+      "ascent": 7,
+      "chars": [
+        "Myr",
+        "iad"
+      ],
+      "file": "myriad:gui/tooltip_font.png",
+      "height": 7
+    }
+  ]
+}

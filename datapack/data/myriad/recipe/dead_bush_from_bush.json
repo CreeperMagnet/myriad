@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "myriad:dead_bush",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:bush",
+  "result": {
+    "id": "minecraft:dead_bush"
+  }
+}

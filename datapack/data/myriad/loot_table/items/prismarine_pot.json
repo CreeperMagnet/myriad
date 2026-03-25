@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"decorated_pot\",custom_block:1b,type:\"prismarine\",raw_pot:1b,sherds:[{id:\"minecraft:prismarine_shard\"},{id:\"minecraft:prismarine_shard\"},{id:\"minecraft:prismarine_shard\"},{id:\"minecraft:prismarine_shard\"}]}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:block/prismarine_pot",
+                "minecraft:pot_decorations": [
+                  "minecraft:air",
+                  "minecraft:air",
+                  "minecraft:air",
+                  "minecraft:air"
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:pot_decorations"
+                  ]
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "blank",
+                    "blank",
+                    "blank",
+                    "blank"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.myriad.prismarine_pot"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:decorated_pot"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/prismarine_pot"
+}

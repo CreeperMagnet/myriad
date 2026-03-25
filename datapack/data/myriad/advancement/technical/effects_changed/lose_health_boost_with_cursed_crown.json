@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "health_boost": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:health_boost": {}
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"myriad.cursed_crown.health_boost\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "health_boost"
+    ]
+  ],
+  "rewards": {
+    "function": "myriad:item/cursed_crown/health_boost/lose"
+  },
+  "parent": "myriad:technical/root"
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/coral_drowned/arm/template",
-	"textures": {
-		"0": "tcc:entity/coral_drowned/fire"
-	}
-}

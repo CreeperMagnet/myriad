@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "myriad:item/smoldering_seeker/base",
+    "layer1": "myriad:item/smoldering_seeker/needle/00"
+  }
+}

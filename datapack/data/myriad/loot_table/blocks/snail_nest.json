@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:entities/snail"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:blocks/snail_nest"
+}

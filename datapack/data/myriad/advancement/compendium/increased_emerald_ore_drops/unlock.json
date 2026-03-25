@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"item":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:emerald","minecraft:emerald_ore","minecraft:deepslate_emerald_ore"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/increased_emerald_ore_drops/from_advancement"}}

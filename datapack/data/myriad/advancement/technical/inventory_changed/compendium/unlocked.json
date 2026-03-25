@@ -1,0 +1,20 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{myriad:{id:\"compendium\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/compendium/update_unlocks/unlocked_found"
+  }
+}

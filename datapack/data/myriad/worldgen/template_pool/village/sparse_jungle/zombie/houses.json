@@ -1,0 +1,263 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/small_house_1",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/small_house_2",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/small_house_3",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/small_house_4",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/small_house_5",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/small_house_6",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/medium_house_1",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/medium_house_2",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/medium_house_3",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/big_house_1",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/big_house_2",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/butcher",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/toolsmith",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/fletcher",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/shepherd",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/armorer",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/fisherman",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/leatherworker",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/cartographer",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/librarian",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/mason",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/weaponsmith",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/cleric",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/farm_1",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/farm_2",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/farm_3",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/zombie/houses/farm_4",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/houses/archaeologist",
+        "processors": "myriad:village/sparse_jungle/zombie",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "myriad:village/sparse_jungle/terminators"
+}

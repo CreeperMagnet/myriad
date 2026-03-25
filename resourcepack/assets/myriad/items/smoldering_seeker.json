@@ -1,0 +1,253 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:lodestone_tracker",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:compass",
+      "target": "lodestone",
+      "entries": [
+        {
+          "threshold": 0.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/16"
+          }
+        },
+        {
+          "threshold": 0.015625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/17"
+          }
+        },
+        {
+          "threshold": 0.046875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/18"
+          }
+        },
+        {
+          "threshold": 0.078125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/19"
+          }
+        },
+        {
+          "threshold": 0.109375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/20"
+          }
+        },
+        {
+          "threshold": 0.140625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/21"
+          }
+        },
+        {
+          "threshold": 0.171875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/22"
+          }
+        },
+        {
+          "threshold": 0.203125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/23"
+          }
+        },
+        {
+          "threshold": 0.234375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/24"
+          }
+        },
+        {
+          "threshold": 0.265625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/25"
+          }
+        },
+        {
+          "threshold": 0.296875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/26"
+          }
+        },
+        {
+          "threshold": 0.328125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/27"
+          }
+        },
+        {
+          "threshold": 0.359375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/28"
+          }
+        },
+        {
+          "threshold": 0.390625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/29"
+          }
+        },
+        {
+          "threshold": 0.421875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/30"
+          }
+        },
+        {
+          "threshold": 0.453125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/31"
+          }
+        },
+        {
+          "threshold": 0.484375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/00"
+          }
+        },
+        {
+          "threshold": 0.515625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/01"
+          }
+        },
+        {
+          "threshold": 0.546875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/02"
+          }
+        },
+        {
+          "threshold": 0.578125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/03"
+          }
+        },
+        {
+          "threshold": 0.609375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/04"
+          }
+        },
+        {
+          "threshold": 0.640625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/05"
+          }
+        },
+        {
+          "threshold": 0.671875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/06"
+          }
+        },
+        {
+          "threshold": 0.703125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/07"
+          }
+        },
+        {
+          "threshold": 0.734375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/08"
+          }
+        },
+        {
+          "threshold": 0.765625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/09"
+          }
+        },
+        {
+          "threshold": 0.796875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/10"
+          }
+        },
+        {
+          "threshold": 0.828125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/11"
+          }
+        },
+        {
+          "threshold": 0.859375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/12"
+          }
+        },
+        {
+          "threshold": 0.890625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/13"
+          }
+        },
+        {
+          "threshold": 0.921875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/14"
+          }
+        },
+        {
+          "threshold": 0.953125,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/15"
+          }
+        },
+        {
+          "threshold": 0.984375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/smoldering_seeker/16"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "myriad:item/smoldering_seeker/unset"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "myriad:item/smoldering_seeker/unset"
+    }
+  }
+}

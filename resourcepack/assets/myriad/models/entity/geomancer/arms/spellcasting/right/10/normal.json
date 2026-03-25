@@ -1,0 +1,13 @@
+{
+	"parent": "myriad:entity/geomancer/arms/spellcasting/right/0/normal",
+	"textures": {
+		"0": "myriad:entity/geomancer/arm_spellcasting/10"
+	},
+	"display": {
+		"ground": {
+			"rotation": [0.54, -180, -1.93],
+			"translation": [-5.6, 9.3, -14.5],
+			"scale": [0.935, 0.935, 0.935]
+		}
+	}
+}

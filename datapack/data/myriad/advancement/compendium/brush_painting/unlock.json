@@ -1,0 +1,1 @@
+{"parent":"myriad:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:brush"]}]}}},"rewards":{"function":"myriad:item/compendium/unlock/entries/brush_painting/from_advancement"}}

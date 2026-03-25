@@ -1,0 +1,122 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/corner_1",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/corner_2",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/corner_3",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/straight_1",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/straight_2",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/straight_3",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/straight_4",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/straight_5",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/crossroad_1",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/crossroad_2",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/crossroad_3",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/crossroad_4",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:village/sparse_jungle/streets/crossroad_5",
+        "processors": "myriad:village/sparse_jungle/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "myriad:village/sparse_jungle/terminators"
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "myriad:entity/iceologer/santa/head/normal",
+	"textures": {
+		"0": "myriad:entity/iceologer/santa/main_hurt"
+	}
+}

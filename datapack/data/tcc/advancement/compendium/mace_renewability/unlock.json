@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:mace","minecraft:heavy_core"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/mace_renewability/from_advancement"}}

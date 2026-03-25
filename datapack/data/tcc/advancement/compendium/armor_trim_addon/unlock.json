@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"trim":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#tcc:trim_templates"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/armor_trim_addon/from_advancement"}}

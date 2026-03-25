@@ -18,7 +18,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"tcc.armor_stand_with_arms\"]}"
+                "nbt": "{Tags:[\"myriad.armor_stand_with_arms\"]}"
               }
             }
           ]

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "tcc:item/witch_hat/inventory",
-    "layer1": "tcc:item/witch_hat/inventory_overlay"
-  }
-}

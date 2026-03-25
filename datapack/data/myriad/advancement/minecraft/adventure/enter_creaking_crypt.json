@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:block/resin_brick_pot"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.adventure.enter_creaking_crypt.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.adventure.enter_creaking_crypt.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/heart_transplanter",
+  "criteria": {
+    "enter_crypt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "#myriad:creaking_crypt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enter_crypt"
+    ]
+  ]
+}

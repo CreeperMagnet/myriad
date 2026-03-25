@@ -1,2 +1,0 @@
-advancement grant @s[tag=tcc.unlockable_compendium] only tcc:compendium/consistent_rib_armor_trim_duplication/toast
-function tcc:item/compendium/unlock/entries/consistent_rib_armor_trim_duplication/unlock

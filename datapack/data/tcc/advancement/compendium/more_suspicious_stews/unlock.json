@@ -1,1 +1,0 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:suspicious_stew"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/more_suspicious_stews/from_advancement"}}

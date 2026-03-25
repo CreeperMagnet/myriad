@@ -1,0 +1,8 @@
+{
+  "parent": "myriad:block/echoing_hourglass/template_glass/4",
+  "textures": {
+		"falling": "myriad:block/echoing_hourglass/falling_sand",
+		"input": "myriad:block/echoing_hourglass/sand",
+    "output": "myriad:block/echoing_hourglass/suspicious_sand"
+  }
+}

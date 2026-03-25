@@ -1,0 +1,41 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    "L##",
+    "  #",
+    "  L"
+  ],
+  "key": {
+    "#": "#minecraft:planks",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "myriad:boomerang",
+      "minecraft:damage": 0,
+      "minecraft:max_damage": 300,
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "boomerang"
+        }
+      },
+      "minecraft:repairable": {
+        "items": "#myriad:repair_items/boomerang"
+      },
+      "minecraft:item_name": {
+        "translate": "item.myriad.boomerang"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ]
+    }
+  }
+}

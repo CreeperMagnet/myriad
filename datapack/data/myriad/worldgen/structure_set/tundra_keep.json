@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "myriad:tundra_keep",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 155378599,
+    "spacing": 40,
+    "separation": 10,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  }
+}

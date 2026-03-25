@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_false": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/wandering_witch/head/normal"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/wandering_witch/hood/normal"
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/wandering_witch/head/hurt"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "myriad:entity/wandering_witch/hood/hurt"
+        }
+      ]
+    }
+  }
+}

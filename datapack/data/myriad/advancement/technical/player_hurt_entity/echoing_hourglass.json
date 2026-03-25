@@ -1,0 +1,27 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"myriad.echoing_hourglass.interaction\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:block/echoing_hourglass/attack/advancement"
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
+}

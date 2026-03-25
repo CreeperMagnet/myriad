@@ -1,0 +1,7 @@
+{
+	"parent": "myriad:block/potted_plant/template_emissive",
+	"textures": {
+		"cross": "myriad:block/potted_plant/firefly_bush/bush",
+		"emissive": "myriad:block/potted_plant/firefly_bush/fireflies"
+	}
+}

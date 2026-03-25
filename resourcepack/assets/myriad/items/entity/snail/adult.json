@@ -1,0 +1,120 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Gary",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "myriad:entity/snail/adult/gary/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "myriad:entity/snail/adult/gary/hurt"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "black",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/black/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/black/hurt"
+            }
+          }
+        },
+        {
+          "when": "brown",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/brown/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/brown/hurt"
+            }
+          }
+        },
+        {
+          "when": "light_blue",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/light_blue/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/light_blue/hurt"
+            }
+          }
+        },
+        {
+          "when": "skull",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/skull/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/skull/hurt"
+            }
+          }
+        },
+        {
+          "when": "spiral",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/spiral/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/spiral/hurt"
+            }
+          }
+        },
+        {
+          "when": "yellow",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/yellow/normal"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "myriad:entity/snail/adult/yellow/hurt"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

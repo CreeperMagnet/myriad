@@ -1,0 +1,10 @@
+{
+	"parent": "myriad:entity/illager_template/legs/right/0",
+	"display": {
+		"ground": {
+			"rotation": [25, -180, 0],
+			"translation": [0, -7.3, -6.37],
+			"scale": [0.9376, 0.9376, 0.9376]
+		}
+	}
+}

@@ -1,0 +1,5 @@
+# Summons a geomancer
+
+summon minecraft:wandering_trader ~ ~ ~ {CustomName:{"translate":"entity.myriad.geomancer"},attributes:[{base:40.0d,id:"minecraft:max_health"}],Health:40.0f,Team:"smithed.prevent_aggression",DeathLootTable:"myriad:entities/geomancer",DeathTime:19s,drop_chances:{mainhand:0.0f,offhand:0.0f,head:0.0f,chest:0.0f,legs:0.0f,feet:0.0f},Offers:{Recipes:[]},active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}],Silent:1b,Tags:["myriad.geomancer","myriad.illager","myriad.trader_entity","smithed.entity"],equipment:{mainhand:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"myriad:entity/geomancer/body","minecraft:custom_model_data":{flags:[false,false,false]}}},head:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"myriad:entity/geomancer/head","minecraft:custom_model_data":{flags:[false]}}},chest:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"myriad:entity/geomancer/body","minecraft:custom_model_data":{flags:[false,false,false]}}}}}
+
+tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.myriad.geomancer"}]}

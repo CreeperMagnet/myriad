@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "myriad:sweet_berry_muffin"
+      }
+    },
+    "title": {
+      "translate": "advancements.myriad.minecraft.husbandry.muffin_time.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.myriad.minecraft.husbandry.muffin_time.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.myriad",
+        "color": "white",
+        "italic": false,
+        "font": "myriad:tooltip"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sweet_berry_muffin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"sweet_berry_muffin\"}}"
+          }
+        }
+      }
+    },
+    "glow_berry_muffin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"glow_berry_muffin\"}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sweet_berry_muffin"
+    ],
+    [
+      "glow_berry_muffin"
+    ]
+  ]
+}

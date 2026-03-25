@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "drank_riftjuice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"riftjuice_bottle\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/riftjuice_bottle/advancement"
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "drank_riftjuice"
+    ]
+  ]
+}

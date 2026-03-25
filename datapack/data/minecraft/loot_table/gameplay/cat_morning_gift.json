@@ -47,7 +47,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 15,
-          "value": "tcc:items/bat_wing"
+          "value": "myriad:items/bat_wing"
         }
       ],
       "rolls": 1

@@ -104,8 +104,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:trial_chambers_archaeology/rubble",
-        "processors": "tcc:trial_chambers_archaeology",
+        "location": "myriad:trial_chambers_archaeology/rubble",
+        "processors": "myriad:trial_chambers_archaeology",
         "projection": "rigid"
       },
       "weight": 15

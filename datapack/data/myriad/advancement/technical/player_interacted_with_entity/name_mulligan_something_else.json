@@ -1,0 +1,47 @@
+{
+  "parent": "myriad:technical/root",
+  "criteria": {
+    "rename_mulligan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cat",
+              "components": {
+                "minecraft:cat/variant": "myriad:mulligan"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "components": {
+                  "minecraft:custom_name": "Mulligan"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:entity/mulligan/undo/advancement"
+  },
+  "requirements": [
+    [
+      "rename_mulligan"
+    ]
+  ]
+}

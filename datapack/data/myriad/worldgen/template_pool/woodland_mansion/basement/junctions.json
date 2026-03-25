@@ -1,0 +1,68 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/balcony_library",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/long_hallway",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/meeting_rooms",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/open_concept",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/secret_balcony",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/secret_meeting_room",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "myriad:woodland_mansion/basement/junction/storage",
+        "processors": "myriad:woodland_mansion/archaeology",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

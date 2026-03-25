@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"sinister_banner\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "green",
+                    "pattern": "minecraft:rhombus"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:stripe_bottom"
+                  },
+                  {
+                    "color": "gray",
+                    "pattern": "minecraft:stripe_center"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:circle"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:stripe_middle"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:half_horizontal"
+                  },
+                  {
+                    "color": "light_blue",
+                    "pattern": "minecraft:triangle_top"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:stripe_top"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:stripe_top"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:border"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "minecraft:border"
+                  }
+                ],
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.sinister_banner"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "myriad:add_tooltip_lore"
+            }
+          ],
+          "name": "minecraft:white_banner"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/sinister_banner"
+}

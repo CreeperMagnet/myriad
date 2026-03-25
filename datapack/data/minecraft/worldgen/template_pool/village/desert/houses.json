@@ -257,7 +257,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "tcc:archaeologist_house/desert",
+        "location": "myriad:archaeologist_house/desert",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

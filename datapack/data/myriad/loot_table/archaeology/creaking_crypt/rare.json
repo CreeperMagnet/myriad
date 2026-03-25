@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/resin_brick/awaken",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/resin_brick/blight",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/resin_brick/link",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/resin_brick/stare",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/pottery_sherd/resin_brick/watcher",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "myriad:items/crescent_banner_pattern",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:archaeology/creaking_crypt/rare"
+}

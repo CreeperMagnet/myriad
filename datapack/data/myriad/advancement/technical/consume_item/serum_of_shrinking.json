@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "drank_serum": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{myriad:{id:\"serum_of_shrinking\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "myriad:item/scale_serum/shrinking_advancement"
+  },
+  "parent": "myriad:technical/root",
+  "requirements": [
+    [
+      "drank_serum"
+    ]
+  ]
+}

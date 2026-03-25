@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "destination": "myriad:smoldering_seeker_located",
+              "function": "minecraft:exploration_map",
+              "decoration": "minecraft:target_point",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"smoldering_seeker_map\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:smoldering_seeker/main"
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:technical/map/smoldering_seeker"
+}
