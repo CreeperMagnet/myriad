@@ -2,5 +2,5 @@ Myriad is a Minecraft data pack designed to enhance your survival experience by 
 
 Join [our discord](https://discord.gg/mh7K5NQAeD) for frequent developer updates and sneak peeks at new content!
 
-Read [the wiki](https://github.com/CreeperMagnet/myriad/wiki) for all you need to know about the pack's features.
+Read [the wiki](https://myriadmc.org/wiki/) for all you need to know about the pack's features.
 
