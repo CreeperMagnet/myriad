@@ -29,7 +29,11 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "nbt": "{Tags:[\"myriad.wandering_witch\"]}"
+          "minecraft:entity_tags": {
+            "all_of": [
+              "myriad.wandering_witch"
+            ]
+          }
         }
       }
     }

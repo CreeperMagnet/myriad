@@ -6,18 +6,10 @@ scoreboard objectives add myriad.dummy dummy
 tellraw @a[predicate=myriad:entity_properties/is_developer] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.myriad.reload.success","color":"white","bold":false}]
 execute unless score #server_version myriad.dummy matches 122 run function myriad:technical/initiate
 
-# Refresh the compendium for all players that currently have one
-execute as @a run function myriad:item/compendium/refresh
-
 ## Gamerules
 gamerule minecraft:log_admin_commands false
 gamerule minecraft:command_block_output false
 gamerule minecraft:max_command_sequence_length 1073741824
-
-## Compendium Data
-execute unless data storage myriad:compendium player_data run data merge storage myriad:compendium {player_data:[]}
-# The following line is updated when the generator is run
-data modify storage myriad:compendium version set value {release:12,dev:0}
 
 ## Scoreboards
 scoreboard objectives add myriad.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
@@ -57,7 +49,6 @@ execute unless score #wandering_witch_timer myriad.dummy matches -2147483648..21
 
 ## Triggered Objectives
 scoreboard objectives add myriad.emoji trigger
-scoreboard objectives add myriadc.internal_trigger trigger
 
 ## Teams
 team add myriad.recovery_compass

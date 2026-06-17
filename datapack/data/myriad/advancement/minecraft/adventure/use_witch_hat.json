@@ -39,7 +39,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": [
+              "minecraft:entity_type": [
                 "minecraft:breeze",
                 "minecraft:cave_spider",
                 "minecraft:creeper",
@@ -53,12 +53,13 @@
             }
           },
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"smithed.entity\"]}"
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "none_of": [
+                  "smithed.entity"
+                ]
               }
             }
           }
@@ -75,7 +76,11 @@
           }
         ],
         "entity": {
-          "nbt": "{Tags:[\"myriad.geomancer\"]}"
+          "minecraft:entity_tags": {
+            "all_of": [
+              "myriad.geomancer"
+            ]
+          }
         }
       }
     },
@@ -89,7 +94,11 @@
           }
         ],
         "entity": {
-          "nbt": "{Tags:[\"myriad.glow_lichen_zombie\"]}"
+          "minecraft:entity_tags": {
+            "all_of": [
+              "myriad.glow_lichen_zombie"
+            ]
+          }
         }
       }
     }

@@ -99,6 +99,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:sulfur_spike",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:glow_berries",
           "functions": [
             {

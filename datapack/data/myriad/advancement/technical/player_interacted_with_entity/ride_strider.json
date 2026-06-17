@@ -14,7 +14,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:strider"
+          "minecraft:entity_type": "minecraft:strider"
         }
       }
     }

@@ -39,6 +39,10 @@
           "name": "minecraft:pufferfish_bucket"
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:sulfur_cube_bucket"
+        },
+        {
           "type": "minecraft:loot_table",
           "value": "myriad:trades/wandering_trader/bucketed_mob/axolotl_bucket"
         },

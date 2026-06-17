@@ -32,50 +32,20 @@
         },
         "entity": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.pregnant\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.in_love\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.breeding_cooldown\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.baby\"]}"
-              }
-            }
-          },
-          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.snail\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.snail"
+                ],
+                "none_of": [
+                  "myriad.pregnant",
+                  "myriad.in_love",
+                  "myriad.breeding_cooldown",
+                  "myriad.baby"
+                ]
+              }
             }
           }
         ]
@@ -94,7 +64,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.snail\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.snail"
+                ]
+              }
             }
           },
           {
@@ -120,16 +94,13 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.snail\"]}"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.fed_beetroot\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.snail"
+                ],
+                "none_of": [
+                  "myriad.fed_beetroot"
+                ]
               }
             }
           }
@@ -149,16 +120,13 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.snail\"]}"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.fed_heartbeet\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.snail"
+                ],
+                "none_of": [
+                  "myriad.fed_heartbeet"
+                ]
               }
             }
           }
@@ -181,7 +149,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.snail\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.snail"
+                ]
+              }
             }
           }
         ]

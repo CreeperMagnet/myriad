@@ -9,6 +9,3 @@ execute if score @s myriad.health matches 0..5 if items entity @s weapon.* minec
 ## Removing the paintbrush tag
 scoreboard players reset @s[tag=!myriad.painting_with_brush] myriad.paintbrush_timer
 tag @s remove myriad.painting_with_brush
-
-## Compendium
-execute if entity @s[tag=!myriad.compendium_ban,tag=!myriad.can_change_compendium_mode,predicate=myriad:entity_properties/slots/weapon/compendium] run function myriad:item/compendium/toggle_unlockable/enable

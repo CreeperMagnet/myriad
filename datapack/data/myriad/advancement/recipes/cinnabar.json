@@ -1,0 +1,48 @@
+{
+  "parent": "myriad:recipes/root",
+  "rewards": {
+    "recipes": [
+      "myriad:cinnabar"
+    ]
+  },
+  "criteria": {
+    "has_sulfur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sulfur",
+              "minecraft:sulfur_spike"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cinnabar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cinnabar"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "myriad:cinnabar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cinnabar",
+      "has_the_recipe",
+      "has_sulfur"
+    ]
+  ]
+}

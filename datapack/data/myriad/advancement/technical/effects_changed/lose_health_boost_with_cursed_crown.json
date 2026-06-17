@@ -24,7 +24,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.cursed_crown.health_boost\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.cursed_crown.health_boost"
+                ]
+              }
             }
           }
         ]

@@ -5,14 +5,18 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "#minecraft:illager_friends"
+        "minecraft:entity_type": "#minecraft:illager_friends"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"myriad.illager\"]}"
+        "minecraft:entity_tags": {
+          "all_of": [
+            "myriad.illager"
+          ]
+        }
       }
     }
   ]

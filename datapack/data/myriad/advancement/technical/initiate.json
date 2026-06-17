@@ -5,10 +5,7 @@
     }
   },
   "rewards": {
-    "function": "myriad:entity/player/initiate",
-    "recipes": [
-      "myriad:compendium"
-    ]
+    "function": "myriad:entity/player/initiate"
   },
   "parent": "myriad:technical/root",
   "requirements": [

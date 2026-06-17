@@ -1,6 +1,6 @@
 {
 	"parent": "myriad:entity/sprouter/baby/head/normal",
 	"textures": {
-		"0": "myriad:entity/sprouter/baby/main_hurt"
+		"0": "myriad:entity/sprouter/baby/hurt"
 	}
 }

@@ -22,7 +22,11 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"myriad.archaeologist\"]}"
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.archaeologist"
+              ]
+            }
           }
         }
       ]
@@ -42,12 +46,13 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"myriad.archaeologist\"]}"
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "none_of": [
+                "myriad.archaeologist"
+              ]
             }
           }
         }

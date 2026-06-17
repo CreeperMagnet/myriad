@@ -13,10 +13,14 @@
             }
           },
           {
-            "condition": "entity_properties",
+            "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.wearing_cursed_crown\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.wearing_cursed_crown"
+                ]
+              }
             }
           }
         ],

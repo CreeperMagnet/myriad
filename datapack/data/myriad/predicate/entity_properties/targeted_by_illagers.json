@@ -5,7 +5,11 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"myriad.illager_target\"]}"
+        "minecraft:entity_tags": {
+          "all_of": [
+            "myriad.illager_target"
+          ]
+        }
       }
     },
     {
@@ -17,8 +21,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "minecraft:type_specific/player": {
                 "gamemode": [
                   "creative",
                   "spectator"
@@ -28,12 +31,13 @@
           }
         },
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"smithed.entity\"]}"
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "none_of": [
+                "smithed.entity"
+              ]
             }
           }
         },
@@ -51,7 +55,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "#myriad:illager_targets"
+            "minecraft:entity_type": "#myriad:illager_targets"
           }
         }
       ]

@@ -45,6 +45,7 @@ execute if block ~ ~-1 ~ minecraft:stone_bricks run data modify storage myriad:t
 execute if block ~ ~-1 ~ minecraft:mossy_cobblestone run data modify storage myriad:temp root.macro_input.selector set value ",type=#minecraft:zombies"
 execute if block ~ ~-1 ~ minecraft:glowstone run data modify storage myriad:temp root.macro_input.selector set value ",type=minecraft:player"
 execute if block ~ ~-1 ~ minecraft:nether_bricks run data modify storage myriad:temp root.macro_input.selector set value ",type=#myriad:soul_seer/nether_bricks"
+execute if block ~ ~-1 ~ minecraft:sulfur run data modify storage myriad:temp root.macro_input.selector set value ",type=minecraft:sulfur_cube"
 
 # Player heads
 execute if block ~ ~-1 ~ minecraft:player_head run data modify storage myriad:temp root.macro_input.player_name set from block ~ ~-1 ~ profile.name

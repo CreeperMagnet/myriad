@@ -4,7 +4,6 @@ scoreboard players add @s myriad.dummy2 0
 execute if entity @s[scores={myriad.dummy2=0..}] run function myriad:entity/illager/line_of_sight
 scoreboard players add @s[scores={myriad.dummy2=0..}] myriad.dummy2 1
 data modify entity @s equipment.chest.components."minecraft:custom_model_data".flags[2] set value true
-data remove entity @s Offers.Recipes
 attribute @s minecraft:movement_speed modifier add myriad:slowness -100 add_value
 execute rotated ~ 0 run particle minecraft:effect ^-0.4 ^1.7 ^0.6 0.01 0.01 0.01 0.1 3 force
 execute rotated ~ 0 run particle minecraft:effect ^0.4 ^1.7 ^0.6 0.01 0.01 0.01 0.1 3 force

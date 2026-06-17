@@ -6,4 +6,3 @@ execute if data storage myriad:temp root.item.components."minecraft:custom_data"
 execute if data storage myriad:temp root.item{id:"minecraft:beetroot_soup"} run function myriad:entity/snail/interact/breed
 execute if data storage myriad:temp root.item{id:"minecraft:bucket"} run function myriad:entity/snail/interact/bucket/main
 execute if data storage myriad:temp root.item{id:"minecraft:name_tag"} run data modify entity @s equipment.chest.components."minecraft:custom_name" set from storage myriad:temp root.item.components."minecraft:custom_name"
-data remove entity @s Offers.Recipes

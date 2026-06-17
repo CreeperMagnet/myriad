@@ -23,7 +23,7 @@
           "type": {
             "is_projectile": true,
             "direct_entity": {
-              "type": "minecraft:trident"
+              "minecraft:entity_type": "minecraft:trident"
             }
           }
         }

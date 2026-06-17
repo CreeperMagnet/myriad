@@ -28,7 +28,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"myriad.geomancer\"]}"
+          "minecraft:entity_tags": {
+            "all_of": [
+              "myriad.geomancer"
+            ]
+          }
         }
       }
     }

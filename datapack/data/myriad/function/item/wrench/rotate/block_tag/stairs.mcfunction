@@ -47,3 +47,9 @@ execute if block ~ ~ ~ minecraft:tuff_stairs run function myriad:item/wrench/rot
 execute if block ~ ~ ~ minecraft:polished_tuff_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:polished_tuff_stairs"}
 execute if block ~ ~ ~ minecraft:tuff_brick_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:tuff_brick_stairs"}
 execute if block ~ ~ ~ minecraft:resin_brick_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:resin_brick_stairs"}
+execute if block ~ ~ ~ minecraft:sulfur_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:sulfur_stairs"}
+execute if block ~ ~ ~ minecraft:polished_sulfur_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:polished_sulfur_stairs"}
+execute if block ~ ~ ~ minecraft:sulfur_brick_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:sulfur_brick_stairs"}
+execute if block ~ ~ ~ minecraft:cinnabar_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:cinnabar_stairs"}
+execute if block ~ ~ ~ minecraft:polished_cinnabar_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:polished_cinnabar_stairs"}
+execute if block ~ ~ ~ minecraft:cinnabar_brick_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:cinnabar_brick_stairs"}

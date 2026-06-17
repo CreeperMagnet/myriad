@@ -46,7 +46,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.snail\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.snail"
+                ]
+              }
             }
           },
           {

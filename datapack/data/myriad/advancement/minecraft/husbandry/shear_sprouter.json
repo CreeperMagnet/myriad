@@ -41,7 +41,12 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.sprouter\",\"myriad.sprouter.stage_3\"]}"
+              "entity_tags": {
+                "all_of": [
+                  "myriad.sprouter",
+                  "myriad.sprouter.stage_3"
+                ]
+              }
             }
           }
         ]

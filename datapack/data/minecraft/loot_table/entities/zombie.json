@@ -42,7 +42,7 @@
               "entity": "this",
               "predicate": {
                 "vehicle": {
-                  "type": "minecraft:zombie_horse"
+                  "minecraft:entity_type": "minecraft:zombie_horse"
                 }
               }
             }
@@ -157,7 +157,7 @@
               "is_baby": true
             },
             "vehicle": {
-              "type": "minecraft:chicken"
+              "minecraft:entity_type": "minecraft:chicken"
             }
           }
         }

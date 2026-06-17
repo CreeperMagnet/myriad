@@ -9,7 +9,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:elder_guardian"
+              "minecraft:entity_type": "minecraft:elder_guardian"
             }
           }
         ]
@@ -23,7 +23,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.geomancer\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.geomancer"
+                ]
+              }
             }
           }
         ]

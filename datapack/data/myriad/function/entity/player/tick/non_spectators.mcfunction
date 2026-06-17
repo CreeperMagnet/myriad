@@ -3,10 +3,6 @@
 ## Commands for holding items
 execute if predicate myriad:entity_properties/slots/weapon/anything run function myriad:entity/player/tick/holding_item
 
-## Deselecting a compendium
-execute if entity @s[tag=!myriad.compendium_ban,tag=myriad.can_change_compendium_mode,predicate=!myriad:entity_properties/slots/weapon/compendium] run trigger myriadc.internal_trigger set -1
-execute if entity @s[tag=!myriad.compendium_ban,tag=myriad.can_change_compendium_mode] unless score @s myriadc.internal_trigger matches 0 run function myriad:item/compendium/toggle_unlockable/toggle
-
 ## Item teleportation
 execute if entity @s[tag=myriad.has_enabled_tangling_pearl] as @e[type=#myriad:tangling_pearl_teleported,distance=..7,tag=!smithed.entity,tag=!myriad.recovery_compass_item,tag=!myriad.persistent_cursed_crown,tag=!myriad.tangling_pearl_item.teleported,nbt=!{Age:0s},nbt=!{Age:1s}] at @s unless data entity @s Thrower run function myriad:item/tangling_pearl/as_item
 

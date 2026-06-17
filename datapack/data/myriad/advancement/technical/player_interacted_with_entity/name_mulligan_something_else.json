@@ -14,7 +14,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:cat",
+              "minecraft:entity_type": "minecraft:cat",
               "components": {
                 "minecraft:cat/variant": "myriad:mulligan"
               }

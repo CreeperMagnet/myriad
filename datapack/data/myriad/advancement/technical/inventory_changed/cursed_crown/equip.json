@@ -10,12 +10,13 @@
             "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
           },
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.wearing_cursed_crown\"]}"
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "none_of": [
+                  "myriad.wearing_cursed_crown"
+                ]
               }
             }
           }

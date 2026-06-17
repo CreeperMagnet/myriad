@@ -9,7 +9,7 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "#myriad:enchanter_affected"
+              "minecraft:entity_type": "#myriad:enchanter_affected"
             }
           },
           {

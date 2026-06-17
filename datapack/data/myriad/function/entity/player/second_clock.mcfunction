@@ -3,10 +3,7 @@
 # Cursed crown tickdown
 execute if entity @s[scores={myriad.cursed_crown_cooldown=0..}] run function myriad:item/cursed_crown/tickdown
 
-# Compendiums maintaining after death
-execute if entity @s[tag=myriad.needs_to_respawn_with_compendium,nbt=!{Health:0f}] if loaded ~ ~ ~ run function myriad:entity/player/die/respawn_with_compendium
-
-# Enable emoji trigger due to https://github.com/CreeperMagnet/the-creepers-code/issues/280
+# Enable emoji trigger due to https://github.com/CreeperMagnet/myriad/issues/280
 scoreboard players enable @s myriad.emoji
 
 # Stop if in spectator mode

@@ -11,40 +11,19 @@
         },
         "entity": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.in_love\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.breeding_cooldown\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.baby\"]}"
-              }
-            }
-          },
-          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.sprouter\"]}"
+              "minecraft:entity_tags": {
+                "none_of": [
+                  "myriad.in_love",
+                  "myriad.breeding_cooldown",
+                  "myriad.baby"
+                ],
+                "all_of": [
+                  "myriad.sprouter"
+                ]
+              }
             }
           }
         ]
@@ -63,7 +42,12 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.sprouter\",\"myriad.baby\"]}"
+              "entity_tags": {
+                "all_of": [
+                  "myriad.sprouter",
+                  "myriad.baby"
+                ]
+              }
             }
           }
         ]
@@ -82,7 +66,12 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.sprouter\",\"myriad.sprouter.stage_3\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.sprouter",
+                  "myriad.sprouter.stage_3"
+                ]
+              }
             }
           }
         ]

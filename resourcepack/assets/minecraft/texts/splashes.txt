@@ -1,5 +1,5 @@
 §5The underscore is all that matters
-§5Now contains §mNBT§r§2 component crafting!
+§5Now contains §mNBT§r§5 component crafting!
 §5Secret: The carrot on a stick texture was backwards for 2+ years
 §5Eat the rotten porkchops
 §5Don’t eat the rotten porkchops
@@ -98,7 +98,7 @@
 §5PIF!
 §5Geode geezers!
 §5#500060
-§5Contains unhealthy amounts of green!
+§5Contains unhealthy amounts of purple!
 §5Font magic!
 §5:beta:
 §5No more postgen! (Please, Mojang. Please.)
@@ -136,8 +136,8 @@
 §5Don't worry, we sherd your complaints about not enough archaeology content!
 §5Featuring conductable souls!
 §5May contain worldbuilding.
-§5Bet you've never seen green splashes before!
-§5How much compendium code could there possibly be?
+§5Bet you've never seen purple splashes before!
+§5The compendium grew so big it overflowed back around to not existing
 §5The most note-able spot for rewaxation!
 §5Armor trims sold separately
 §5Sniffer 2: Electric Boogaloo

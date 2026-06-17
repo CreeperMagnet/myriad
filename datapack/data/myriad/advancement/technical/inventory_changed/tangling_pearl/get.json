@@ -6,12 +6,13 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.has_enabled_tangling_pearl\"]}"
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "none_of": [
+                  "myriad.has_enabled_tangling_pearl"
+                ]
               }
             }
           }

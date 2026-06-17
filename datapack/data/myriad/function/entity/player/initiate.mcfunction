@@ -9,15 +9,3 @@ scoreboard players reset @s myriad.dummy2
 scoreboard players reset @s myriad.dummy
 scoreboard players enable @s myriad.emoji
 scoreboard players set @s myriad.emoji 0
-
-# Compendium stuff
-data modify storage myriad:temp root.manage_data.uuid set from entity @s UUID
-tag @s add myriad.dont_set_data
-function myriad:item/compendium/data/get/main
-
-execute unless data storage myriad:temp root.compendium run tag @s add myriad.unlockable_compendium
-execute unless data storage myriad:temp root.compendium run function myriad:item/compendium/give
-execute if data storage myriad:temp root.compendium run function myriad:item/compendium/check_unlock_list/main
-execute if data storage myriad:temp root.compendium run function myriad:item/compendium/refresh
-# Just to clean up stuff
-data remove storage myriad:temp root

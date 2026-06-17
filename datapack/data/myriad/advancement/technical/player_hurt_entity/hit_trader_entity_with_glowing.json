@@ -7,7 +7,7 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:spectral_arrow"
+              "minecraft:entity_type": "minecraft:spectral_arrow"
             }
           }
         },
@@ -16,7 +16,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.cannot_glow\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.cannot_glow"
+                ]
+              }
             }
           }
         ]

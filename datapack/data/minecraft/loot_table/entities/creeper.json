@@ -56,7 +56,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
-            "type": "#minecraft:skeletons"
+            "minecraft:entity_type": "#minecraft:skeletons"
           }
         }
       ]
@@ -74,7 +74,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
-            "type": "minecraft:piglin"
+            "minecraft:entity_type": "minecraft:piglin"
           }
         }
       ]
@@ -92,7 +92,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
-            "type": "minecraft:warden"
+            "minecraft:entity_type": "minecraft:warden"
           }
         },
         {
@@ -105,6 +105,40 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_bounce"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:sulfur_cube"
+              }
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "myriad:sulfur_cube_hot",
+                    "expected": true
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -158,7 +192,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
-            "type": "minecraft:breeze"
+            "minecraft:entity_type": "minecraft:breeze"
           }
         }
       ]
@@ -197,6 +231,14 @@
         "source": {
           "type": "reference",
           "path": "pools[4]"
+        }
+      },
+      {
+        "type": "append",
+        "target": "pools",
+        "source": {
+          "type": "reference",
+          "path": "pools[5]"
         }
       }
     ]

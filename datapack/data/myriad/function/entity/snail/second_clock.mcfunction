@@ -7,4 +7,3 @@ execute if entity @s[predicate=myriad:location_check/in_water] if biome ~ ~ ~ #m
 execute if entity @s[tag=myriad.pregnant] at @s align xyz positioned ~0.5 ~-0.5 ~0.5 if block ~ ~ ~ minecraft:clay unless entity @e[distance=..0.5,tag=smithed.block] run function myriad:entity/snail/breed/lay_egg/loop
 execute if entity @s[tag=myriad.in_love] run function myriad:entity/snail/breed/pathfind
 execute if entity @s[nbt={Invulnerable:1b}] run data modify entity @s Invulnerable set value 0b
-data remove entity @s Offers.Recipes

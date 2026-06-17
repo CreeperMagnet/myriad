@@ -11,7 +11,7 @@ $execute if block ~ ~ ~ #myriad:glass run setblock ~ ~ ~ minecraft:$(color)_stai
 $execute if block ~ ~ ~ #myriad:glass_panes run setblock ~ ~ ~ minecraft:$(color)_stained_glass_pane
 $execute if block ~ ~ ~ #minecraft:shulker_boxes run function myriad:item/paintbrush/color_block/shulker_boxes {"color":"$(color)"}
 $execute if block ~ ~ ~ #myriad:glazed_terracotta run function myriad:item/paintbrush/color_block/glazed_terracotta {"color":"$(color)"}
-$execute if block ~ ~ ~ #minecraft:concrete_powder run setblock ~ ~ ~ minecraft:$(color)_concrete_powder
+$execute if block ~ ~ ~ #minecraft:concrete_powders run setblock ~ ~ ~ minecraft:$(color)_concrete_powder
 $execute if block ~ ~ ~ #myriad:terracotta run setblock ~ ~ ~ minecraft:$(color)_terracotta
 $execute if block ~ ~ ~ #minecraft:candles run function myriad:item/paintbrush/color_block/candles {"color":"$(color)"}
 $execute if block ~ ~ ~ #minecraft:beds run function myriad:item/paintbrush/color_block/bed/main {"color":"$(color)"}

@@ -6,20 +6,17 @@
       "conditions": {
         "entity": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"myriad.no_death_effects\"]}"
-              }
-            }
-          },
-          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"myriad.trader_entity\"]}"
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.trader_entity"
+                ],
+                "none_of": [
+                  "myriad.no_death_effects"
+                ]
+              }
             }
           }
         ]

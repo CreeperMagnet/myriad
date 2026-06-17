@@ -365,6 +365,15 @@
 		"minecraft:pale_moss_block",
 		"minecraft:resin_bricks",
 		"minecraft:resin_block",
-		"minecraft:chiseled_resin_bricks"
+		"minecraft:chiseled_resin_bricks",
+		"minecraft:sulfur",
+		"minecraft:potent_sulfur",
+		"minecraft:polished_sulfur",
+		"minecraft:sulfur_bricks",
+		"minecraft:chiseled_sulfur",
+		"minecraft:cinnabar",
+		"minecraft:polished_cinnabar",
+		"minecraft:cinnabar_bricks",
+		"minecraft:chiseled_cinnabar"
 	]
 }
