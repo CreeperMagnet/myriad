@@ -1,7 +1,7 @@
 {
   "pack": {
-    "min_format": [107,0],
-    "max_format": [107,0],
+    "min_format": [107,1],
+    "max_format": [107,1],
     "description": [
       {
         "text": "Myriad",
@@ -27,9 +27,9 @@
   "overlays": {
     "entries": [
       {
-        "formats": [45,106],
+        "formats": [45,107],
         "min_format": [45,0],
-        "max_format": [106,9],
+        "max_format": [107,0],
         "directory": "invalid_version"
       },
       {
