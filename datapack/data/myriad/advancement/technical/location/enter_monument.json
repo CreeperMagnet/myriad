@@ -4,44 +4,47 @@
     "enter_monument_without_mining_fatigue": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "creative",
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:mining_fatigue": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative",
-                    "spectator"
-                  ]
+                "location": {
+                  "structures": "minecraft:monument"
                 }
               }
             }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "effects": {
-                  "minecraft:mining_fatigue": {}
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "minecraft:monument"
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

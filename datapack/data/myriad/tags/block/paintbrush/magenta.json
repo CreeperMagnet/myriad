@@ -11,6 +11,10 @@
     "minecraft:magenta_concrete_powder",
     "minecraft:magenta_terracotta",
     "minecraft:magenta_candle",
-    "minecraft:magenta_bed"
+    "minecraft:magenta_bed",
+    "minecraft:magenta_concrete_stairs",
+    "minecraft:magenta_concrete_slab",
+    "minecraft:magenta_wool_stairs",
+    "minecraft:magenta_wool_slab"
   ]
 }

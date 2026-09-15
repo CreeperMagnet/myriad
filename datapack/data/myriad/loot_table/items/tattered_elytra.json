@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"tattered_elytra\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:tattered_elytra",
                 "minecraft:glider": {},
@@ -25,24 +25,22 @@
                 "minecraft:max_damage": 432,
                 "minecraft:damage": 312,
                 "minecraft:max_stack_size": 1,
+                "!minecraft:food": {},
                 "!minecraft:consumable": {},
                 "minecraft:rarity": "rare",
                 "minecraft:repair_cost": 100
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.tattered_elytra"
               },
               "target": "item_name"
             },
+            "myriad:add_tooltip_lore",
             {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            },
-            {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "translate": "item.myriad.tattered_elytra.lore",

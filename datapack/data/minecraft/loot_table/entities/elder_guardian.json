@@ -2,85 +2,80 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "add": false,
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2,
-                "min": 0
-              },
-              "function": "minecraft:set_count"
+                "max": 2.0,
+                "min": 0.0
+              }
             },
             {
+              "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1,
-                "min": 0
+                "max": 1.0,
+                "min": 0.0
               },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
+              "enchantment": "minecraft:looting"
             }
           ],
           "name": "minecraft:prismarine_shard"
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     },
     {
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
+              "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1,
-                "min": 0
+                "max": 1.0,
+                "min": 0.0
               },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
+              "enchantment": "minecraft:looting"
             },
             {
-              "conditions": [
-                {
-                  "condition": "minecraft:any_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "flags": {
-                          "is_on_fire": true
-                        }
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "minecraft:flags": {
+                        "is_on_fire": true
                       }
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "direct_attacker",
-                      "predicate": {
-                        "equipment": {
-                          "mainhand": {
-                            "predicates": {
-                              "minecraft:enchantments": [
-                                {
-                                  "enchantments": "#minecraft:smelts_loot"
-                                }
-                              ]
-                            }
+                    }
+                  },
+                  {
+                    "type": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                      "minecraft:equipment": {
+                        "mainhand": {
+                          "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "#minecraft:smelts_loot"
+                              }
+                            ]
                           }
                         }
                       }
                     }
-                  ]
-                }
-              ],
-              "function": "minecraft:furnace_smelt"
+                  }
+                ]
+              }
             }
           ],
           "name": "minecraft:cod",
@@ -88,17 +83,15 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1,
-                "min": 0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:enchanted_count_increase",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting"
+          },
           "name": "minecraft:prismarine_crystals",
           "weight": 2
         },
@@ -106,133 +99,92 @@
           "type": "minecraft:empty"
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     },
     {
-      "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
+      "condition": {
+        "type": "minecraft:killed_by_player"
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:wet_sponge",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 12,
                 "max": 16
               }
-            },
-            {
-              "conditions": [
-                {
-                  "condition": "minecraft:any_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "flags": {
-                          "is_on_fire": true
-                        }
-                      }
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "direct_attacker",
-                      "predicate": {
-                        "equipment": {
-                          "mainhand": {
-                            "predicates": {
-                              "minecraft:enchantments": [
-                                {
-                                  "enchantments": "#minecraft:smelts_loot"
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "function": "minecraft:furnace_smelt"
             }
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     },
     {
-      "rolls": 1,
-      "bonus_rolls": 0,
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
+          },
+          {
+            "type": "minecraft:random_chance_with_enchanted_bonus",
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.035,
+              "per_level_above_first": 0.01
+            },
+            "enchantment": "minecraft:looting",
+            "unenchanted_chance": 0.025
+          }
+        ]
+      },
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
-            {
-              "conditions": [
+          "modifier": {
+            "type": "minecraft:furnace_smelt",
+            "condition": {
+              "type": "minecraft:any_of",
+              "terms": [
                 {
-                  "condition": "minecraft:any_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "flags": {
-                          "is_on_fire": true
-                        }
-                      }
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "direct_attacker",
-                      "predicate": {
-                        "equipment": {
-                          "mainhand": {
-                            "predicates": {
-                              "minecraft:enchantments": [
-                                {
-                                  "enchantments": "#minecraft:smelts_loot"
-                                }
-                              ]
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:flags": {
+                      "is_on_fire": true
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "direct_attacker",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "mainhand": {
+                        "predicates": {
+                          "minecraft:enchantments": [
+                            {
+                              "enchantments": "#minecraft:smelts_loot"
                             }
-                          }
+                          ]
                         }
                       }
                     }
-                  ]
+                  }
                 }
-              ],
-              "function": "minecraft:furnace_smelt"
+              ]
             }
-          ],
+          },
           "value": "minecraft:gameplay/fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.035,
-            "per_level_above_first": 0.01
-          },
-          "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.025
-        }
-      ]
+      "rolls": 1.0
     },
     {
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:empty",
@@ -251,10 +203,10 @@
     "rules": [
       {
         "type": "merge",
-        "target": "pools[2].entries[0]",
+        "target": "pools[2].entries[0].modifier",
         "source": {
           "type": "reference",
-          "path": "pools[2].entries[0]"
+          "path": "pools[2].entries[0].modifier"
         }
       }
     ]

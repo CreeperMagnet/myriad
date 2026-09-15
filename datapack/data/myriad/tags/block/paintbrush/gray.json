@@ -11,6 +11,10 @@
     "minecraft:gray_concrete_powder",
     "minecraft:gray_terracotta",
     "minecraft:gray_candle",
-    "minecraft:gray_bed"
+    "minecraft:gray_bed",
+    "minecraft:gray_concrete_stairs",
+    "minecraft:gray_concrete_slab",
+    "minecraft:gray_wool_stairs",
+    "minecraft:gray_wool_slab"
   ]
 }

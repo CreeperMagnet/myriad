@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:warped_fungus_on_a_stick",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:copy_custom_data",
+              "type": "minecraft:copy_custom_data",
               "source": {
                 "type": "minecraft:storage",
                 "source": "myriad:temp"
@@ -22,11 +22,11 @@
               ]
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"saplink\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "!minecraft:max_damage": {},
                 "!minecraft:damage": {},
@@ -40,7 +40,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -68,10 +68,7 @@
               ],
               "mode": "replace_all"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ]
         }
       ]

@@ -6,33 +6,34 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"boomerang\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:boomerang",
                 "minecraft:damage": 0,
                 "minecraft:max_damage": 300,
                 "minecraft:repairable": {
                   "items": "#myriad:repair_items/boomerang"
+                },
+                "minecraft:cooking_fuel": {
+                  "burn_time": "minecraft:cooking/time_wood_items_large",
+                  "speed_multiplier": "minecraft:cooking/speed_default"
                 }
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.boomerang"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:warped_fungus_on_a_stick"
         }

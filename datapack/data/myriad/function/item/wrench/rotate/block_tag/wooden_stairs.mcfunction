@@ -12,3 +12,4 @@ execute if block ~ ~ ~ minecraft:mangrove_stairs run function myriad:item/wrench
 execute if block ~ ~ ~ minecraft:dark_oak_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:dark_oak_stairs"}
 execute if block ~ ~ ~ minecraft:crimson_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:crimson_stairs"}
 execute if block ~ ~ ~ minecraft:warped_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:warped_stairs"}
+execute if block ~ ~ ~ minecraft:poplar_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:poplar_stairs"}

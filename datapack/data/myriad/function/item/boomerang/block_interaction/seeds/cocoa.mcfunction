@@ -4,6 +4,6 @@ execute if block ~ ~ ~ minecraft:cocoa[facing=north] run setblock ~ ~ ~ minecraf
 execute if block ~ ~ ~ minecraft:cocoa[facing=south] run setblock ~ ~ ~ minecraft:cocoa[facing=south]
 execute if block ~ ~ ~ minecraft:cocoa[facing=east] run setblock ~ ~ ~ minecraft:cocoa[facing=east]
 execute if block ~ ~ ~ minecraft:cocoa[facing=west] run setblock ~ ~ ~ minecraft:cocoa[facing=west]
-particle minecraft:block{block_state:{Name:"minecraft:cocoa",Properties:{age:"2"}}} ~ ~1 ~ 0.1 0.1 0.1 0 15
+particle minecraft:block{block_state:{id:"minecraft:cocoa",properties:{age:"2"}}} ~ ~1 ~ 0.1 0.1 0.1 0 15
 playsound minecraft:block.wood.break block @a[distance=..16] ~ ~ ~ 1 0.85
 loot spawn ~ ~ ~ loot myriad:blocks/boomerang/cocoa

@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 88,
-    "min_format": 88,
-    "max_format": 88,
+    "pack_format": 97,
+    "min_format": [97,1],
+    "max_format": [97,1],
     "description": [
       {
         "text": "Myriad",

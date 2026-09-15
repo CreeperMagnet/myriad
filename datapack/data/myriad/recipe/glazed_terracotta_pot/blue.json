@@ -25,30 +25,24 @@
           "id": "decorated_pot",
           "type": "glazed_terracotta",
           "color": "blue",
-          "custom_block": true,
-          "sherds": [
-            {
-              "id": "minecraft:blue_glazed_terracotta"
-            },
-            {
-              "id": "minecraft:blue_glazed_terracotta"
-            },
-            {
-              "id": "minecraft:blue_glazed_terracotta"
-            },
-            {
-              "id": "minecraft:blue_glazed_terracotta"
-            }
-          ]
+          "custom_block": true
         }
       },
       "minecraft:item_name": {"translate":"block.myriad.glazed_terracotta_pot.blue"},
-      "minecraft:pot_decorations": [
-        "minecraft:air",
-        "minecraft:air",
-        "minecraft:air",
-        "minecraft:air"
-      ],
+      "minecraft:pot_decorations": {
+        "back": {
+          "id": "minecraft:blue_glazed_terracotta"
+        },
+        "front": {
+          "id": "minecraft:blue_glazed_terracotta"
+        },
+        "left": {
+          "id": "minecraft:blue_glazed_terracotta"
+        },
+        "right": {
+          "id": "minecraft:blue_glazed_terracotta"
+        }
+     },
       "minecraft:lore": [
         {
           "translate": "pack.myriad",

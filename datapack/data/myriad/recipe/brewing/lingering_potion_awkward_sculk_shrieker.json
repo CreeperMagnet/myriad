@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:lingering_potion",
+    "potion_contents": {
+      "potions": "minecraft:awkward"
+    }
+  },
+  "output": {
+    "components": {
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "potion",
+          "type": "blind_rage"
+        }
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 998735,
+        "custom_effects": [
+          {
+            "id": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 300
+          },
+          {
+            "id": "minecraft:strength",
+            "amplifier": 4,
+            "duration": 300
+          }
+        ],
+        "custom_name": "myriad:blind_rage"
+      }
+    },
+    "id": "minecraft:lingering_potion"
+  },
+  "reagent": {
+    "item": "minecraft:sculk_shrieker"
+  }
+}

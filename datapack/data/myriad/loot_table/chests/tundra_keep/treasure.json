@@ -6,16 +6,14 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 10,
-                "type": "minecraft:uniform"
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 5,
+              "max": 10,
+              "type": "minecraft:uniform"
             }
-          ],
+          },
           "value": "myriad:items/frostbloom_petals"
         }
       ]
@@ -30,12 +28,10 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_instrument",
-              "options": "#minecraft:goat_horns"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_instrument",
+            "options": "#minecraft:goat_horns"
+          },
           "name": "minecraft:goat_horn"
         },
         {
@@ -51,46 +47,41 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3,
-                "type": "minecraft:uniform"
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 3,
+              "type": "minecraft:uniform"
             }
-          ],
+          },
           "name": "minecraft:diamond"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 5,
-                "type": "minecraft:uniform"
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 3,
+              "max": 5,
+              "type": "minecraft:uniform"
             }
-          ],
+          },
           "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:ominous_bottle",
-          "functions": [
-            {
-              "function": "minecraft:set_ominous_bottle_amplifier",
-              "amplifier": {
-                "min": 2,
-                "max": 4
-              }
+          "modifier": {
+            "type": "minecraft:set_ominous_bottle_amplifier",
+            "amplifier": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 4
             }
-          ]
+          }
         }
       ]
     }

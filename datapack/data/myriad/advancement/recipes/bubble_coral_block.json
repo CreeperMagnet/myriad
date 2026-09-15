@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:bubble_coral_block"
+        "recipes": "myriad:bubble_coral_block"
       }
     }
   },

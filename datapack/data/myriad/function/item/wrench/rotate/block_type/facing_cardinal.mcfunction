@@ -2,7 +2,7 @@
 
 execute if block ~ ~ ~ #minecraft:anvil run function myriad:item/wrench/rotate/block_tag/anvil
 
-execute if block ~ ~ ~ #myriad:glazed_terracotta run function myriad:item/wrench/rotate/block_tag/glazed_terracotta
+execute if block ~ ~ ~ #minecraft:glazed_terracotta run function myriad:item/wrench/rotate/block_tag/glazed_terracotta
 
 execute if block ~ ~ ~ minecraft:carved_pumpkin run function myriad:item/wrench/rotate/macro/facing_cardinal {block:"minecraft:carved_pumpkin"}
 

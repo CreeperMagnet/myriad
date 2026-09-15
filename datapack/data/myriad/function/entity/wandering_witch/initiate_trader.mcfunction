@@ -20,7 +20,7 @@ loot replace entity @s weapon.mainhand 2 loot myriad:trades/wandering_witch/caul
 function myriad:entity/wandering_witch/add_trade
 
 
-loot replace entity @s weapon.mainhand 2 loot myriad:trades/wandering_witch/powders
+loot replace entity @s weapon.mainhand 2 loot myriad:trades/wandering_witch/modifiers
 function myriad:entity/wandering_witch/add_trade
 
 

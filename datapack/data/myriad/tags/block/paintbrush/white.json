@@ -11,6 +11,10 @@
     "minecraft:white_concrete_powder",
     "minecraft:white_terracotta",
     "minecraft:white_candle",
-    "minecraft:white_bed"
+    "minecraft:white_bed",
+    "minecraft:white_concrete_stairs",
+    "minecraft:white_concrete_slab",
+    "minecraft:white_wool_stairs",
+    "minecraft:white_wool_slab"
   ]
 }

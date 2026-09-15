@@ -3,35 +3,35 @@
     "health_boost": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "myriad:entity_properties/slots/armor.head/cursed_crown",
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:health_boost": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "effects": {
-                  "minecraft:health_boost": {}
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "myriad.cursed_crown.health_boost"
+                  ]
                 }
               }
             }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.cursed_crown.health_boost"
-                ]
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

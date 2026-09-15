@@ -14,9 +14,6 @@ execute as @e[type=minecraft:trident,tag=myriad.trident] run data modify entity 
 ## Persistent Cursed Crown
 execute as @e[type=minecraft:item,tag=myriad.persistent_cursed_crown] run data modify entity @s Age set value -32767s
 
-## Glow lichen zombie ten second clock
-execute as @e[type=minecraft:zombie,tag=myriad.glow_lichen_zombie] at @s run function myriad:entity/glow_lichen_zombie/ten_second_clock
-
 ## All blocks
 execute as @e[type=minecraft:item_display,tag=myriad.block] at @s run function myriad:block/ten_second_clock
 

@@ -1,7 +1,7 @@
 # Checks what the potion should do if it succeeds in dilution
 
 data modify storage myriad:temp root.potion set from storage myriad:temp root.item.components."minecraft:potion_contents".potion
-execute if data storage myriad:temp root.item.components."minecraft:custom_data".myriad.potion.id run data modify storage myriad:temp root.potion set from storage myriad:temp root.item.components."minecraft:custom_data".myriad.potion.id
+execute if data storage myriad:temp root.item.components."minecraft:custom_data".myriad{id:"potion"} run data modify storage myriad:temp root.potion set from storage myriad:temp root.item.components."minecraft:custom_data".myriad
 data modify storage myriad:temp root.item set value {id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:item_model":"myriad:diluted_potion","!minecraft:enchantments":{},"minecraft:custom_data":{myriad:{id:"diluted_potion",potion:{uses:[10,10]}}},"minecraft:custom_model_data":{"floats":[10.0f],"colors":[16253176]},"!minecraft:damage":{},"!minecraft:max_damage":{}}}
 data modify storage myriad:temp root.item.components."minecraft:lore" set value [{"translate":"item.myriad.diluted_potion.uses","color":"gray","italic":false,"with":["10","10"]},{"translate":"pack.myriad","color":"white","italic":false,"font":"myriad:tooltip"}]
 data modify storage myriad:temp root.item.components."minecraft:custom_data".myriad.potion.id set from storage myriad:temp root.potion
@@ -33,9 +33,9 @@ execute if data storage myriad:temp root{potion:"minecraft:strong_poison"} run r
 execute if data storage myriad:temp root{potion:"minecraft:slow_falling"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_generic_tags {color:15978425,translation:"slow_falling",lore_color:"blue",effect:"slow_falling",duration:9,duration_lore_0:0,duration_lore_1:9,amplifier:0}
 execute if data storage myriad:temp root{potion:"minecraft:long_slow_falling"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_generic_tags {color:15978425,translation:"slow_falling",lore_color:"blue",effect:"slow_falling",duration:24,duration_lore_0:2,duration_lore_1:4,amplifier:0}
 
-execute if data storage myriad:temp root{potion:"myriad:fortitude"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/fortitude
-execute if data storage myriad:temp root{potion:"myriad:long_fortitude"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/long_fortitude
-execute if data storage myriad:temp root{potion:"myriad:strong_fortitude"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/strong_fortitude
+execute if data storage myriad:temp root.potion{type:"fortitude"} unless data storage myriad:temp root.potion{amplified:true} unless data storage myriad:temp root.potion{extended:true} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/fortitude
+execute if data storage myriad:temp root.potion{type:"fortitude",extended:true} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/long_fortitude
+execute if data storage myriad:temp root.potion{type:"fortitude",amplified:true} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/strong_fortitude
 
 execute if data storage myriad:temp root{potion:"minecraft:swiftness"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/swiftness
 execute if data storage myriad:temp root{potion:"minecraft:long_swiftness"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/long_swiftness
@@ -72,8 +72,8 @@ execute if data storage myriad:temp root{potion:"minecraft:turtle_master"} run r
 execute if data storage myriad:temp root{potion:"minecraft:long_turtle_master"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/long_turtle_master
 execute if data storage myriad:temp root{potion:"minecraft:strong_turtle_master"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/strong_turtle_master
 
-execute if data storage myriad:temp root{potion:"myriad:blind_rage"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/blind_rage
-execute if data storage myriad:temp root{potion:"myriad:long_blind_rage"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/long_blind_rage
+execute if data storage myriad:temp root.potion{type:"blind_rage"} unless data storage myriad:temp root.potion{extended:true} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/blind_rage
+execute if data storage myriad:temp root.potion{type:"blind_rage",extended:true} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_type/long_blind_rage
 
 execute if data storage myriad:temp root{potion:"minecraft:water"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_no_effect_tags {translation:"water"}
 execute if data storage myriad:temp root{potion:"minecraft:thick"} run return run function myriad:block/brewing_stand/brewing/dilute_potion/set_no_effect_tags {translation:"thick"}

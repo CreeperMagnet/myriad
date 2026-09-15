@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "woolen_carpet",
+  "key": {
+    "#": "minecraft:cyan_wool"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:cyan_carpet"
+  }
+}

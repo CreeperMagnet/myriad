@@ -27,32 +27,26 @@
           "id": "decorated_pot",
           "type": "resin_brick",
           "custom_block": true,
-          "raw_pot": true,
-          "sherds": [
-            {
-              "id": "minecraft:resin_brick"
-            },
-            {
-              "id": "minecraft:resin_brick"
-            },
-            {
-              "id": "minecraft:resin_brick"
-            },
-            {
-              "id": "minecraft:resin_brick"
-            }
-          ]
+          "raw_pot": true
         }
       },
       "minecraft:item_name": {
         "translate": "block.myriad.resin_brick_pot"
       },
-      "minecraft:pot_decorations": [
-        "minecraft:air",
-        "minecraft:air",
-        "minecraft:air",
-        "minecraft:air"
-      ],
+      "minecraft:pot_decorations": {
+        "back": {
+          "id": "minecraft:resin_brick"
+        },
+        "front": {
+          "id": "minecraft:resin_brick"
+        },
+        "left": {
+          "id": "minecraft:resin_brick"
+        },
+        "right": {
+          "id": "minecraft:resin_brick"
+        }
+     },
       "minecraft:lore": [
         {
           "translate": "pack.myriad",
@@ -60,12 +54,7 @@
           "italic": false,
           "font": "myriad:tooltip"
         }
-      ],
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:pot_decorations"
-        ]
-      }
+      ]
     }
   }
 }

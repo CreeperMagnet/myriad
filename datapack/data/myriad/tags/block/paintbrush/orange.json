@@ -11,6 +11,10 @@
     "minecraft:orange_concrete_powder",
     "minecraft:orange_terracotta",
     "minecraft:orange_candle",
-    "minecraft:orange_bed"
+    "minecraft:orange_bed",
+    "minecraft:orange_concrete_stairs",
+    "minecraft:orange_concrete_slab",
+    "minecraft:orange_wool_stairs",
+    "minecraft:orange_wool_slab"
   ]
 }

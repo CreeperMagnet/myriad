@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
           "blocks": "#myriad:paintbrush/raycast_ignore"
@@ -10,12 +10,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:snow"
-          ],
+          "blocks": "minecraft:snow",
           "state": {
             "layers": "1"
           }

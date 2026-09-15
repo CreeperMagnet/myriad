@@ -4,7 +4,7 @@
       "rules": [
         {
           "output_state": {
-            "Name": "minecraft:smooth_basalt"
+            "id": "minecraft:smooth_basalt"
           },
           "input_predicate": {
             "block": "minecraft:basalt",

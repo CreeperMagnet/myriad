@@ -6,9 +6,9 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -17,7 +17,7 @@
               "add": false
             },
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -35,7 +35,7 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "merge",
+        "type": "replace",
         "target": "pools[0].entries[0]",
         "source": {
           "type": "reference",

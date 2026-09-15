@@ -3,12 +3,7 @@
     "player_took_damage": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
-          }
-        ]
+        "player": "myriad:entity_properties/slots/armor.head/cursed_crown"
       }
     }
   },

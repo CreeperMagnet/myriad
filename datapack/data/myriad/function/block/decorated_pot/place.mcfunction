@@ -17,11 +17,5 @@ data modify storage myriad:temp root.macro_input.model set from storage myriad:t
 data modify storage myriad:temp root.macro_input.model_data set from storage myriad:temp root.macro_input.item.components."minecraft:custom_model_data"
 
 # Setblocks the proper block
+data remove block ~ ~ ~ components."minecraft:custom_data".myriad.custom_block
 function myriad:block/decorated_pot/place_macro with storage myriad:temp root.macro_input
-
-tag @s remove myriad.tag
-execute if block ~ ~ ~ minecraft:decorated_pot[waterlogged=true] run tag @s add myriad.tag
-setblock ~ ~ ~ minecraft:air
-execute if entity @s[tag=myriad.tag] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=true]{sherds:["minecraft:air","minecraft:air","minecraft:air","minecraft:air"],components:{"minecraft:custom_data":{"myriad":{"id":"decorated_pot"}}}}
-execute unless entity @s[tag=myriad.tag] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=false]{sherds:["minecraft:air","minecraft:air","minecraft:air","minecraft:air"],components:{"minecraft:custom_data":{"myriad":{"id":"decorated_pot"}}}}
-tag @s remove myriad.tag

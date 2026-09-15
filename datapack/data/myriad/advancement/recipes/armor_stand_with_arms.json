@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:armor_stand_with_arms"
+        "recipes": "myriad:armor_stand_with_arms"
       }
     }
   },

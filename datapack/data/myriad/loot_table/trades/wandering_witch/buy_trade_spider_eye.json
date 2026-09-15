@@ -7,23 +7,19 @@
           "type": "item",
           "name": "minecraft:glass_bottle",
           "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 12
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 12
+          }
         },
         {
           "type": "item",
           "name": "minecraft:nether_wart",
           "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 6
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 6
+          }
         },
         {
           "type": "item",
@@ -41,12 +37,10 @@
         {
           "type": "item",
           "name": "minecraft:spider_eye",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 4
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 4
+          }
         }
       ]
     }

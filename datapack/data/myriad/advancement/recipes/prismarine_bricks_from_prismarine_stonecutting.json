@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:prismarine_bricks_from_prismarine_stonecutting"
+        "recipes": "myriad:prismarine_bricks_from_prismarine_stonecutting"
       }
     }
   },

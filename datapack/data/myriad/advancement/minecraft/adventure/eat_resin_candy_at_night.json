@@ -33,16 +33,13 @@
             "minecraft:custom_data": "{myriad:{id:\"resin_candy\"}}"
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:time_check/night"
-          },
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:location_check/in_overworld"
-          }
-        ]
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "myriad:time_check/night",
+            "myriad:location_check/in_overworld"
+          ]
+        }
       }
     }
   },

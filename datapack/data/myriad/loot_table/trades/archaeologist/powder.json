@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_sand",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:components": {
+                "minecraft:villager/variant": "minecraft:savanna"
+              }
+            }
+          }
+        }
+      ],
+      "modifier": {
+        "type": "minecraft:set_count",
+        "count": 4
+      }
+    }
+  ],
+  "random_sequence": "myriad:trades/archaeologist/powder"
+}

@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "effects": {
+        "size": 2,
+        "contains": [
+          {
+            "minecraft:blindness": {
+              "amplifier": 0,
+              "duration": 300
+            },
+            "minecraft:strength": {
+              "amplifier": 4,
+              "duration": 300
+            }
+          }
+        ]
+      }
+    }
+  },
+  "output": {
+    "components": {
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "potion",
+          "type": "blind_rage",
+          "extended": true
+        }
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 998735,
+        "custom_effects": [
+          {
+            "id": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 600
+          },
+          {
+            "id": "minecraft:strength",
+            "amplifier": 4,
+            "duration": 600
+          }
+        ],
+        "custom_name": "myriad:blind_rage"
+      }
+    },
+    "id": "minecraft:potion"
+  },
+  "reagent": {
+    "item": "minecraft:redstone"
+  }
+}

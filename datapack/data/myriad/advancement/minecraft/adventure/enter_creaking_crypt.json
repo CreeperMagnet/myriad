@@ -28,14 +28,12 @@
     "enter_crypt": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "structures": "#myriad:creaking_crypt"
-            }
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "structures": "#myriad:creaking_crypt"
           }
-        ]
+        }
       }
     }
   },

@@ -6,12 +6,10 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 1
+          }
         }
       ]
     },
@@ -119,12 +117,10 @@
           "weight": 2
         }
       ],
-      "functions": [
-        {
-          "function": "set_count",
-          "count": 8
-        }
-      ]
+      "modifier": {
+        "type": "set_count",
+        "count": 8
+      }
     }
   ],
   "random_sequence": "myriad:trades/wandering_trader/flowers"

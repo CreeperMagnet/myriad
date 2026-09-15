@@ -6,12 +6,10 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 2
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 2
+          }
         }
       ]
     },
@@ -53,6 +51,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pale_oak_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poplar_sapling"
         }
       ]
     }

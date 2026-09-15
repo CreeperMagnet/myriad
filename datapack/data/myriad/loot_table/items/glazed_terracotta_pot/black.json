@@ -6,21 +6,29 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{myriad:{id:\"decorated_pot\",type:\"glazed_terracotta\",custom_block:1b,color:\"black\",sherds:[{id:\"minecraft:black_glazed_terracotta\"},{id:\"minecraft:black_glazed_terracotta\"},{id:\"minecraft:black_glazed_terracotta\"},{id:\"minecraft:black_glazed_terracotta\"}]}}"
+              "type": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"decorated_pot\",type:\"glazed_terracotta\",custom_block:1b,color:\"black\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:block/glazed_terracotta_pot",
-                "minecraft:pot_decorations": [
-                  "minecraft:air",
-                  "minecraft:air",
-                  "minecraft:air",
-                  "minecraft:air"
-                ],
+                "minecraft:pot_decorations": {
+                  "back": {
+                    "id": "minecraft:black_glazed_terracotta"
+                  },
+                  "front": {
+                    "id": "minecraft:black_glazed_terracotta"
+                  },
+                  "left": {
+                    "id": "minecraft:black_glazed_terracotta"
+                  },
+                  "right": {
+                    "id": "minecraft:black_glazed_terracotta"
+                  }
+                },
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:pot_decorations"
@@ -34,16 +42,13 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "block.myriad.glazed_terracotta_pot.black"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:decorated_pot"
         }

@@ -21,15 +21,14 @@
         {
           "type": "minecraft:loot_table",
           "value": "myriad:items/cursed_crown",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.05,
-                "max": 0.1
-              }
+          "modifier": {
+            "type": "minecraft:set_damage",
+            "damage": {
+              "type": "minecraft:uniform",
+              "min": 0.05,
+              "max": 0.1
             }
-          ]
+          }
         }
       ]
     }

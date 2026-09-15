@@ -12,33 +12,29 @@
             "minecraft:custom_name": "Mulligan"
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:cat"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat"
           }
-        ]
+        }
       }
     },
     "use_spawn_egg": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:cat_spawn_egg"
-              ],
-              "components": {
-                "minecraft:custom_name": "Mulligan"
-              }
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:cat_spawn_egg"
+            ],
+            "components": {
+              "minecraft:custom_name": "Mulligan"
             }
           }
-        ]
+        }
       }
     }
   },

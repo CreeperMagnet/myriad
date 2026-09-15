@@ -10,13 +10,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:fishing_rod",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 40,
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": 40,
+            "options": "#minecraft:on_random_loot"
+          }
         },
         {
           "type": "minecraft:item",

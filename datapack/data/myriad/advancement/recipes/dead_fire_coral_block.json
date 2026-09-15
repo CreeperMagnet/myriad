@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:dead_fire_coral_block"
+        "recipes": "myriad:dead_fire_coral_block"
       }
     }
   },

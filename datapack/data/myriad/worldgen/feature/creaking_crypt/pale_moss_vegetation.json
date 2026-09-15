@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:pale_moss_carpet",
+          "properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "none",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "weight": 7
+      },
+      {
+        "data": {
+          "id": "minecraft:closed_eyeblossom"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Gives a named saplink
+
+scoreboard players set @s myriad.dummy 0
+$execute unless items entity @s weapon.mainhand * run return run loot replace entity @s weapon.mainhand loot {"pools":[{rolls:1,entries:[{"type":"minecraft:loot_table","value":"myriad:technical/saplink/named",modifier:[{"type":"minecraft:set_name","name":{"translate":"item.myriad.saplink.$(sapling_id)"},"target":"item_name"},{"type":"minecraft:set_custom_model_data",strings:{mode:"replace_all",values:["$(sapling_id)"]}}]}]}]}
+
+$execute store result score @s myriad.dummy run loot give @s loot {"pools":[{rolls:1,entries:[{"type":"minecraft:loot_table","value":"myriad:technical/saplink/named",modifier:[{"type":"minecraft:set_name","name":{"translate":"item.myriad.saplink.$(sapling_id)"},"target":"item_name"},{"type":"minecraft:set_custom_model_data",strings:{mode:"replace_all",values:["$(sapling_id)"]}}]}]}]}
+$execute if score @s myriad.dummy matches 0 run loot spawn ~ ~ ~ loot {"pools":[{rolls:1,entries:[{"type":"minecraft:loot_table","value":"myriad:technical/saplink/named",modifier:[{"type":"minecraft:set_name","name":{"translate":"item.myriad.saplink.$(sapling_id)"},"target":"item_name"},{"type":"minecraft:set_custom_model_data",strings:{mode:"replace_all",values:["$(sapling_id)"]}}]}]}]}

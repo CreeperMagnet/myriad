@@ -1,11 +1,11 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:all_of",
+      "type": "minecraft:all_of",
       "terms": [
         {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "minecraft:type_specific/player": {
@@ -16,7 +16,7 @@
           }
         },
         {
-          "condition": "minecraft:location_check",
+          "type": "minecraft:location_check",
           "predicate": {
             "block": {
               "blocks": "#myriad:wrench/creative_only"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
           "blocks": "#myriad:wrench/rotatable"
@@ -34,12 +34,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:bell"
-          ],
+          "blocks": "minecraft:bell",
           "state": {
             "attachment": "floor"
           }
@@ -47,12 +45,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:piston"
-          ],
+          "blocks": "minecraft:piston",
           "state": {
             "extended": "false"
           }
@@ -60,12 +56,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:sticky_piston"
-          ],
+          "blocks": "minecraft:sticky_piston",
           "state": {
             "extended": "false"
           }
@@ -73,12 +67,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:iron_trapdoor"
-          ],
+          "blocks": "minecraft:iron_trapdoor",
           "state": {
             "powered": "false"
           }
@@ -86,12 +78,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:iron_door"
-          ],
+          "blocks": "minecraft:iron_door",
           "state": {
             "powered": "false"
           }
@@ -99,12 +89,10 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:repeater"
-          ],
+          "blocks": "minecraft:repeater",
           "state": {
             "locked": "false"
           }
@@ -112,7 +100,7 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
           "state": {
@@ -123,7 +111,7 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
           "blocks": [

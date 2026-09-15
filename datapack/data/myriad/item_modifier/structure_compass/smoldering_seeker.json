@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:exploration_map",
+  "destination": "#myriad:smoldering_seeker_located",
+  "search_radius": 50,
+  "skip_existing_chunks": false
+}

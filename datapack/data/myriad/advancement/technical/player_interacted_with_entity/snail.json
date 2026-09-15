@@ -4,51 +4,42 @@
     "breed": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "mainhand": {
-                      "items": [
-                        "minecraft:beetroot_soup"
-                      ],
-                      "count": 1
-                    }
-                  }
-                }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:beetroot_soup"
+                ],
+                "count": 1
               }
-            ]
+            }
           }
-        ],
+        },
         "item": {
           "items": [
             "minecraft:beetroot_soup"
           ]
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.snail"
-                ],
-                "none_of": [
-                  "myriad.pregnant",
-                  "myriad.in_love",
-                  "myriad.breeding_cooldown",
-                  "myriad.baby"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.snail"
+              ],
+              "none_of": [
+                "myriad.pregnant",
+                "myriad.in_love",
+                "myriad.breeding_cooldown",
+                "myriad.baby"
+              ]
             }
           }
-        ]
+        }
       }
     },
     "bucket": {
@@ -59,26 +50,26 @@
             "minecraft:bucket"
           ]
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.snail"
-                ]
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "myriad.snail"
+                  ]
+                }
               }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": "myriad:entity_properties/in_vehicle"
             }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "myriad:entity_properties/in_vehicle"
-            }
-          }
-        ]
+          ]
+        }
       }
     },
     "feed": {
@@ -89,22 +80,20 @@
             "minecraft:beetroot"
           ]
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.snail"
-                ],
-                "none_of": [
-                  "myriad.fed_beetroot"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.snail"
+              ],
+              "none_of": [
+                "myriad.fed_beetroot"
+              ]
             }
           }
-        ]
+        }
       }
     },
     "feed_heartbeet": {
@@ -115,22 +104,20 @@
             "minecraft:custom_data": "{myriad:{id:\"heartbeet\"}}"
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.snail"
-                ],
-                "none_of": [
-                  "myriad.fed_heartbeet"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.snail"
+              ],
+              "none_of": [
+                "myriad.fed_heartbeet"
+              ]
             }
           }
-        ]
+        }
       }
     },
     "name": {
@@ -144,19 +131,17 @@
             "minecraft:custom_name": "Gary"
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.snail"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.snail"
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

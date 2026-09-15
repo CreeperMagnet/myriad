@@ -2,13 +2,13 @@
   "processors": [
     {
       "processor_type": "minecraft:protected_blocks",
-      "value": "#myriad:nether_gold_ore_vein_cannot_replace"    
+      "value": "#myriad:nether_gold_ore_vein_cannot_replace"
     },
     {
       "processor_type": "minecraft:block_ignore",
       "blocks": [
         {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       ]
     },
@@ -29,7 +29,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:gilded_blackstone"
+            "id": "minecraft:gilded_blackstone"
           }
         }
       ]

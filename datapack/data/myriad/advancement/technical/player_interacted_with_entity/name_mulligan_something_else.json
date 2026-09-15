@@ -9,30 +9,33 @@
             "minecraft:name_tag"
           ]
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:cat",
-              "components": {
-                "minecraft:cat/variant": "myriad:mulligan"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
+                "minecraft:entity_type": "minecraft:cat",
                 "components": {
-                  "minecraft:custom_name": "Mulligan"
+                  "minecraft:cat/variant": "myriad:mulligan"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:custom_name": "Mulligan"
+                  }
                 }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

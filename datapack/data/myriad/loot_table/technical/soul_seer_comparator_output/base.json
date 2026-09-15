@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{clear:1b,id:\"soul_seer_comparator_output\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:air"
               }

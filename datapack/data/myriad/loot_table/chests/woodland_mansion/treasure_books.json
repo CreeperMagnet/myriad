@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 3,
         "max": 4
       },
@@ -10,29 +11,25 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 45.0,
-                "min": 30.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": {
+              "type": "minecraft:uniform",
+              "max": 45.0,
+              "min": 30.0
+            },
+            "options": "#minecraft:on_random_loot"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:mending"
-              ]
-            }
-          ]
+          "modifier": {
+            "type": "minecraft:enchant_randomly",
+            "options": [
+              "minecraft:mending"
+            ]
+          }
         }
       ]
     }

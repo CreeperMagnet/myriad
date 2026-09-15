@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:creaking_connector"
+        "recipes": "myriad:creaking_connector"
       }
     }
   },

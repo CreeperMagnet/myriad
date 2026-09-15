@@ -3,43 +3,39 @@
     "add_item": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:item_frame",
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.phantom_item_frame"
-                ],
-                "none_of": [
-                  "myriad.phantom_item_frame.has_item"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:item_frame",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.phantom_item_frame"
+              ],
+              "none_of": [
+                "myriad.phantom_item_frame.has_item"
+              ]
             }
           }
-        ]
+        }
       }
     },
     "rotate": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:item_frame",
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.phantom_item_frame",
-                  "myriad.phantom_item_frame.has_item"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:item_frame",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.phantom_item_frame",
+                "myriad.phantom_item_frame.has_item"
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

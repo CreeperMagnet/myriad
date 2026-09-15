@@ -31,15 +31,13 @@
     "entity_picks_up_heartbeet": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "#minecraft:undead"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "#minecraft:undead"
           }
-        ],
+        },
         "item": {
           "components": {
             "minecraft:custom_data": "{myriad:{id:\"heartbeet\"}}"

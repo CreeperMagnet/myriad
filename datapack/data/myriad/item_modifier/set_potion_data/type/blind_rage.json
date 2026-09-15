@@ -1,32 +1,36 @@
-[
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:potion_contents": {
-        "custom_color": 8940032,
-        "potion": "minecraft:mundane",
-        "custom_effects": [
-          {
-            "id": "minecraft:blindness",
-            "amplifier": 0,
-            "duration": 300
-          },
-          {
-            "id": "minecraft:strength",
-            "amplifier": 4,
-            "duration": 300
-          }
-        ],
-        "custom_name": "myriad:blind_rage"
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 998735,
+          "custom_effects": [
+            {
+              "id": "minecraft:blindness",
+              "amplifier": 0,
+              "duration": 300
+            },
+            {
+              "id": "minecraft:strength",
+              "amplifier": 4,
+              "duration": 300
+            }
+          ],
+          "custom_name": "myriad:blind_rage"
+        }
+      }
+    },
+    "myriad:add_tooltip_lore",
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "myriad": {
+          "id": "potion",
+          "type": "blind_rage"
+        }
       }
     }
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "myriad:add_tooltip_lore"
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{myriad:{id:\"potion\",potion:{id:\"myriad:blind_rage\",can_extend:1b,can_amplify:0b}}}"
-  }
-]
+  ]
+}

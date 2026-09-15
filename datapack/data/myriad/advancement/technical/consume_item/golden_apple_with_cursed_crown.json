@@ -3,12 +3,7 @@
     "golden_apple": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
-          }
-        ],
+        "player": "myriad:entity_properties/slots/armor.head/cursed_crown",
         "item": {
           "items": [
             "minecraft:golden_apple"
@@ -19,12 +14,7 @@
     "enchanted_golden_apple": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
-          }
-        ],
+        "player": "myriad:entity_properties/slots/armor.head/cursed_crown",
         "item": {
           "items": [
             "minecraft:enchanted_golden_apple"

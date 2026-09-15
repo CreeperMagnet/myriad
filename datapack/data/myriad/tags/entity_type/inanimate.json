@@ -19,6 +19,7 @@
     "minecraft:painting",
     "minecraft:spawner_minecart",
     "minecraft:tnt",
-    "minecraft:tnt_minecart"
+    "minecraft:tnt_minecart",
+    "minecraft:cushion"
   ]
 }

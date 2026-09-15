@@ -32,7 +32,10 @@
           "italic": false,
           "font": "myriad:tooltip"
         }
-      ]
+      ],
+      "minecraft:compostable": {
+        "layers": "minecraft:compostable/medium_high"
+      }
     }
   }
 }

@@ -13,16 +13,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:potion_contents": {
-                  "potion": "minecraft:poison"
-                }
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:poison"
               }
             }
-          ],
+          },
           "name": "minecraft:tipped_arrow"
         },
         {

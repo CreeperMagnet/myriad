@@ -11,6 +11,10 @@
     "minecraft:light_blue_concrete_powder",
     "minecraft:light_blue_terracotta",
     "minecraft:light_blue_candle",
-    "minecraft:light_blue_bed"
+    "minecraft:light_blue_bed",
+    "minecraft:light_blue_concrete_stairs",
+    "minecraft:light_blue_concrete_slab",
+    "minecraft:light_blue_wool_stairs",
+    "minecraft:light_blue_wool_slab"
   ]
 }

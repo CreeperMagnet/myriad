@@ -3,18 +3,14 @@
     "place_brewing_stand": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:brewing_stand"
-                ]
-              }
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:brewing_stand"
             }
           }
-        ]
+        }
       }
     }
   },

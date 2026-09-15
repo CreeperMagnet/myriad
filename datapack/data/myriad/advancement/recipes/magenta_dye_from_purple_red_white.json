@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "myriad:magenta_dye_from_purple_red_white"
+        "recipes": "myriad:magenta_dye_from_purple_red_white"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

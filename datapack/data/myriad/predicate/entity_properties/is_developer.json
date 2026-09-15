@@ -1,67 +1,53 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{UUID:[I;174075200,-1591786516,-2138149455,-1781296834]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{UUID:[I;734210961,-1316207451,-1275046741,902739439]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{UUID:[I;428127362,1435913916,-1590001733,-1276626540]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{UUID:[I;-1438877745,266224616,-1289135382,-768573524]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{UUID:[I;-689044118,-1826402375,-1152922891,838870310]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{UUID:[I;-960403072,937248058,-1342518238,-154432479]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{UUID:[I;1217272884,1183861950,-1340803177,-2063687350]}"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{UUID:[I;1389341286,717113757,-1272667021,-272662955]}"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{UUID:[I;1809200861,-1751232988,-1628462218,2135519595]}"
+        "nbt": "{UUID:[I;1509910265,-1985591926,-1349041395,-625404437]}"
       }
     }
   ]

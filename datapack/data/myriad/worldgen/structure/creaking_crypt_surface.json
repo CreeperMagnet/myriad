@@ -12,6 +12,5 @@
   "biomes": "#myriad:has_structure/creaking_crypt",
   "spawn_overrides": {},
   "type": "minecraft:jigsaw",
-  "start_jigsaw_name": "myriad:anchor",
-  "liquid_settings": "ignore_waterlogging"
+  "start_jigsaw_name": "myriad:anchor"
 }

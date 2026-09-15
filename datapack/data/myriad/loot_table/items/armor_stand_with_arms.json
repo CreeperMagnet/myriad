@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"armor_stand_with_arms\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:armor_stand_with_arms",
                 "minecraft:entity_data": {
@@ -24,10 +24,7 @@
                 }
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:armor_stand"
         }

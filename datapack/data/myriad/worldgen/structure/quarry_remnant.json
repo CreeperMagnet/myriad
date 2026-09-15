@@ -15,14 +15,20 @@
         {
           "type": "minecraft:magma_cube",
           "weight": 3,
-          "minCount": 70,
-          "maxCount": 100
+          "count": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 70,
+            "max_inclusive": 100
+          }
         },
         {
           "type": "minecraft:zombified_piglin",
           "weight": 1,
-          "minCount": 30,
-          "maxCount": 40
+          "count": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 30,
+            "max_inclusive": 40
+          }
         }
       ],
       "bounding_box": "piece"

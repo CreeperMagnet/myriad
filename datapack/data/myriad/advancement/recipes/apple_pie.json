@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:apple_pie"
+        "recipes": "myriad:apple_pie"
       }
     }
   },

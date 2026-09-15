@@ -35,7 +35,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:dye_book/written/brown"
+        "recipes": "myriad:dye_book/written/brown"
       }
     }
   },

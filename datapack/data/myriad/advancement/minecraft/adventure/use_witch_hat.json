@@ -28,76 +28,55 @@
     "kill_normal_mob": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/witch_hat_this"
-          }
-        ],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": [
-                "minecraft:breeze",
-                "minecraft:cave_spider",
-                "minecraft:creeper",
-                "minecraft:ghast",
-                "minecraft:magma_cube",
-                "minecraft:phantom",
-                "minecraft:rabbit",
-                "minecraft:spider",
-                "minecraft:witch"
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "none_of": [
-                  "smithed.entity"
+        "player": "myriad:entity_properties/slots/armor.head/witch_hat_this",
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": [
+                  "minecraft:breeze",
+                  "minecraft:cave_spider",
+                  "minecraft:creeper",
+                  "minecraft:ghast",
+                  "minecraft:magma_cube",
+                  "minecraft:phantom",
+                  "minecraft:rabbit",
+                  "minecraft:spider",
+                  "minecraft:witch"
                 ]
               }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_tags": {
+                  "none_of": [
+                    "smithed.entity"
+                  ]
+                }
+              }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "kill_geomancer": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/witch_hat_this"
-          }
-        ],
+        "player": "myriad:entity_properties/slots/armor.head/witch_hat_this",
         "entity": {
-          "minecraft:entity_tags": {
-            "all_of": [
-              "myriad.geomancer"
-            ]
-          }
-        }
-      }
-    },
-    "kill_glow_lichen_zombie": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/witch_hat_this"
-          }
-        ],
-        "entity": {
-          "minecraft:entity_tags": {
-            "all_of": [
-              "myriad.glow_lichen_zombie"
-            ]
+          "entity": "this",
+          "type": "minecraft:entity_properties",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.geomancer"
+              ]
+            }
           }
         }
       }
@@ -106,8 +85,7 @@
   "requirements": [
     [
       "kill_normal_mob",
-      "kill_geomancer",
-      "kill_glow_lichen_zombie"
+      "kill_geomancer"
     ]
   ]
 }

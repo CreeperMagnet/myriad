@@ -5,12 +5,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 64
-            }
-          ],
+          "modifier": {
+            "type": "set_count",
+            "count": 64
+          },
           "value": "myriad:technical/soul_seer_comparator_output/base"
         }
       ]
@@ -20,12 +18,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 46
-            }
-          ],
+          "modifier": {
+            "type": "set_count",
+            "count": 46
+          },
           "value": "myriad:technical/soul_seer_comparator_output/base"
         }
       ]

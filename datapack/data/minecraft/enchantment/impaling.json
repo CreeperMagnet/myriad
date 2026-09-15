@@ -15,24 +15,24 @@
           }
         },
         "requirements": {
-          "condition": "minecraft:any_of",
+          "type": "minecraft:any_of",
           "terms": [
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "minecraft:entity_type": "#minecraft:sensitive_to_impaling"
               }
             },
             {
-              "condition": "minecraft:all_of",
+              "type": "minecraft:all_of",
               "terms": [
                 {
-                  "condition": "minecraft:weather_check",
+                  "type": "minecraft:weather_check",
                   "raining": true
                 },
                 {
-                  "condition": "minecraft:location_check",
+                  "type": "minecraft:location_check",
                   "predicate": {
                     "can_see_sky": true
                   }
@@ -40,7 +40,7 @@
               ]
             },
             {
-              "condition": "minecraft:location_check",
+              "type": "minecraft:location_check",
               "predicate": {
                 "fluid": {
                   "fluids": "#minecraft:water"

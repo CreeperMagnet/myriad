@@ -11,6 +11,10 @@
     "minecraft:black_concrete_powder",
     "minecraft:black_terracotta",
     "minecraft:black_candle",
-    "minecraft:black_bed"
+    "minecraft:black_bed",
+    "minecraft:black_concrete_stairs",
+    "minecraft:black_concrete_slab",
+    "minecraft:black_wool_stairs",
+    "minecraft:black_wool_slab"
   ]
 }

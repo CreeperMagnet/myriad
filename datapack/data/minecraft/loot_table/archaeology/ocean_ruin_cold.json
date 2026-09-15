@@ -2,7 +2,6 @@
   "type": "minecraft:archaeology",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -75,7 +74,7 @@
           "weight": 8
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:archaeology/ocean_ruin_cold"

@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:gold_ingot_from_blasting_gilded_blackstone"
+        "recipes": "myriad:gold_ingot_from_blasting_gilded_blackstone"
       }
     }
   },

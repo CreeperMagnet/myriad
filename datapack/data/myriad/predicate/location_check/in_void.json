@@ -1,38 +1,38 @@
-[
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:any_of",
-      "terms": [
-        {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "fluid": {
-              "fluids": "#minecraft:lava"
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": {
+        "type": "minecraft:any_of",
+        "terms": [
+          {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "fluid": {
+                "fluids": "#minecraft:lava"
+              }
+            }
+          },
+          {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
+            }
+          },
+          {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "fluid": {
+                "fluids": "minecraft:empty"
+              }
             }
           }
-        },
-        {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "fluid": {
-              "fluids": "#minecraft:water"
-            }
-          }
-        },
-        {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "fluid": {
-              "fluids": "minecraft:empty"
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    "condition": "minecraft:reference",
-    "name": "myriad:location_check/below_0"
-  }
-]
+        ]
+      }
+    },
+    "myriad:location_check/below_0"
+  ]
+}

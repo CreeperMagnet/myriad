@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:copy_custom_data",
+              "type": "minecraft:copy_custom_data",
               "source": {
                 "type": "minecraft:storage",
                 "source": "myriad:temp"
@@ -22,11 +22,11 @@
               ]
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"riftjuice_bottle\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:riftjuice_bottle",
                 "minecraft:rarity": "uncommon",
@@ -47,14 +47,14 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.riftjuice_bottle"
               },
               "target": "item_name"
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -75,10 +75,7 @@
               ],
               "mode": "replace_all"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ]
         }
       ]

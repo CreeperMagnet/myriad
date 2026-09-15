@@ -6,17 +6,15 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_stew_effect",
-              "effects": [
-                {
-                  "type": "minecraft:regeneration",
-                  "duration": 10
-                }
-              ]
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_stew_effect",
+            "effects": [
+              {
+                "type": "minecraft:regeneration",
+                "duration": 10
+              }
+            ]
+          },
           "name": "minecraft:suspicious_stew"
         }
       ]

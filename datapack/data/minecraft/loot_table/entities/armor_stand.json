@@ -7,25 +7,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:entity_tags": {
-                  "all_of": [
-                    "myriad.armor_stand_with_arms"
-                  ]
-                }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 2
+          },
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "myriad.armor_stand_with_arms"
+                ]
               }
             }
-          ]
+          }
         }
       ]
     }

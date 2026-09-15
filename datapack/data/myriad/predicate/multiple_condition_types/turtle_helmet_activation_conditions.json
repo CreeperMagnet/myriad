@@ -1,38 +1,38 @@
-[
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "effects": {
-          "minecraft:water_breathing": {
-            "duration": {
-              "min": 620
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "effects": {
+            "minecraft:water_breathing": {
+              "duration": {
+                "min": 620
+              }
             }
           }
         }
       }
-    }
-  },
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "head": {
-          "items": [
-            "minecraft:turtle_helmet"
-          ]
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "items": [
+              "minecraft:turtle_helmet"
+            ]
+          }
         }
       }
+    },
+    {
+      "type": "minecraft:inverted",
+      "term": "myriad:location_check/in_water"
     }
-  },
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:reference",
-      "name": "myriad:location_check/in_water"
-    }
-  }
-]
+  ]
+}

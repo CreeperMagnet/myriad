@@ -31,12 +31,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:swift_sneak"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:enchant_randomly",
+            "options": "minecraft:swift_sneak"
+          },
           "weight": 15
         },
         {

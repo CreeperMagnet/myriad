@@ -10,5 +10,6 @@ execute if block ~ ~ ~ minecraft:jungle_sign run function myriad:item/wrench/rot
 execute if block ~ ~ ~ minecraft:mangrove_sign run function myriad:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:mangrove_sign"}
 execute if block ~ ~ ~ minecraft:oak_sign run function myriad:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:oak_sign"}
 execute if block ~ ~ ~ minecraft:pale_oak_sign run function myriad:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:pale_oak_sign"}
+execute if block ~ ~ ~ minecraft:poplar_sign run function myriad:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:poplar_sign"}
 execute if block ~ ~ ~ minecraft:spruce_sign run function myriad:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:spruce_sign"}
 execute if block ~ ~ ~ minecraft:warped_sign run function myriad:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:warped_sign"}

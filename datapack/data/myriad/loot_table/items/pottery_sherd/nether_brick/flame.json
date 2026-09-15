@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"pottery_sherd\",type:\"nether_brick\",sherd:\"flame\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:pottery_sherd/nether_brick/flame",
                 "minecraft:rarity": "uncommon",
@@ -20,16 +20,13 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.pottery_sherd.nether_brick.flame"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:poisonous_potato"
         }

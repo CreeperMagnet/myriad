@@ -66,6 +66,13 @@
           }
         },
         {
+          "when": "minecraft:poplar_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "myriad:item/saplink/poplar"
+          }
+        },
+        {
           "when": "minecraft:spruce_sapling",
           "model": {
             "type": "minecraft:model",

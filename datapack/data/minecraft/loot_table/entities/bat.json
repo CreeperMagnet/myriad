@@ -6,15 +6,14 @@
       "entries": [
         {
           "type": "loot_table",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
             }
-          ],
+          },
           "value": "myriad:items/bat_wing"
         }
       ]

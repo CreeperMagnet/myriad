@@ -1,23 +1,29 @@
-[
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:potion_contents": {
-        "custom_color": 16738851,
-        "potion": "minecraft:mundane",
-        "custom_effects": [
-          {
-            "id": "minecraft:health_boost",
-            "amplifier": 0,
-            "duration": 9600
-          }
-        ],
-        "custom_name": "myriad:fortitude"
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 16738851,
+          "custom_effects": [
+            {
+              "id": "minecraft:health_boost",
+              "amplifier": 0,
+              "duration": 9600
+            }
+          ],
+          "custom_name": "myriad:fortitude"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "myriad": {
+          "extended": true
+        }
       }
     }
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{myriad:{potion:{id:\"myriad:long_fortitude\"}}}"
-  }
-]
+  ]
+}

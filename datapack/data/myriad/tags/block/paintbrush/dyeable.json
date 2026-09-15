@@ -6,11 +6,15 @@
     "#minecraft:wool",
     "#minecraft:concrete_powders",
     "#minecraft:candles",
-    "#myriad:candle_cakes",
-    "#myriad:concrete",
-    "#myriad:glazed_terracotta",
-    "#myriad:terracotta",
+    "#minecraft:candle_cakes",
+    "#minecraft:concrete",
+    "#minecraft:glazed_terracotta",
+    "#minecraft:terracotta",
     "#myriad:glass",
-    "#myriad:glass_panes"
+    "#myriad:glass_panes",
+    "#minecraft:wool_stairs",
+    "#minecraft:wool_slabs",
+    "#minecraft:concrete_stairs",
+    "#minecraft:concrete_slabs"
   ]
 }

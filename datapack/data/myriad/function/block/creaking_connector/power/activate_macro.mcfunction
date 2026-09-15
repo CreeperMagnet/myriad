@@ -20,7 +20,7 @@ data modify block ~ ~ ~ Items[{Slot:1b}] set from storage myriad:temp root.loot_
 $function myriad:block/creaking_connector/power/comparator_output/$(wood_type)
 
 # VFX
-item modify entity @s contents {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_all","values":[true]}}
+item modify entity @s contents {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_all","values":[true]}}
 playsound myriad:block.creaking_connector.turn_on block @a[distance=..16] ~ ~0.5 ~
 
 # Cooldown

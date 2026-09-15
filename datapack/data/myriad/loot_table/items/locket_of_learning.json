@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"locket_of_learning\",stored_points:0}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:locket_of_learning",
                 "!minecraft:enchantments": {},
@@ -35,14 +35,14 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.locket_of_learning"
               },
               "target": "item_name"
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "translate": "item.myriad.locket_of_learning.lore",
@@ -56,10 +56,7 @@
               ],
               "mode": "replace_all"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:warped_fungus_on_a_stick"
         }

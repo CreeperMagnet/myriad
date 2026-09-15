@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:nether_brick_flower_pot"
+        "recipes": "myriad:nether_brick_flower_pot"
       }
     }
   },

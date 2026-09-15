@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:pottery_table"
+        "recipes": "myriad:pottery_table"
       }
     }
   },

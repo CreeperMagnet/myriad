@@ -11,6 +11,10 @@
     "minecraft:pink_concrete_powder",
     "minecraft:pink_terracotta",
     "minecraft:pink_candle",
-    "minecraft:pink_bed"
+    "minecraft:pink_bed",
+    "minecraft:pink_concrete_stairs",
+    "minecraft:pink_concrete_slab",
+    "minecraft:pink_wool_stairs",
+    "minecraft:pink_wool_slab"
   ]
 }

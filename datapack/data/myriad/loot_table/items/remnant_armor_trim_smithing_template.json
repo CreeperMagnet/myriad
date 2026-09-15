@@ -6,27 +6,27 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"remnant_armor_trim_smithing_template\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:rarity": "rare",
                 "minecraft:item_model": "myriad:remnant_armor_trim_smithing_template"
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "trim_pattern.myriad.remnant"
               },
               "target": "item_name"
             },
             {
-              "function": "set_lore",
+              "type": "set_lore",
               "lore": [
                 {
                   "translate": "item.minecraft.smithing_template",
@@ -63,10 +63,7 @@
               ],
               "mode": "replace_all"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:chain_command_block"
         }

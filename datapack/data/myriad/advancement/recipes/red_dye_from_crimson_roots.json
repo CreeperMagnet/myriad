@@ -33,22 +33,20 @@
     "in_crimson_forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "minecraft:crimson_forest"
-              ]
-            }
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": [
+              "minecraft:crimson_forest"
+            ]
           }
-        ]
+        }
       }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:red_dye_from_crimson_roots"
+        "recipes": "myriad:red_dye_from_crimson_roots"
       }
     }
   },

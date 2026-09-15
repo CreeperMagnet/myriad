@@ -4,23 +4,23 @@
     "equip_cursed_crown": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "none_of": [
-                  "myriad.wearing_cursed_crown"
-                ]
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "myriad:entity_properties/slots/armor.head/cursed_crown",
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_tags": {
+                  "none_of": [
+                    "myriad.wearing_cursed_crown"
+                  ]
+                }
               }
             }
-          }
-        ],
+          ]
+        },
         "items": [
           {
             "predicates": {

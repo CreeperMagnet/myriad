@@ -2,35 +2,18 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ],
+              "condition": "minecraft:tool/can_silk_touch",
               "name": "minecraft:emerald_ore"
             },
             {
               "type": "minecraft:item",
-              "functions": [
+              "modifier": [
                 {
                   "add": false,
                   "count": {
@@ -38,15 +21,15 @@
                     "max": 4.0,
                     "min": 1.0
                   },
-                  "function": "minecraft:set_count"
+                  "type": "minecraft:set_count"
                 },
                 {
+                  "type": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
+                  "formula": "minecraft:ore_drops"
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "type": "minecraft:explosion_decay"
                 }
               ],
               "name": "minecraft:emerald"
@@ -57,5 +40,18 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/emerald_ore"
+  "random_sequence": "minecraft:blocks/emerald_ore",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "insert",
+        "index": 0,
+        "target": "pools[0].entries[0].children[1].modifier",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].children[1].modifier[0]"
+        }
+      }
+    ]
+  }
 }

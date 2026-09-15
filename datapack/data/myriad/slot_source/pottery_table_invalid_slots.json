@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:group",
+  "terms": [
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.0"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.1"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.2"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.4"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.5"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.6"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.7"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.8"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.9"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.10"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.14"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.15"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.16"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.17"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.18"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.19"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.20"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.22"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.23"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.24"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.25"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "container.26"
+    }
+  ]
+}

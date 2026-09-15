@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "woolen_stairs",
+  "category": "building",
+  "key": {
+    "#": "minecraft:cyan_wool"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:cyan_wool_stairs"
+  }
+}

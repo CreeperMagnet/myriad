@@ -75,17 +75,15 @@
     "enter_tundra_keep": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "myriad:tundra_keep"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "myriad:tundra_keep"
             }
           }
-        ]
+        }
       }
     }
   },

@@ -2,30 +2,49 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "name": "minecraft:respawn_anchor",
+          "modifier": [
             {
-              "type": "minecraft:item",
-              "name": "minecraft:respawn_anchor",
+              "type": "minecraft:sequence",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:inverted",
+                    "term": {
+                      "type": "minecraft:match_block",
+                      "state": {
+                        "charges": "0"
+                      },
+                      "blocks": "minecraft:respawn_anchor"
+                    }
+                  },
+                  "minecraft:tool/can_silk_touch"
+                ]
+              },
               "functions": [
                 {
-                  "function": "minecraft:copy_state",
+                  "type": "minecraft:copy_state",
                   "block": "minecraft:respawn_anchor",
                   "properties": [
                     "charges"
                   ]
                 },
                 {
-                  "function": "minecraft:set_components",
+                  "type": "minecraft:set_components",
                   "components": {
                     "minecraft:item_model": "myriad:block/respawn_anchor"
                   }
                 },
                 {
-                  "function": "minecraft:set_lore",
+                  "type": "minecraft:set_lore",
                   "lore": [
                     {
                       "translate": "block.myriad.respawn_anchor.charges",
@@ -37,18 +56,16 @@
                     }
                   ],
                   "mode": "replace_all",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "charges": "1"
-                      },
-                      "block": "minecraft:respawn_anchor"
-                    }
-                  ]
+                  "condition": {
+                    "type": "minecraft:match_block",
+                    "state": {
+                      "charges": "1"
+                    },
+                    "blocks": "minecraft:respawn_anchor"
+                  }
                 },
                 {
-                  "function": "minecraft:set_lore",
+                  "type": "minecraft:set_lore",
                   "lore": [
                     {
                       "translate": "block.myriad.respawn_anchor.charges",
@@ -60,18 +77,16 @@
                     }
                   ],
                   "mode": "replace_all",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "charges": "2"
-                      },
-                      "block": "minecraft:respawn_anchor"
-                    }
-                  ]
+                  "condition": {
+                    "type": "minecraft:match_block",
+                    "state": {
+                      "charges": "2"
+                    },
+                    "blocks": "minecraft:respawn_anchor"
+                  }
                 },
                 {
-                  "function": "minecraft:set_lore",
+                  "type": "minecraft:set_lore",
                   "lore": [
                     {
                       "translate": "block.myriad.respawn_anchor.charges",
@@ -83,18 +98,16 @@
                     }
                   ],
                   "mode": "replace_all",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "charges": "3"
-                      },
-                      "block": "minecraft:respawn_anchor"
-                    }
-                  ]
+                  "condition": {
+                    "type": "minecraft:match_block",
+                    "state": {
+                      "charges": "3"
+                    },
+                    "blocks": "minecraft:respawn_anchor"
+                  }
                 },
                 {
-                  "function": "minecraft:set_lore",
+                  "type": "minecraft:set_lore",
                   "lore": [
                     {
                       "translate": "block.myriad.respawn_anchor.charges",
@@ -106,48 +119,15 @@
                     }
                   ],
                   "mode": "replace_all",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "charges": "4"
-                      },
-                      "block": "minecraft:respawn_anchor"
-                    }
-                  ]
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:inverted",
-                  "term": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:respawn_anchor",
-                    "properties": {
-                      "charges": "0"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
+                  "condition": {
+                    "type": "minecraft:match_block",
+                    "state": {
+                      "charges": "4"
+                    },
+                    "blocks": "minecraft:respawn_anchor"
                   }
                 }
               ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:respawn_anchor"
             }
           ]
         }
@@ -158,8 +138,8 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:prepend",
-        "target": "pools[0].entries",
+        "type": "merge",
+        "target": "pools[0].entries[0]",
         "source": {
           "type": "reference",
           "path": "pools[0].entries[0]"

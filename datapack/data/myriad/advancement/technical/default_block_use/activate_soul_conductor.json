@@ -3,24 +3,20 @@
     "click_soul_conductor": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:dropper"
-                ],
-                "state": {
-                  "triggered": "false"
-                },
-                "predicates": {
-                  "minecraft:custom_data": "{myriad:{block_id:\"soul_conductor\"}}"
-                }
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:dropper",
+              "state": {
+                "triggered": "false"
+              },
+              "predicates": {
+                "minecraft:custom_data": "{myriad:{block_id:\"soul_conductor\"}}"
               }
             }
           }
-        ]
+        }
       }
     }
   },

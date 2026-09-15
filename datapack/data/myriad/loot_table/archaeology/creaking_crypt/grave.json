@@ -9,12 +9,10 @@
             {
               "type": "minecraft:loot_table",
               "value": "myriad:archaeology/creaking_crypt/rare",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
+              "condition": {
+                "type": "minecraft:random_chance",
+                "chance": 0.25
+              }
             },
             {
               "type": "minecraft:group",

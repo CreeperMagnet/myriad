@@ -1,5 +1,8 @@
 # Replaces items for bucketing snails properly
 
-execute if data entity @s[predicate=!myriad:entity_properties/full_inventory] SelectedItem run function myriad:entity/snail/interact/bucket/loot_macros/give with storage myriad:temp root.item
-execute if data entity @s[predicate=myriad:entity_properties/full_inventory] SelectedItem run function myriad:entity/snail/interact/bucket/loot_macros/spawn with storage myriad:temp root.item
-execute unless data entity @s SelectedItem run function myriad:entity/snail/interact/bucket/loot_macros/weapon.mainhand with storage myriad:temp root.item
+scoreboard players set @s myriad.dummy 0
+$execute unless items entity @s weapon.mainhand * run return run loot replace entity @s weapon.mainhand loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":"myriad:items/snail_bucket","modifier":{"type":"minecraft:set_components","components":$(components)}}]}]}
+
+$execute store result score @s myriad.dummy run loot give @s loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":"myriad:items/snail_bucket","modifier":{"type":"minecraft:set_components","components":$(components)}}]}]}
+
+$execute if score @s myriad.dummy matches 0 run loot spawn ~ ~ ~ loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":"myriad:items/snail_bucket","modifier":{"type":"minecraft:set_components","components":$(components)}}]}]}

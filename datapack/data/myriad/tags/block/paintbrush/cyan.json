@@ -11,6 +11,10 @@
     "minecraft:cyan_concrete_powder",
     "minecraft:cyan_terracotta",
     "minecraft:cyan_candle",
-    "minecraft:cyan_bed"
+    "minecraft:cyan_bed",
+    "minecraft:cyan_concrete_stairs",
+    "minecraft:cyan_concrete_slab",
+    "minecraft:cyan_wool_stairs",
+    "minecraft:cyan_wool_slab"
   ]
 }

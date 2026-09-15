@@ -2,80 +2,61 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:soul_campfire",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
+              "condition": {
+                "type": "all_of",
+                "terms": [
+                  "minecraft:tool/can_silk_touch",
+                  {
+                    "type": "minecraft:match_block",
+                    "blocks": "minecraft:soul_campfire",
+                    "state": {
+                      "lit": "true"
                     }
                   }
-                },
-                {
-                  "condition": "block_state_property",
-                  "block": "soul_campfire",
-                  "properties": {
-                    "lit": "true"
-                  }
-                }
-              ]
+                ]
+              },
+              "name": "minecraft:soul_campfire"
             },
             {
               "type": "minecraft:item",
               "name": "minecraft:soul_campfire",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:item_model": "myriad:unlit_soul_campfire",
-                    "minecraft:block_state": {
-                      "lit": "false"
-                    }
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "myriad:unlit_soul_campfire",
+                  "minecraft:block_state": {
+                    "lit": "false"
                   }
                 }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "#minecraft:axes"
-                  }
+              },
+              "condition": {
+                "type": "minecraft:match_tool",
+                "predicate": {
+                  "items": "#minecraft:axes"
                 }
-              ]
+              }
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:soul_soil",
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ]
+              "condition": {
+                "type": "minecraft:survives_explosion"
+              },
+              "modifier": {
+                "type": "minecraft:set_count",
+                "count": 1
+              },
+              "name": "minecraft:soul_soil"
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/soul_campfire",
@@ -91,12 +72,11 @@
         }
       },
       {
-        "type": "insert",
-        "index": 1,
-        "target": "pools[0].entries[0].children[0].conditions",
+        "type": "replace",
+        "target": "pools[0].entries[0].children[0].condition",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].children[0].conditions[1]"
+          "path": "pools[0].entries[0].children[0].condition"
         }
       }
     ]

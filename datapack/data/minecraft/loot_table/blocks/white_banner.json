@@ -2,34 +2,29 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:copy_components",
-              "include": [
-                "minecraft:custom_name",
-                "minecraft:item_name",
-                "minecraft:tooltip_display",
-                "minecraft:banner_patterns",
-                "minecraft:rarity",
-                "minecraft:custom_data",
-                "minecraft:lore"
-              ],
-              "source": "block_entity"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:copy_components",
+            "include": [
+              "minecraft:custom_name",
+              "minecraft:item_name",
+              "minecraft:tooltip_display",
+              "minecraft:banner_patterns",
+              "minecraft:rarity",
+              "minecraft:custom_data",
+              "minecraft:lore"
+            ],
+            "source": "block_entity"
+          },
           "name": "minecraft:white_banner"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/white_banner",
@@ -37,18 +32,18 @@
     "rules": [
       {
         "type": "append",
-        "target": "pools[0].entries[0].functions[0].include",
+        "target": "pools[0].entries[0].modifier.include",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].functions[0].include[4]"
+          "path": "pools[0].entries[0].modifier.include[5]"
         }
       },
       {
         "type": "append",
-        "target": "pools[0].entries[0].functions[0].include",
+        "target": "pools[0].entries[0].modifier.include",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].functions[0].include[5]"
+          "path": "pools[0].entries[0].modifier.include[6]"
         }
       }
     ]

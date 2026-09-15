@@ -3,18 +3,15 @@
   "pools": [
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:cocoa_beans",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2,
-              "add": false
-            }
-          ]
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 2,
+            "add": false
+          }
         }
       ]
     }

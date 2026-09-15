@@ -31,7 +31,10 @@
           "italic": false,
           "font": "myriad:tooltip"
         }
-      ]
+      ],
+      "minecraft:compostable": {
+        "layers": "minecraft:compostable/always_add_one"
+      }
     }
   }
 }

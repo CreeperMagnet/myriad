@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:dead_brain_coral_block"
+        "recipes": "myriad:dead_brain_coral_block"
       }
     }
   },

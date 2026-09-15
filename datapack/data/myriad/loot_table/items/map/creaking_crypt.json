@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:buried_treasure_map",
+          "modifier": [
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#myriad:map_located/creaking_crypt",
+              "decoration": "minecraft:target_point",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": true
+            },
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "item.myriad.map.creaking_crypt"
+              },
+              "target": "item_name"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "myriad:map/creaking_crypt"
+              }
+            },
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"map\",destination:\"creaking_crypt\"}}"
+            },
+            "myriad:add_tooltip_lore"
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:items/map/creaking_crypt"
+}

@@ -50,6 +50,10 @@
     "minecraft:torchflower_crop",
     "minecraft:lava",
     "minecraft:water",
-    "minecraft:pale_moss_carpet"
+    "minecraft:pale_moss_carpet",
+    "minecraft:melon_stem",
+    "minecraft:attached_melon_stem",
+    "minecraft:pumpkin_stem",
+    "minecraft:attached_pumpkin_stem"
   ]
 }

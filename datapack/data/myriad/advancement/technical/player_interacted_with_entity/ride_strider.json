@@ -4,17 +4,19 @@
     "click_strider": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{RootVehicle:{Entity:{id:\"minecraft:strider\"}}}"
-            }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{RootVehicle:{Entity:{id:\"minecraft:strider\"}}}"
           }
-        ],
+        },
         "entity": {
-          "minecraft:entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:strider"
+          }
         }
       }
     }

@@ -17,8 +17,8 @@
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_sand",
-              "Properties": {
+              "id": "minecraft:suspicious_sand",
+              "properties": {
                 "dusted": "0"
               }
             }
@@ -45,8 +45,8 @@
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_sand",
-              "Properties": {
+              "id": "minecraft:suspicious_sand",
+              "properties": {
                 "dusted": "0"
               }
             }

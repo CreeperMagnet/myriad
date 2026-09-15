@@ -6,16 +6,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:potion_contents": {
-                  "potion": "minecraft:water"
-                }
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water"
               }
             }
-          ],
+          },
           "weight": 1
         },
         {
@@ -31,12 +29,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:baked_potato",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 4
+          },
           "weight": 1
         },
         {
@@ -52,12 +48,10 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 1
+          }
         }
       ]
     }

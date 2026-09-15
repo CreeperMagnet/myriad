@@ -1,6 +1,8 @@
 # Checks a block tag
 
 execute if block ~ ~ ~ #minecraft:wooden_stairs run function myriad:item/wrench/rotate/block_tag/wooden_stairs
+execute if block ~ ~ ~ #minecraft:wool_stairs run function myriad:item/wrench/rotate/block_tag/wool_stairs
+execute if block ~ ~ ~ #minecraft:concrete_stairs run function myriad:item/wrench/rotate/block_tag/concrete_stairs
 execute if block ~ ~ ~ minecraft:bamboo_mosaic_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:bamboo_mosaic_stairs"}
 execute if block ~ ~ ~ minecraft:cobblestone_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:cobblestone_stairs"}
 execute if block ~ ~ ~ minecraft:sandstone_stairs run function myriad:item/wrench/rotate/macro/stairs/main {block:"minecraft:sandstone_stairs"}

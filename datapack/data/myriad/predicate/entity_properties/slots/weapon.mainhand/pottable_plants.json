@@ -1,12 +1,9 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
+    "myriad:entity_properties/slots/weapon.mainhand/pottable_plants_new",
     {
-      "condition": "minecraft:reference",
-      "name": "myriad:entity_properties/slots/weapon.mainhand/pottable_plants_new"
-    },
-    {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "equipment": {

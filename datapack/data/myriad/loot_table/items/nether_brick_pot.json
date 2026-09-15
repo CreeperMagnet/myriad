@@ -6,25 +6,28 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{myriad:{id:\"decorated_pot\",type:\"nether_brick\",custom_block:1b,raw_pot:1b,sherds:[{id:\"minecraft:nether_brick\"},{id:\"minecraft:nether_brick\"},{id:\"minecraft:nether_brick\"},{id:\"minecraft:nether_brick\"}]}}"
+              "type": "minecraft:set_custom_data",
+              "tag": "{myriad:{id:\"decorated_pot\",type:\"nether_brick\",custom_block:1b,raw_pot:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:block/nether_brick_pot",
-                "minecraft:pot_decorations": [
-                  "minecraft:air",
-                  "minecraft:air",
-                  "minecraft:air",
-                  "minecraft:air"
-                ],
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:pot_decorations"
-                  ]
+                "minecraft:pot_decorations": {
+                  "back": {
+                    "id": "minecraft:nether_brick"
+                  },
+                  "front": {
+                    "id": "minecraft:nether_brick"
+                  },
+                  "left": {
+                    "id": "minecraft:nether_brick"
+                  },
+                  "right": {
+                    "id": "minecraft:nether_brick"
+                  }
                 },
                 "minecraft:custom_model_data": {
                   "strings": [
@@ -37,16 +40,13 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "block.myriad.nether_brick_pot"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:decorated_pot"
         }

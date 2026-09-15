@@ -8,22 +8,20 @@
             "minecraft:custom_data": "{myriad:{id:\"swordfish\"}}"
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     },
     "sharpness": {
@@ -39,22 +37,20 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     },
     "sharpness_1": {
@@ -71,22 +67,20 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     },
     "sharpness_2": {
@@ -103,22 +97,20 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     },
     "sharpness_3": {
@@ -135,22 +127,20 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     },
     "sharpness_4": {
@@ -167,22 +157,20 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     },
     "sharpness_5": {
@@ -199,22 +187,20 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:type_specific/player": {
-                  "gamemode": [
-                    "creative"
-                  ]
-                }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "gamemode": [
+                  "creative"
+                ]
               }
             }
           }
-        ]
+        }
       }
     }
   },

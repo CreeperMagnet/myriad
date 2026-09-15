@@ -1,0 +1,43 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "brain",
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:entity/coral_drowned/head/adult/brain"
+        }
+      },
+      {
+        "when": "bubble",
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:entity/coral_drowned/head/adult/bubble"
+        }
+      },
+      {
+        "when": "fire",
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:entity/coral_drowned/head/adult/fire"
+        }
+      },
+      {
+        "when": "horn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:entity/coral_drowned/head/adult/horn"
+        }
+      },
+      {
+        "when": "tube",
+        "model": {
+          "type": "minecraft:model",
+          "model": "myriad:entity/coral_drowned/head/adult/tube"
+        }
+      }
+    ]
+  }
+}

@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:dead_bush_from_bush"
+        "recipes": "myriad:dead_bush_from_bush"
       }
     }
   },

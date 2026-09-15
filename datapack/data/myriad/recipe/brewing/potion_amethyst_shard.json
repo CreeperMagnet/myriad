@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:mundane"
+      }
+    },
+    "id": "minecraft:potion"
+  },
+  "reagent": {
+    "item": "minecraft:amethyst_shard"
+  }
+}

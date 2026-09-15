@@ -10,33 +10,31 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:cake",
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:set_components",
+                  "type": "minecraft:set_components",
                   "components": {
                     "minecraft:item_model": "myriad:cake"
                   }
                 },
                 {
-                  "function": "minecraft:copy_state",
+                  "type": "minecraft:copy_state",
                   "block": "minecraft:cake",
                   "properties": [
                     "bites"
                   ]
                 }
               ],
-              "conditions": [
-                {
-                  "condition": "minecraft:inverted",
-                  "term": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:cake",
-                    "properties": {
-                      "bites": "0"
-                    }
+              "condition": {
+                "type": "minecraft:inverted",
+                "term": {
+                  "type": "minecraft:match_block",
+                  "blocks": "minecraft:cake",
+                  "state": {
+                    "bites": "0"
                   }
                 }
-              ]
+              }
             },
             {
               "type": "minecraft:item",

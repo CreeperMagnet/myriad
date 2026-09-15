@@ -23,4 +23,4 @@ execute if score #temp_0 myriad.dummy matches 751.. run data modify storage myri
 
 # Modifies the mainhand item
 function myriad:technical/macros/loot/replace with storage myriad:temp root.item
-$item modify entity @s $(slot) {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"item.myriad.locket_of_learning.lore","with":[{"nbt":"root.item.components.\"minecraft:custom_data\".myriad.stored_points","storage":"myriad:temp","plain":true},{"text":"1395"}],"color":"gray","italic":false}],"mode":"replace_section","offset":0}
+$item modify entity @s $(slot) {"type":"minecraft:set_lore","entity":"this","lore":[{"translate":"item.myriad.locket_of_learning.lore","with":[{"nbt":"root.item.components.\"minecraft:custom_data\".myriad.stored_points","storage":"myriad:temp","plain":true},{"text":"1395"}],"color":"gray","italic":false}],"mode":"replace_section","offset":0}

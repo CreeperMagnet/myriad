@@ -7,12 +7,10 @@
           "type": "item",
           "name": "minecraft:spider_eye",
           "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 2
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 2
+          }
         }
       ]
     },
@@ -22,12 +20,10 @@
         {
           "type": "item",
           "name": "minecraft:iron_chain",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 8
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 8
+          }
         },
         {
           "type": "item",

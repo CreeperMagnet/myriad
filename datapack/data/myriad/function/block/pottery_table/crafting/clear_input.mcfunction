@@ -11,6 +11,7 @@ execute if entity @s[scores={myriad.dummy=0}] run item replace block ~ ~ ~ conta
 
 tag @s remove myriad.pottery_table.assembled_output
 playsound myriad:block.pottery_table.use block @a[distance=..16]
+execute if items block ~ ~ ~ container.12 minecraft:decorated_pot if items block ~ ~ ~ container.3 * if items block ~ ~ ~ container.11 * if items block ~ ~ ~ container.13 * if items block ~ ~ ~ container.21 * run advancement grant @p[tag=myriad.inside_pottery_table_gui,gamemode=!spectator] only minecraft:adventure/craft_decorated_pot_using_only_sherds
 execute if items block ~ ~ ~ container.12 minecraft:decorated_pot run item modify block ~ ~ ~ container.3 myriad:reduce_count
 execute if items block ~ ~ ~ container.12 minecraft:decorated_pot run item modify block ~ ~ ~ container.11 myriad:reduce_count
 execute if items block ~ ~ ~ container.12 minecraft:decorated_pot run item modify block ~ ~ ~ container.13 myriad:reduce_count

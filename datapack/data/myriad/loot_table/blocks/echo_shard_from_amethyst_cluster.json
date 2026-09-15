@@ -9,12 +9,10 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:echo_shard",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
+              "condition": {
+                "type": "minecraft:random_chance",
+                "chance": 0.25
+              }
             },
             {
               "type": "minecraft:item",

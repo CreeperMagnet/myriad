@@ -6,31 +6,31 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"gobblerift\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:gobblerift",
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {},
-                "minecraft:rarity": "uncommon"
+                "minecraft:rarity": "uncommon",
+                "minecraft:compostable": {
+                  "layers": "minecraft:compostable/always_add_one"
+                }
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "block.myriad.gobblerift"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:warped_fungus_on_a_stick"
         }

@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:glow_berry_muffin"
+        "recipes": "myriad:glow_berry_muffin"
       }
     }
   },

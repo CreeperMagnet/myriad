@@ -1,0 +1,188 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:buried_ancient_city_map",
+              "modifier": {
+                "type": "minecraft:exploration_map",
+                "destination": "#minecraft:on_ancient_city_maps",
+                "decoration": "minecraft:ancient_city",
+                "zoom": 1,
+                "search_radius": 150,
+                "skip_existing_chunks": true
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:snow"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:desert_pyramid_map",
+              "modifier": [
+                {
+                  "type": "minecraft:exploration_map",
+                  "destination": "#minecraft:on_desert_pyramid_maps",
+                  "decoration": "minecraft:desert_pyramid",
+                  "zoom": 2,
+                  "search_radius": 50,
+                  "skip_existing_chunks": true
+                }
+              ],
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:random_chance",
+                    "chance": 0.5
+                  },
+                  {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "components": {
+                        "minecraft:villager/variant": "minecraft:desert"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "myriad:items/map/desert_well",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:desert"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:jungle_pyramid_map",
+              "modifier": [
+                {
+                  "type": "minecraft:exploration_map",
+                  "destination": "#minecraft:on_jungle_pyramid_maps",
+                  "decoration": "minecraft:jungle_temple",
+                  "zoom": 2,
+                  "search_radius": 50,
+                  "skip_existing_chunks": true
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:jungle"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "myriad:items/map/trail_ruins",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:plains"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "myriad:items/map/badlands_temple",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:savanna"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "myriad:items/map/cold_ocean_ruins",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:random_chance",
+                    "chance": 0.5
+                  },
+                  {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "components": {
+                        "minecraft:villager/variant": "minecraft:swamp"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:warm_ocean_ruins_map",
+              "modifier": [
+                {
+                  "type": "minecraft:exploration_map",
+                  "destination": "#minecraft:on_ocean_ruin_warm_maps",
+                  "decoration": "minecraft:ocean_ruin_warm",
+                  "zoom": 2,
+                  "search_radius": 50,
+                  "skip_existing_chunks": true
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:swamp"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "myriad:items/map/trail_ruins",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:villager/variant": "minecraft:taiga"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "myriad:trades/archaeologist/map/sell"
+}

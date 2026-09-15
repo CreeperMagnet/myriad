@@ -8,6 +8,7 @@ execute if block ~ ~ ~ #minecraft:jungle_logs run function myriad:item/wrench/ro
 execute if block ~ ~ ~ #minecraft:mangrove_logs run function myriad:item/wrench/rotate/block_tag/logs/specific_logs {type:"mangrove"}
 execute if block ~ ~ ~ #minecraft:oak_logs run function myriad:item/wrench/rotate/block_tag/logs/specific_logs {type:"oak"}
 execute if block ~ ~ ~ #minecraft:pale_oak_logs run function myriad:item/wrench/rotate/block_tag/logs/specific_logs {type:"pale_oak"}
+execute if block ~ ~ ~ #minecraft:poplar_logs run function myriad:item/wrench/rotate/block_tag/logs/specific_logs {type:"poplar"}
 execute if block ~ ~ ~ #minecraft:spruce_logs run function myriad:item/wrench/rotate/block_tag/logs/specific_logs {type:"spruce"}
 
 execute if block ~ ~ ~ #minecraft:crimson_stems run function myriad:item/wrench/rotate/block_tag/logs/specific_stems {type:"crimson"}

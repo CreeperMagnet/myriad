@@ -11,6 +11,10 @@
     "minecraft:yellow_concrete_powder",
     "minecraft:yellow_terracotta",
     "minecraft:yellow_candle",
-    "minecraft:yellow_bed"
+    "minecraft:yellow_bed",
+    "minecraft:yellow_concrete_stairs",
+    "minecraft:yellow_concrete_slab",
+    "minecraft:yellow_wool_stairs",
+    "minecraft:yellow_wool_slab"
   ]
 }

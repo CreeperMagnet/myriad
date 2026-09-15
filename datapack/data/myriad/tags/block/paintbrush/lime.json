@@ -11,6 +11,10 @@
     "minecraft:lime_concrete_powder",
     "minecraft:lime_terracotta",
     "minecraft:lime_candle",
-    "minecraft:lime_bed"
+    "minecraft:lime_bed",
+    "minecraft:lime_concrete_stairs",
+    "minecraft:lime_concrete_slab",
+    "minecraft:lime_wool_stairs",
+    "minecraft:lime_wool_slab"
   ]
 }

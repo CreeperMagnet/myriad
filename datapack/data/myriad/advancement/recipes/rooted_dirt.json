@@ -16,7 +16,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "myriad:rooted_dirt"
+        "recipes": "myriad:rooted_dirt"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

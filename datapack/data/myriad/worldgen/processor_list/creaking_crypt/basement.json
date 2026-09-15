@@ -4,7 +4,7 @@
       "rules": [
         {
           "output_state": {
-            "Name": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
           },
           "input_predicate": {
             "block": "minecraft:stone_bricks",
@@ -17,12 +17,12 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           },
           "input_predicate": {
             "block_state": {
-              "Name": "minecraft:pale_moss_carpet",
-              "Properties": {
+              "id": "minecraft:pale_moss_carpet",
+              "properties": {
                 "bottom": "true",
                 "east": "none",
                 "north": "none",
@@ -39,12 +39,12 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           },
           "input_predicate": {
             "block_state": {
-              "Name": "minecraft:pale_moss_carpet",
-              "Properties": {
+              "id": "minecraft:pale_moss_carpet",
+              "properties": {
                 "bottom": "true",
                 "east": "low",
                 "north": "none",
@@ -61,12 +61,12 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           },
           "input_predicate": {
             "block_state": {
-              "Name": "minecraft:pale_moss_carpet",
-              "Properties": {
+              "id": "minecraft:pale_moss_carpet",
+              "properties": {
                 "bottom": "true",
                 "east": "none",
                 "north": "low",
@@ -83,12 +83,12 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           },
           "input_predicate": {
             "block_state": {
-              "Name": "minecraft:pale_moss_carpet",
-              "Properties": {
+              "id": "minecraft:pale_moss_carpet",
+              "properties": {
                 "bottom": "true",
                 "east": "none",
                 "north": "none",
@@ -105,12 +105,12 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           },
           "input_predicate": {
             "block_state": {
-              "Name": "minecraft:pale_moss_carpet",
-              "Properties": {
+              "id": "minecraft:pale_moss_carpet",
+              "properties": {
                 "bottom": "true",
                 "east": "none",
                 "north": "none",
@@ -127,12 +127,12 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:closed_eyeblossom"
+            "id": "minecraft:closed_eyeblossom"
           },
           "input_predicate": {
             "block_state": {
-              "Name": "minecraft:pale_moss_carpet",
-              "Properties": {
+              "id": "minecraft:pale_moss_carpet",
+              "properties": {
                 "bottom": "true",
                 "east": "none",
                 "north": "none",
@@ -167,8 +167,8 @@
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_gravel",
-              "Properties": {
+              "id": "minecraft:suspicious_gravel",
+              "properties": {
                 "dusted": "0"
               }
             }
@@ -195,8 +195,8 @@
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_gravel",
-              "Properties": {
+              "id": "minecraft:suspicious_gravel",
+              "properties": {
                 "dusted": "0"
               }
             }

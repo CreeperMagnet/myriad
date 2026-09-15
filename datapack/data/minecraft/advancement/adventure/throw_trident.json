@@ -1,38 +1,40 @@
 {
   "parent": "myriad:minecraft/adventure/enter_monument",
+  "criteria": {
+    "shot_trident": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "minecraft:entity_type": "minecraft:trident"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "#minecraft:is_projectile"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
   "display": {
+    "description": {
+      "translate": "advancements.adventure.throw_trident.description"
+    },
     "icon": {
       "id": "minecraft:trident"
     },
     "title": {
       "translate": "advancements.adventure.throw_trident.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.throw_trident.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "shot_trident": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "damage": {
-          "type": {
-            "is_projectile": true,
-            "direct_entity": {
-              "minecraft:entity_type": "minecraft:trident"
-            }
-          }
-        }
-      }
     }
   },
   "requirements": [
     [
       "shot_trident"
     ]
-  ]
+  ],
+  "sends_telemetry_event": true
 }

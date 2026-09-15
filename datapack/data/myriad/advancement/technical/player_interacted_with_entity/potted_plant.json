@@ -4,29 +4,22 @@
     "interact_with_potted_plant": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "myriad:entity_properties/slots/weapon.mainhand/pottable_plants"
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "myriad:entity_properties/slots/weapon.mainhand/pottable_plants"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.potted_plant"
+              ]
             }
           }
-        ],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:interaction",
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.potted_plant"
-                ]
-              }
-            }
-          }
-        ]
+        }
       }
     }
   },

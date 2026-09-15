@@ -1,6 +1,6 @@
 {
 	"parent": "myriad:entity/coral_drowned/arm/template",
 	"textures": {
-		"0": "myriad:entity/coral_drowned/bubble"
+		"0": "myriad:entity/coral_drowned/adult/bubble"
 	}
 }

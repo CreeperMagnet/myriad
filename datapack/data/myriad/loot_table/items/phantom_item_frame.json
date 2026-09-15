@@ -6,36 +6,33 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"phantom_item_frame\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:phantom_item_frame",
                 "minecraft:entity_data": {
                   "Tags": [
                     "myriad.phantom_item_frame.initiate"
                   ],
-                  "Invisible": 1,
-                  "Silent": 1,
+                  "Invisible": true,
+                  "Silent": true,
                   "id": "minecraft:item_frame"
                 }
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.phantom_item_frame"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:item_frame"
         }

@@ -1,7 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "nbt": "{Inventory:[{Slot:35b},{Slot:34b},{Slot:33b},{Slot:32b},{Slot:31b},{Slot:30b},{Slot:29b},{Slot:28b},{Slot:27b},{Slot:26b},{Slot:25b},{Slot:24b},{Slot:23b},{Slot:22b},{Slot:21b},{Slot:20b},{Slot:19b},{Slot:18b},{Slot:17b},{Slot:16b},{Slot:15b},{Slot:14b},{Slot:13b},{Slot:12b},{Slot:11b},{Slot:10b},{Slot:9b},{Slot:8b},{Slot:7b},{Slot:6b},{Slot:5b},{Slot:4b},{Slot:3b},{Slot:2b},{Slot:1b},{Slot:0b}]}"
-  }
-}

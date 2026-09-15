@@ -8,35 +8,33 @@
             "minecraft:brush"
           ]
         },
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "mainhand": {
-                      "items": "#myriad:dyes"
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "offhand": {
-                      "items": "#myriad:dyes"
-                    }
+        "player": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#myriad:dyes"
                   }
                 }
               }
-            ]
-          }
-        ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "items": "#myriad:dyes"
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     }
   },

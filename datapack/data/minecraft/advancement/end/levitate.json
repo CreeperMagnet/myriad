@@ -27,18 +27,16 @@
             "min": 50
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{active_effects:[{id:\"minecraft:levitation\",amplifier:50b}]}"
-              }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{active_effects:[{id:\"minecraft:levitation\",amplifier:50b}]}"
             }
           }
-        ]
+        }
       }
     }
   },

@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:mossy_cobblestone_wall_from_vine"
+        "recipes": "myriad:mossy_cobblestone_wall_from_vine"
       }
     }
   },

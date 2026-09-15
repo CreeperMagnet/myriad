@@ -12,6 +12,9 @@
     "components": {
       "minecraft:item_model": "myriad:resin_candy",
       "minecraft:custom_data": "{myriad:{id:\"resin_candy\"}}",
+      "minecraft:compostable": {
+        "layers": "minecraft:compostable/low"
+      },
       "minecraft:consumable": {
         "consume_seconds": 0.8
       },

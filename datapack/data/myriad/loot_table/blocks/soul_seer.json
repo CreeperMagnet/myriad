@@ -5,19 +5,17 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "#count"
-                },
-                "score": "myriad.dummy"
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#count"
+              },
+              "score": "myriad.dummy"
             }
-          ],
+          },
           "value": "myriad:items/soul_seer"
         }
       ]

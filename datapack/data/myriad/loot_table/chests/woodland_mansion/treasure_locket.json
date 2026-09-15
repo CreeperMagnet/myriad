@@ -7,15 +7,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 20,
-                "max": 30
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 20,
+              "max": 30
             }
-          ]
+          }
         }
       ]
     },

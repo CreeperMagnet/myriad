@@ -13,7 +13,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:mud"
+            "id": "minecraft:mud"
           }
         },
         {
@@ -26,8 +26,8 @@
             "predicate_type": "minecraft:block_match"
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }

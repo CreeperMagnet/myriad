@@ -6,17 +6,15 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_stew_effect",
-              "effects": [
-                {
-                  "type": "minecraft:water_breathing",
-                  "duration": 20
-                }
-              ]
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_stew_effect",
+            "effects": [
+              {
+                "type": "minecraft:water_breathing",
+                "duration": 20
+              }
+            ]
+          },
           "name": "minecraft:suspicious_stew"
         }
       ]

@@ -33,10 +33,6 @@
         },
         {
           "type": "loot_table",
-          "value": "myriad:items/sightless_eye"
-        },
-        {
-          "type": "loot_table",
           "value": "myriad:items/heartbeet"
         }
       ]
@@ -47,12 +43,10 @@
         {
           "type": "item",
           "name": "minecraft:fermented_spider_eye",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 2
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 2
+          }
         }
       ]
     }

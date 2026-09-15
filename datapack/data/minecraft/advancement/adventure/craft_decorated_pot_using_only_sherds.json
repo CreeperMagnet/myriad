@@ -1,20 +1,8 @@
 {
   "parent": "minecraft:adventure/salvage_sherd",
   "criteria": {
-    "pot_crafted_using_only_sherds": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:decorated_pot"
-            ],
-            "predicates": {
-              "minecraft:custom_data": "{myriad:{trigger_advancement:1b}}"
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "granted_by_function": {
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {
@@ -25,15 +13,17 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "id": "minecraft:decorated_pot",
       "components": {
-        "minecraft:pot_decorations": [
-          "minecraft:brick",
-          "minecraft:heart_pottery_sherd",
-          "minecraft:brick",
-          "minecraft:explorer_pottery_sherd"
-        ]
-      }
+        "minecraft:pot_decorations": {
+          "front": {
+            "id": "minecraft:explorer_pottery_sherd"
+          },
+          "left": {
+            "id": "minecraft:heart_pottery_sherd"
+          }
+        }
+      },
+      "id": "minecraft:decorated_pot"
     },
     "show_toast": true,
     "title": {
@@ -42,7 +32,7 @@
   },
   "requirements": [
     [
-      "pot_crafted_using_only_sherds"
+      "granted_by_function"
     ]
   ],
   "sends_telemetry_event": true

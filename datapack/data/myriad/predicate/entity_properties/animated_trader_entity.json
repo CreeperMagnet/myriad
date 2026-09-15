@@ -1,23 +1,26 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "movement": {
-        "horizontal_speed": {
-          "min": 0.000009999999747378752
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "movement": {
+          "horizontal_speed": {
+            "min": 0.000009999999747378752
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:inverted",
+      "term": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "vehicle": {}
         }
       }
     }
-  },
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "vehicle": {}
-      }
-    }
-  }
-]
+  ]
+}

@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:soul_conductor"
+        "recipes": "myriad:soul_conductor"
       }
     }
   },

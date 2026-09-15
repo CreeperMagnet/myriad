@@ -3,12 +3,7 @@
     "health_boost": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/armor.head/cursed_crown"
-          }
-        ],
+        "player": "myriad:entity_properties/slots/armor.head/cursed_crown",
         "effects": {
           "minecraft:health_boost": {}
         }

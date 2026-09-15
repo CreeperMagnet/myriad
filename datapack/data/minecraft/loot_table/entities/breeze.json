@@ -2,50 +2,41 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
+      "condition": {
+        "type": "minecraft:killed_by_player"
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "add": false,
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "max": 2,
+                "min": 1
+              }
             },
             {
+              "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
+              "enchantment": "minecraft:looting"
             },
             {
               "add": true,
               "count": 2,
-              "function": "minecraft:set_count",
-              "conditions": [
-                {
-                  "condition": "minecraft:reference",
-                  "name": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
-                }
-              ]
+              "type": "minecraft:set_count",
+              "condition": "myriad:entity_properties/slots/armor.head/witch_hat_attacker"
             }
           ],
           "name": "minecraft:breeze_rod"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:entities/breeze",
@@ -53,10 +44,10 @@
     "rules": [
       {
         "type": "append",
-        "target": "pools[0].entries[0].functions",
+        "target": "pools[0].entries[0].modifier",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].functions[2]"
+          "path": "pools[0].entries[0].modifier[2]"
         }
       }
     ]

@@ -4,19 +4,19 @@
     "hurt_entity": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "#myriad:enchanter_affected"
-            }
-          },
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/is_affected_by_enchanter"
-          }
-        ]
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "#myriad:enchanter_affected"
+              }
+            },
+            "myriad:entity_properties/is_affected_by_enchanter"
+          ]
+        }
       }
     }
   },

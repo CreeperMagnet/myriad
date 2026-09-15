@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:echoing_hourglass"
+        "recipes": "myriad:echoing_hourglass"
       }
     }
   },

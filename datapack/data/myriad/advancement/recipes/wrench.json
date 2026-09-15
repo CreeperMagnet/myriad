@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:wrench"
+        "recipes": "myriad:wrench"
       }
     }
   },

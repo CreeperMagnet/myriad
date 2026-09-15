@@ -3,21 +3,17 @@
     "click_soul_seer": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:dropper"
-                ],
-                "predicates": {
-                  "minecraft:custom_data": "{myriad:{block_id:\"soul_seer\"}}"
-                }
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:dropper",
+              "predicates": {
+                "minecraft:custom_data": "{myriad:{block_id:\"soul_seer\"}}"
               }
             }
           }
-        ]
+        }
       }
     }
   },

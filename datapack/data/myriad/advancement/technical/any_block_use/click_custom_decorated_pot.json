@@ -3,39 +3,39 @@
     "click_decorated_pot": {
       "trigger": "minecraft:any_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:reference",
-                   "name": "myriad:entity_properties/sneaking"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:inverted",
+                  "term": "myriad:entity_properties/sneaking"
+                },
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:air"
+                    ]
+                  }
                 }
-              },
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": [
-                    "minecraft:air"
-                  ]
+              ]
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot",
+                  "predicates": {
+                    "minecraft:custom_data": "{myriad:{id:\"decorated_pot\"}}"
+                  }
                 }
-              }
-            ]
-          },
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:decorated_pot"
-                ],
-                "nbt": "{components:{\"minecraft:custom_data\":{myriad:{id:\"decorated_pot\"}}}}"
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

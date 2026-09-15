@@ -6,7 +6,6 @@
       "components": {
         "minecraft:item_model": "myriad:serum_of_shrinking",
         "minecraft:potion_contents": {
-          "potion": "minecraft:mundane",
           "custom_color": 16777215
         }
       }

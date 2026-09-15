@@ -14,27 +14,60 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:beetroot_seeds"
+          "name": "minecraft:beetroot_seeds",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:pumpkin_seeds"
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:melon_seeds"
+          "name": "minecraft:melon_seeds",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot"
+          "name": "minecraft:carrot",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potato"
+          "name": "minecraft:potato",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sweet_berries"
+          "name": "minecraft:sweet_berries",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shelf_mushroom",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 4
+          },
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 4
+          },
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 4
+          },
+          "weight": 1
         }
       ]
     }

@@ -13,7 +13,7 @@ execute unless data block ~ ~ ~ Items[{Slot:15b}] if data storage myriad:temp ro
 execute if entity @s[scores={myriad.dummy=1..},tag=myriad.pottery_table.assembled_output] run function myriad:block/pottery_table/crafting/clear_input
 
 # If there are any items in improper slots, manage them
-execute if predicate myriad:location_check/pottery_table_with_invalid_items run function myriad:block/pottery_table/crafting/manage_invalids/move
+execute if items block ~ ~ ~ myriad:pottery_table_invalid_slots * run function myriad:block/pottery_table/crafting/manage_invalids/move
 
 # Slots 3, 11, 12, 13, and 21 need to be checked for exporting
 execute if items block ~ ~ ~ container.3 * run function myriad:block/pottery_table/crafting/check_slot_validity/check_sherd_slot_macro {"slot":3}

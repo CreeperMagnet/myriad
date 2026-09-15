@@ -4,24 +4,15 @@
     "potted_plant": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "myriad:entity_properties/slots/weapon.mainhand/pottable_plants_new"
-          }
-        ],
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:flower_pot"
-                ]
-              }
+        "player": "myriad:entity_properties/slots/weapon.mainhand/pottable_plants_new",
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:flower_pot"
             }
           }
-        ]
+        }
       }
     }
   },

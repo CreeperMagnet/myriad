@@ -8,26 +8,26 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:set_custom_data",
+                  "type": "minecraft:set_custom_data",
                   "tag": "{myriad:{variant:\"light_blue\"}}"
                 },
                 {
-                  "function": "minecraft:set_components",
+                  "type": "minecraft:set_components",
                   "components": {
                     "minecraft:custom_model_data": {
-                      "strings": ["light_blue"]
+                      "strings": [
+                        "light_blue"
+                      ]
                     }
                   }
                 }
               ],
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.05
-                }
-              ],
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.05
+              },
               "value": "myriad:items/snail_bucket"
             },
             {
@@ -40,16 +40,18 @@
                 },
                 {
                   "type": "minecraft:loot_table",
-                  "functions": [
+                  "modifier": [
                     {
-                      "function": "minecraft:set_custom_data",
+                      "type": "minecraft:set_custom_data",
                       "tag": "{myriad:{variant:\"black\"}}"
                     },
                     {
-                      "function": "minecraft:set_components",
+                      "type": "minecraft:set_components",
                       "components": {
                         "minecraft:custom_model_data": {
-                          "strings": ["black"]
+                          "strings": [
+                            "black"
+                          ]
                         }
                       }
                     }
@@ -59,16 +61,18 @@
                 },
                 {
                   "type": "minecraft:loot_table",
-                  "functions": [
+                  "modifier": [
                     {
-                      "function": "minecraft:set_custom_data",
+                      "type": "minecraft:set_custom_data",
                       "tag": "{myriad:{variant:\"yellow\"}}"
                     },
                     {
-                      "function": "minecraft:set_components",
+                      "type": "minecraft:set_components",
                       "components": {
                         "minecraft:custom_model_data": {
-                          "strings": ["yellow"]
+                          "strings": [
+                            "yellow"
+                          ]
                         }
                       }
                     }
@@ -78,16 +82,18 @@
                 },
                 {
                   "type": "minecraft:loot_table",
-                  "functions": [
+                  "modifier": [
                     {
-                      "function": "minecraft:set_custom_data",
+                      "type": "minecraft:set_custom_data",
                       "tag": "{myriad:{variant:\"spiral\"}}"
                     },
                     {
-                      "function": "minecraft:set_components",
+                      "type": "minecraft:set_components",
                       "components": {
                         "minecraft:custom_model_data": {
-                          "strings": ["spiral"]
+                          "strings": [
+                            "spiral"
+                          ]
                         }
                       }
                     }

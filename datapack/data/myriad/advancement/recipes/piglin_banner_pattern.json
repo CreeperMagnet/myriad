@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:piglin_banner_pattern"
+        "recipes": "myriad:piglin_banner_pattern"
       }
     }
   },

@@ -25,8 +25,7 @@
     "#minecraft:bars",
     "#minecraft:chains",
     "#myriad:air",
-    "#myriad:wall_heads",
-    "#myriad:ground_heads",
+    "#myriad:skulls",
     "minecraft:small_amethyst_bud",
     "minecraft:medium_amethyst_bud",
     "minecraft:large_amethyst_bud",
@@ -134,6 +133,8 @@
     "minecraft:firefly_bush",
     "minecraft:cactus_flower",
     "minecraft:short_dry_grass",
-    "minecraft:tall_dry_grass"
+    "minecraft:tall_dry_grass",
+    "minecraft:red_shrub",
+    "minecraft:shelf_mushroom"
   ]
 }

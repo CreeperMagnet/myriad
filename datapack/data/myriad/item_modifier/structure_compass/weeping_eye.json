@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:exploration_map",
+  "destination": "#myriad:weeping_eye_located",
+  "search_radius": 50,
+  "skip_existing_chunks": true
+}

@@ -10,7 +10,7 @@ execute store result score @s myriad.dummy run attribute @s minecraft:entity_int
 execute anchored eyes run function myriad:entity/snail/interact/raycast
 execute if entity @s[tag=myriad.tag,gamemode=!creative,advancements={myriad:technical/player_interacted_with_entity/snail={name=false}}] run item modify entity @s weapon.mainhand myriad:reduce_count
 item replace entity @s[tag=myriad.tag,gamemode=!creative,advancements={myriad:technical/player_interacted_with_entity/snail={breed=true}}] weapon.mainhand with minecraft:bowl
-execute if entity @s[tag=myriad.tag,advancements={myriad:technical/player_interacted_with_entity/snail={bucket=true}}] run function myriad:entity/snail/interact/bucket/as_player
+execute if entity @s[tag=myriad.tag,advancements={myriad:technical/player_interacted_with_entity/snail={bucket=true}}] run function myriad:entity/snail/interact/bucket/as_player with storage myriad:temp root.item
 tag @s remove myriad.tag
 
 advancement revoke @s only myriad:technical/player_interacted_with_entity/snail

@@ -2,107 +2,112 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:piglin"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:piglin"
                 }
-              ],
+              },
               "value": "minecraft:charged_creeper/piglin"
             },
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:creeper"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:creeper"
                 }
-              ],
+              },
               "value": "minecraft:charged_creeper/creeper"
             },
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:skeleton"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:skeleton"
                 }
-              ],
+              },
               "value": "minecraft:charged_creeper/skeleton"
             },
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:wither_skeleton"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:wither_skeleton"
                 }
-              ],
+              },
               "value": "minecraft:charged_creeper/wither_skeleton"
             },
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:zombie"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:zombie"
                 }
-              ],
+              },
               "value": "minecraft:charged_creeper/zombie"
             },
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:ender_dragon"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:witch"
                 }
-              ],
-              "value": "myriad:charged_creeper/ender_dragon"
+              },
+              "value": "myriad:charged_creeper/witch"
             },
             {
               "type": "minecraft:loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:entity_type": "minecraft:witch"
-                  }
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "minecraft:ender_dragon"
                 }
-              ],
-              "value": "myriad:charged_creeper/witch"
+              },
+              "value": "myriad:charged_creeper/ender_dragon"
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:charged_creeper/root"
+  "random_sequence": "minecraft:charged_creeper/root",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[0].entries[0].children",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].children[5]"
+        }
+      },
+      {
+        "type": "append",
+        "target": "pools[0].entries[0].children",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].children[6]"
+        }
+      }
+    ]
+  }
 }

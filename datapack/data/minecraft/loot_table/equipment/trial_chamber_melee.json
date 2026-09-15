@@ -2,17 +2,15 @@
   "type": "minecraft:equipment",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:equipment/trial_chamber"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -21,28 +19,22 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "enchantments": {
-                "minecraft:sharpness": 1.0
-              },
-              "function": "minecraft:set_enchantments"
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": 1
             }
-          ],
+          },
           "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "enchantments": {
-                "minecraft:knockback": 1.0
-              },
-              "function": "minecraft:set_enchantments"
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:knockback": 1
             }
-          ],
+          },
           "name": "minecraft:iron_sword"
         },
         {
@@ -52,19 +44,28 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mace",
-          "functions": [
-            {
-              "add": false,
-              "enchantments": {
-                "minecraft:wind_burst": 1.0
-              },
-              "function": "minecraft:set_enchantments"
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:wind_burst": 1
             }
-          ]
+          }
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:equipment/trial_chamber_melee"
+  "random_sequence": "minecraft:equipment/trial_chamber_melee",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[1].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[1].entries[4]"
+        }
+      }
+    ]
+  }
 }

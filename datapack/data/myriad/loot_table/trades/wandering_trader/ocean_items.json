@@ -7,12 +7,10 @@
           "type": "item",
           "name": "minecraft:emerald",
           "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 4
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 4
+          }
         }
       ]
     },
@@ -23,84 +21,72 @@
           "type": "minecraft:item",
           "name": "minecraft:fire_coral",
           "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 16
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 16
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:brain_coral",
           "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 16
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 16
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:tube_coral",
           "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 16
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 16
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:horn_coral",
           "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 16
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 16
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bubble_coral",
           "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 16
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 16
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:sea_pickle",
           "weight": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "weight": 5,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 5,
-                "max": 10
-              }
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 5,
+              "max": 10
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",

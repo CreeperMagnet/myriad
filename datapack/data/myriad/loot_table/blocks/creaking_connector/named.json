@@ -6,9 +6,9 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "entity": "this",
               "name": {
                 "nbt": "CustomName",
@@ -17,7 +17,7 @@
               }
             },
             {
-              "function": "minecraft:copy_custom_data",
+              "type": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
@@ -28,7 +28,7 @@
               ]
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -49,10 +49,7 @@
               ],
               "mode": "replace_all"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "value": "myriad:items/creaking_connector"
         }

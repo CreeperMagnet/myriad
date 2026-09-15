@@ -2,82 +2,37 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dirt"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dirt_path",
+              "condition": "minecraft:tool/can_silk_touch"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dirt"
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        },
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:silk_touch",
-                    "levels": {
-                      "min": 1
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dirt_path"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "minecraft:silk_touch",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/dirt_path",
   "__smithed__": {
     "rules": [
       {
-        "type": "append",
-        "target": "pools",
+        "type": "replace",
+        "target": "pools[0].entries[0]",
         "source": {
           "type": "reference",
-          "path": "pools[0]"
-        }
-      },
-      {
-        "type": "append",
-        "target": "pools[0].conditions",
-        "source": {
-          "type": "reference",
-          "path": "pools[0].conditions[1]"
+          "path": "pools[0].entries[0]"
         }
       }
     ]

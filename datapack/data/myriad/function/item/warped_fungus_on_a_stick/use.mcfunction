@@ -7,13 +7,13 @@ execute if entity @s[predicate=myriad:entity_properties/slots/weapon/boomerang] 
 execute if entity @s[predicate=myriad:entity_properties/slots/weapon/locket_of_learning] run function myriad:item/locket_of_learning/use_item
 
 # Smoldering Seekers
-execute if entity @s[predicate=myriad:entity_properties/slots/weapon/smoldering_seeker] if dimension minecraft:the_nether run function myriad:item/smoldering_seeker/use_item
+execute if entity @s[predicate=myriad:entity_properties/slots/weapon/smoldering_seeker] if dimension minecraft:the_nether run function myriad:item/smoldering_seeker
 
 # Reactive Seekers
-execute if entity @s[predicate=myriad:entity_properties/slots/weapon/reactive_seeker] if dimension minecraft:the_nether run function myriad:item/reactive_seeker/use_item
+execute if entity @s[predicate=myriad:entity_properties/slots/weapon/reactive_seeker] if dimension minecraft:the_nether run function myriad:item/reactive_seeker
 
 # Weeping Eyes
-execute if entity @s[predicate=myriad:entity_properties/slots/weapon/weeping_eye] if dimension minecraft:the_end run function myriad:item/weeping_eye/use_item
+execute if entity @s[predicate=myriad:entity_properties/slots/weapon/weeping_eye] if dimension minecraft:the_end run function myriad:item/weeping_eye
 
 # Diluted Potions
 execute if entity @s[predicate=myriad:entity_properties/slots/weapon/diluted_potion] run function myriad:item/diluted_potion/used_item

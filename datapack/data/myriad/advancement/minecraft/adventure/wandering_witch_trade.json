@@ -29,10 +29,14 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "minecraft:entity_tags": {
-            "all_of": [
-              "myriad.wandering_witch"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.wandering_witch"
+              ]
+            }
           }
         }
       }

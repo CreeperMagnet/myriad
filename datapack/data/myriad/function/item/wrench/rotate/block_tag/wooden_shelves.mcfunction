@@ -12,3 +12,4 @@ execute if block ~ ~ ~ minecraft:mangrove_shelf run function myriad:item/wrench/
 execute if block ~ ~ ~ minecraft:dark_oak_shelf run function myriad:item/wrench/rotate/macro/shelf {block:"minecraft:dark_oak_shelf"}
 execute if block ~ ~ ~ minecraft:crimson_shelf run function myriad:item/wrench/rotate/macro/shelf {block:"minecraft:crimson_shelf"}
 execute if block ~ ~ ~ minecraft:warped_shelf run function myriad:item/wrench/rotate/macro/shelf {block:"minecraft:warped_shelf"}
+execute if block ~ ~ ~ minecraft:poplar_shelf run function myriad:item/wrench/rotate/macro/shelf {block:"minecraft:poplar_shelf"}

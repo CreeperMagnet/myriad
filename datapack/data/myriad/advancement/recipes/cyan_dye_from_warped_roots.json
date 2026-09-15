@@ -33,22 +33,20 @@
     "in_warped_forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "minecraft:warped_forest"
-              ]
-            }
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": [
+              "minecraft:warped_forest"
+            ]
           }
-        ]
+        }
       }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:cyan_dye_from_warped_roots"
+        "recipes": "myriad:cyan_dye_from_warped_roots"
       }
     }
   },

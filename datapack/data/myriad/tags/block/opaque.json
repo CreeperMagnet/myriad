@@ -374,6 +374,11 @@
 		"minecraft:cinnabar",
 		"minecraft:polished_cinnabar",
 		"minecraft:cinnabar_bricks",
-		"minecraft:chiseled_cinnabar"
+		"minecraft:chiseled_cinnabar",
+		"minecraft:poplar_log",
+		"minecraft:poplar_planks",
+		"minecraft:poplar_wood",
+		"minecraft:stripped_poplar_log",
+		"minecraft:stripped_poplar_wood"
 	]
 }

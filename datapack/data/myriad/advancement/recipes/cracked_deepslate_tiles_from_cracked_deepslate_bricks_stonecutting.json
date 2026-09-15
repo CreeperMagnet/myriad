@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:cracked_deepslate_tiles_from_cracked_deepslate_bricks_stonecutting"
+        "recipes": "myriad:cracked_deepslate_tiles_from_cracked_deepslate_bricks_stonecutting"
       }
     }
   },

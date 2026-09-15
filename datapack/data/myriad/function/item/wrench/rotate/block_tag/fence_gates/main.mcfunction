@@ -10,5 +10,6 @@ execute if block ~ ~ ~ minecraft:jungle_fence_gate run function myriad:item/wren
 execute if block ~ ~ ~ minecraft:mangrove_fence_gate run function myriad:item/wrench/rotate/block_tag/fence_gates/specific_gate {block:"minecraft:mangrove_fence_gate"}
 execute if block ~ ~ ~ minecraft:oak_fence_gate run function myriad:item/wrench/rotate/block_tag/fence_gates/specific_gate {block:"minecraft:oak_fence_gate"}
 execute if block ~ ~ ~ minecraft:pale_oak_fence_gate run function myriad:item/wrench/rotate/block_tag/fence_gates/specific_gate {block:"minecraft:pale_oak_fence_gate"}
+execute if block ~ ~ ~ minecraft:poplar_fence_gate run function myriad:item/wrench/rotate/block_tag/fence_gates/specific_gate {block:"minecraft:poplar_fence_gate"}
 execute if block ~ ~ ~ minecraft:spruce_fence_gate run function myriad:item/wrench/rotate/block_tag/fence_gates/specific_gate {block:"minecraft:spruce_fence_gate"}
 execute if block ~ ~ ~ minecraft:warped_fence_gate run function myriad:item/wrench/rotate/block_tag/fence_gates/specific_gate {block:"minecraft:warped_fence_gate"}

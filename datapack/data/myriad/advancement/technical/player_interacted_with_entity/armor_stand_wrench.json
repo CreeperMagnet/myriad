@@ -4,34 +4,27 @@
     "wrench_armor_stand": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "myriad:entity_properties/sneaking"
-            }
-          }
-        ],
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "myriad:entity_properties/sneaking"
+        },
         "item": {
           "predicates": {
             "minecraft:custom_data": "{myriad:{id:\"wrench\"}}"
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:armor_stand",
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.armor_stand_with_arms"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:armor_stand",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.armor_stand_with_arms"
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

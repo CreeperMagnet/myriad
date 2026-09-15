@@ -2,46 +2,41 @@
   "type": "minecraft:gift",
   "pools": [
     {
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:torchflower_seeds",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:pitcher_pod",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
             }
-          ]
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "structures": [
-                  "myriad:tundra_keep"
-                ]
-              }
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "structures": [
+                "myriad:tundra_keep"
+              ]
             }
-          ],
+          },
           "value": "myriad:items/frostbloom"
         }
       ],
@@ -52,19 +47,19 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "append",
-        "target": "pools[0].entries[0].functions",
+        "type": "replace",
+        "target": "pools[0].entries[0].modifier",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].functions[0]"
+          "path": "pools[0].entries[0].modifier"
         }
       },
       {
-        "type": "append",
-        "target": "pools[0].entries[1].functions",
+        "type": "replace",
+        "target": "pools[0].entries[1].modifier",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[1].functions[0]"
+          "path": "pools[0].entries[1].modifier"
         }
       },
       {

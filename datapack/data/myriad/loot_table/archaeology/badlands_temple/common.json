@@ -26,37 +26,31 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 60,
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": 60,
+            "options": "#minecraft:on_random_loot"
+          },
           "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 60,
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": 60,
+            "options": "#minecraft:on_random_loot"
+          },
           "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 60,
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": 60,
+            "options": "#minecraft:on_random_loot"
+          },
           "weight": 1
         }
       ]

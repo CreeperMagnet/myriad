@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "amplifier": {
@@ -26,7 +26,7 @@
                 "max": 4.0,
                 "min": 0.0
               },
-              "function": "minecraft:set_ominous_bottle_amplifier"
+              "type": "minecraft:set_ominous_bottle_amplifier"
             }
           ],
           "name": "minecraft:ominous_bottle"

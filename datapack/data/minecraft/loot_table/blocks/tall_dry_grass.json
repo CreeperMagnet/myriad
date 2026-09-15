@@ -2,42 +2,38 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "minecraft:shears"
-                  }
-                }
-              ],
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  "minecraft:tool/can_shear",
+                  "minecraft:tool/can_silk_touch"
+                ]
+              },
               "name": "minecraft:tall_dry_grass"
             },
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
-                }
-              ],
-              "functions": [
+              "condition": {
+                "chance": 0.125,
+                "type": "minecraft:random_chance"
+              },
+              "modifier": [
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
+                  "type": "minecraft:apply_bonus",
                   "parameters": {
                     "bonusMultiplier": 2
                   }
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "type": "minecraft:explosion_decay"
                 }
               ],
               "name": "minecraft:beetroot_seeds"
@@ -45,18 +41,18 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/tall_dry_grass",
   "__smithed__": {
     "rules": [
       {
-        "type": "merge",
-        "target": "pools[0].entries[0]",
+        "type": "replace",
+        "target": "pools[0]",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0]"
+          "path": "pools[0]"
         }
       }
     ]

@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{myriad:{id:\"frostbloom_petals\"}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "myriad:frostbloom_petals",
                 "minecraft:rarity": "uncommon",
@@ -39,20 +39,20 @@
                   "nutrition": 2,
                   "saturation": 3.0,
                   "can_always_eat": true
+                },
+                "minecraft:compostable": {
+                  "layers": "minecraft:compostable/medium"
                 }
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.myriad.frostbloom_petals"
               },
               "target": "item_name"
             },
-            {
-              "function": "minecraft:reference",
-              "name": "myriad:add_tooltip_lore"
-            }
+            "myriad:add_tooltip_lore"
           ],
           "name": "minecraft:poisonous_potato"
         }

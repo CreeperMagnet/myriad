@@ -27,32 +27,26 @@
           "id": "decorated_pot",
           "type": "prismarine",
           "custom_block": true,
-          "raw_pot": true,
-          "sherds": [
-            {
-              "id": "minecraft:prismarine_shard"
-            },
-            {
-              "id": "minecraft:prismarine_shard"
-            },
-            {
-              "id": "minecraft:prismarine_shard"
-            },
-            {
-              "id": "minecraft:prismarine_shard"
-            }
-          ]
+          "raw_pot": true
         }
       },
       "minecraft:item_name": {
         "translate": "block.myriad.prismarine_pot"
       },
-      "minecraft:pot_decorations": [
-        "minecraft:air",
-        "minecraft:air",
-        "minecraft:air",
-        "minecraft:air"
-      ],
+      "minecraft:pot_decorations": {
+        "back": {
+          "id": "minecraft:prismarine_shard"
+        },
+        "front": {
+          "id": "minecraft:prismarine_shard"
+        },
+        "left": {
+          "id": "minecraft:prismarine_shard"
+        },
+        "right": {
+          "id": "minecraft:prismarine_shard"
+        }
+     },
       "minecraft:lore": [
         {
           "translate": "pack.myriad",
@@ -60,12 +54,7 @@
           "italic": false,
           "font": "myriad:tooltip"
         }
-      ],
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:pot_decorations"
-        ]
-      }
+      ]
     }
   }
 }

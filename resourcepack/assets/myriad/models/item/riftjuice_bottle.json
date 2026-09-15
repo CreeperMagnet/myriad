@@ -6,7 +6,6 @@
 	"gui_light": "front",
 	"elements": [
 		{
-			"name": "overlay_0",
 			"from": [8, 2, 7.5],
 			"to": [9, 10, 8.5],
 			"faces": {
@@ -20,7 +19,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_1",
 			"from": [7, 8, 7.5],
 			"to": [8, 9, 8.5],
 			"faces": {
@@ -34,7 +32,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_2",
 			"from": [9, 4, 7.5],
 			"to": [10, 9, 8.5],
 			"faces": {
@@ -48,7 +45,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_3",
 			"from": [6, 7, 7.5],
 			"to": [7, 8, 8.5],
 			"faces": {
@@ -62,7 +58,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_4",
 			"from": [10, 5, 7.5],
 			"to": [11, 8, 8.5],
 			"faces": {
@@ -76,7 +71,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_5",
 			"from": [5, 4, 7.5],
 			"to": [6, 7, 8.5],
 			"faces": {
@@ -90,7 +84,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_6",
 			"from": [7, 2, 7.5],
 			"to": [8, 7, 8.5],
 			"faces": {
@@ -104,7 +97,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_7",
 			"from": [11, 4, 7.5],
 			"to": [12, 7, 8.5],
 			"faces": {
@@ -118,7 +110,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_8",
 			"from": [6, 3, 7.5],
 			"to": [7, 6, 8.5],
 			"faces": {
@@ -132,7 +123,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_9",
 			"from": [10, 3, 7.5],
 			"to": [11, 4, 8.5],
 			"faces": {
@@ -146,7 +136,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "overlay_10",
 			"from": [9, 2, 7.5],
 			"to": [10, 3, 8.5],
 			"faces": {
@@ -160,7 +149,6 @@
 			"light_emission": 15
 		},
 		{
-			"name": "bottle_0",
 			"from": [7, 11, 7.5],
 			"to": [10, 14, 8.5],
 			"faces": {
@@ -173,7 +161,6 @@
 			}
 		},
 		{
-			"name": "bottle_1",
 			"from": [6, 11, 7.5],
 			"to": [7, 13, 8.5],
 			"faces": {
@@ -186,7 +173,6 @@
 			}
 		},
 		{
-			"name": "bottle_2",
 			"from": [10, 11, 7.5],
 			"to": [11, 13, 8.5],
 			"faces": {
@@ -199,7 +185,6 @@
 			}
 		},
 		{
-			"name": "bottle_3",
 			"from": [7, 9, 7.5],
 			"to": [8, 11, 8.5],
 			"faces": {
@@ -212,7 +197,6 @@
 			}
 		},
 		{
-			"name": "bottle_4",
 			"from": [9, 9, 7.5],
 			"to": [10, 11, 8.5],
 			"faces": {
@@ -225,7 +209,6 @@
 			}
 		},
 		{
-			"name": "bottle_5",
 			"from": [6, 8, 7.5],
 			"to": [7, 9, 8.5],
 			"faces": {
@@ -238,7 +221,6 @@
 			}
 		},
 		{
-			"name": "bottle_6",
 			"from": [10, 8, 7.5],
 			"to": [11, 9, 8.5],
 			"faces": {
@@ -251,7 +233,6 @@
 			}
 		},
 		{
-			"name": "bottle_7",
 			"from": [5, 7, 7.5],
 			"to": [6, 8, 8.5],
 			"faces": {
@@ -264,7 +245,6 @@
 			}
 		},
 		{
-			"name": "bottle_8",
 			"from": [7, 7, 7.5],
 			"to": [8, 8, 8.5],
 			"faces": {
@@ -277,7 +257,6 @@
 			}
 		},
 		{
-			"name": "bottle_9",
 			"from": [11, 7, 7.5],
 			"to": [12, 8, 8.5],
 			"faces": {
@@ -290,7 +269,6 @@
 			}
 		},
 		{
-			"name": "bottle_10",
 			"from": [4, 4, 7.5],
 			"to": [5, 7, 8.5],
 			"faces": {
@@ -303,7 +281,6 @@
 			}
 		},
 		{
-			"name": "bottle_11",
 			"from": [6, 6, 7.5],
 			"to": [7, 7, 8.5],
 			"faces": {
@@ -316,7 +293,6 @@
 			}
 		},
 		{
-			"name": "bottle_12",
 			"from": [12, 4, 7.5],
 			"to": [13, 7, 8.5],
 			"faces": {
@@ -329,7 +305,6 @@
 			}
 		},
 		{
-			"name": "bottle_13",
 			"from": [10, 4, 7.5],
 			"to": [11, 5, 8.5],
 			"faces": {
@@ -342,7 +317,6 @@
 			}
 		},
 		{
-			"name": "bottle_14",
 			"from": [5, 3, 7.5],
 			"to": [6, 4, 8.5],
 			"faces": {
@@ -355,7 +329,6 @@
 			}
 		},
 		{
-			"name": "bottle_15",
 			"from": [9, 3, 7.5],
 			"to": [10, 4, 8.5],
 			"faces": {
@@ -368,7 +341,6 @@
 			}
 		},
 		{
-			"name": "bottle_16",
 			"from": [11, 3, 7.5],
 			"to": [12, 4, 8.5],
 			"faces": {
@@ -381,7 +353,6 @@
 			}
 		},
 		{
-			"name": "bottle_17",
 			"from": [6, 2, 7.5],
 			"to": [7, 3, 8.5],
 			"faces": {
@@ -394,7 +365,6 @@
 			}
 		},
 		{
-			"name": "bottle_18",
 			"from": [10, 2, 7.5],
 			"to": [11, 3, 8.5],
 			"faces": {
@@ -407,7 +377,6 @@
 			}
 		},
 		{
-			"name": "bottle_19",
 			"from": [7, 1, 7.5],
 			"to": [10, 2, 8.5],
 			"faces": {

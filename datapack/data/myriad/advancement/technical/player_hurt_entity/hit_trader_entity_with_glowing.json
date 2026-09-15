@@ -11,19 +11,17 @@
             }
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "myriad.cannot_glow"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "myriad.cannot_glow"
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

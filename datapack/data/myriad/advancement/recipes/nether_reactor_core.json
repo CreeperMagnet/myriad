@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:nether_reactor_core"
+        "recipes": "myriad:nether_reactor_core"
       }
     }
   },

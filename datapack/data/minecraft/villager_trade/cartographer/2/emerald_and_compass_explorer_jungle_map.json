@@ -1,0 +1,76 @@
+{
+  "additional_wants": {
+    "id": "minecraft:compass"
+  },
+  "given_item_modifier": [
+    {
+      "type": "minecraft:exploration_map",
+      "destination": "#myriad:map_located/sparse_jungle_village",
+      "decoration": "minecraft:target_point",
+      "search_radius": 100
+    },
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "translate": "item.myriad.map.sparse_jungle_village"
+      },
+      "target": "item_name"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "myriad:map/sparse_jungle_village"
+      }
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{myriad:{id:\"map\",destination:\"sparse_jungle_village\"}}"
+    },
+    {
+      "type": "minecraft:set_lore",
+      "lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "mode": "append"
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "id": "minecraft:buried_treasure_map"
+  },
+  "max_uses": 12,
+  "merchant_predicate": {
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:swamp",
+          "minecraft:savanna",
+          "minecraft:desert"
+        ]
+      }
+    }
+  },
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 8,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5
+}

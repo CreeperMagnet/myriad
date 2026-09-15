@@ -6,6 +6,30 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:entity_tags": {
+            "none_of": [
+              "myriad.archaeologist"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:brick"
         },
         {
@@ -17,46 +41,17 @@
           "name": "minecraft:brush"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:entity_tags": {
-              "all_of": [
-                "myriad.archaeologist"
-              ]
-            }
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:entity_tags": {
+            "all_of": [
+              "myriad.archaeologist"
+            ]
           }
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cod"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:entity_tags": {
-              "none_of": [
-                "myriad.archaeologist"
-              ]
-            }
-          }
-        }
-      ]
+      }
     }
   ],
   "random_sequence": "minecraft:gameplay/hero_of_the_village/fisherman_gift",
@@ -67,15 +62,15 @@
         "target": "pools",
         "source": {
           "type": "reference",
-          "path": "pools[0]"
+          "path": "pools[1]"
         }
       },
       {
-        "type": "append",
-        "target": "pools[0].conditions",
+        "type": "replace",
+        "target": "pools[0].condition",
         "source": {
           "type": "reference",
-          "path": "pools[1].conditions[0]"
+          "path": "pools[0].condition"
         }
       }
     ]

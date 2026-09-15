@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 10
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        }
+      ],
+      "modifier": {
+        "type": "minecraft:set_count",
+        "count": 1
+      }
+    }
+  ],
+  "random_sequence": "myriad:trades/archaeologist/clay_ball"
+}

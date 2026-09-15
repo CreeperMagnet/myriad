@@ -3,18 +3,14 @@
     "wax_note_block": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:note_block"
             }
           }
-        ]
+        }
       }
     }
   },

@@ -33,7 +33,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:dye_compass/green"
+        "recipes": "myriad:dye_compass/green"
       }
     }
   },

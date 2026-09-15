@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 4,
         "max": 7
       },
@@ -22,7 +23,18 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "myriad:items/garden_explorer_map"
+          "value": "myriad:items/map/creaking_crypt",
+          "modifier": {
+            "type": "minecraft:filtered",
+            "item_filter": {
+              "predicates": {
+                "minecraft:map_id": {}
+              }
+            },
+            "on_fail": {
+              "type": "minecraft:discard"
+            }
+          }
         }
       ]
     }

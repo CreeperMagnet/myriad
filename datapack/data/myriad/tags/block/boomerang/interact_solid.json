@@ -11,6 +11,7 @@
     "minecraft:chorus_plant",
     "minecraft:cactus",
     "minecraft:scaffolding",
-    "#minecraft:leaves"
+    "#minecraft:leaves",
+    "minecraft:shelf_mushroom"
   ]
 }

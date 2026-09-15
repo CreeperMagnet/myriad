@@ -9,15 +9,13 @@
             "minecraft:name_tag"
           ]
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "team": "myriad.no_nametag"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "myriad.no_nametag"
           }
-        ]
+        }
       }
     }
   },

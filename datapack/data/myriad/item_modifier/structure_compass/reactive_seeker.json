@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:exploration_map",
+  "destination": "#myriad:reactive_seeker_located",
+  "search_radius": 150,
+  "skip_existing_chunks": true
+}

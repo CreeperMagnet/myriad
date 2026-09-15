@@ -22,7 +22,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:diamond_horse_armor"
+        "recipes": "myriad:diamond_horse_armor"
       }
     }
   },

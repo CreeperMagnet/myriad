@@ -2,45 +2,28 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ],
+              "condition": "minecraft:tool/can_silk_touch",
               "name": "minecraft:sea_lantern"
             },
             {
               "type": "minecraft:item",
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:set_count",
+                  "type": "minecraft:set_count",
                   "count": {
-                    "min": 2.0,
+                    "type": "minecraft:uniform",
                     "max": 4.0,
-                    "type": "minecraft:uniform"
+                    "min": 2.0
                   }
                 },
                 {
-                  "function": "minecraft:apply_bonus",
+                  "type": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
                   "parameters": {
@@ -48,21 +31,22 @@
                   }
                 },
                 {
-                  "function": "minecraft:limit_count",
+                  "type": "minecraft:limit_count",
                   "limit": {
-                    "max": 4,
-                    "min": 1
+                    "max": 4.0,
+                    "min": 1.0
                   }
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "type": "minecraft:explosion_decay"
                 }
               ],
               "name": "minecraft:prismarine_crystals"
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:blocks/sea_lantern",
@@ -70,18 +54,18 @@
     "rules": [
       {
         "type": "merge",
-        "target": "pools[0].entries[0].children[1].functions[0].count.max",
+        "target": "pools[0].entries[0].children[1].modifier[0].count.max",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].children[1].functions[0].count.max"
+          "path": "pools[0].entries[0].children[1].modifier[0].count.max"
         }
       },
       {
         "type": "merge",
-        "target": "pools[0].entries[0].children[1].functions[2].limit.max",
+        "target": "pools[0].entries[0].children[1].modifier[2].limit.max",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].children[1].functions[2].limit.max"
+          "path": "pools[0].entries[0].children[1].modifier[2].limit.max"
         }
       }
     ]

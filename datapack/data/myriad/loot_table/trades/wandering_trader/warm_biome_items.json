@@ -6,12 +6,10 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 3
-            }
-          ]
+          "modifier": {
+            "type": "set_count",
+            "count": 3
+          }
         }
       ]
     },
@@ -27,29 +25,27 @@
           "type": "minecraft:item",
           "name": "minecraft:dead_bush",
           "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 4,
-                "max": 6
-              }
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 6
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:tall_dry_grass",
           "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 4,
-                "max": 6
-              }
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 6
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",
@@ -69,28 +65,26 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lily_pad",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 10,
-                "max": 15
-              }
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 10,
+              "max": 15
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:vine",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 10,
-                "max": 15
-              }
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 10,
+              "max": 15
             }
-          ]
+          }
         }
       ]
     }

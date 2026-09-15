@@ -11,37 +11,40 @@
           "type": {
             "tags": [
               {
-                "id": "myriad:totem_out_of_bounds",
+                "id": "minecraft:out_of_world",
                 "expected": true
               }
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "slots": {
-                "weapon.*": {
-                  "items": "minecraft:totem_of_undying"
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "effects": {
-                  "minecraft:levitation": {}
+                "slots": {
+                  "weapon.*": {
+                    "items": "minecraft:totem_of_undying"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:levitation": {}
+                  }
                 }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

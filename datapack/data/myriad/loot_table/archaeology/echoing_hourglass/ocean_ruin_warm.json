@@ -1,7 +1,6 @@
 {
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -74,7 +73,7 @@
           "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "myriad:archaeology/echoing_hourglass/ocean_ruin_warm"

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:splash_potion",
+    "potion_contents": {
+      "effects": {
+        "size": 1,
+        "contains": [
+          {
+            "minecraft:health_boost": {
+              "amplifier": 0,
+              "duration": 3600
+            }
+          }
+        ]
+      }
+    }
+  },
+  "output": {
+    "components": {
+      "minecraft:lore": [
+        {
+          "translate": "pack.myriad",
+          "color": "white",
+          "italic": false,
+          "font": "myriad:tooltip"
+        }
+      ],
+      "minecraft:custom_data": {
+        "myriad": {
+          "id": "potion",
+          "type": "fortitude"
+        }
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 16738851,
+        "custom_effects": [
+          {
+            "id": "minecraft:health_boost",
+            "amplifier": 0,
+            "duration": 3600
+          }
+        ],
+        "custom_name": "myriad:fortitude"
+      }
+    },
+    "id": "minecraft:lingering_potion"
+  },
+  "reagent": {
+    "item": "minecraft:dragon_breath"
+  }
+}

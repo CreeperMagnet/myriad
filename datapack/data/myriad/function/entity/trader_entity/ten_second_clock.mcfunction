@@ -2,7 +2,7 @@
 
 effect give @s minecraft:invisibility infinite 0 true
 # This fixes an incredibly specific bug: https://github.com/CreeperMagnet/myriad/issues/43
-item modify entity @s weapon.mainhand {"function":"set_custom_data","tag":{fix:"idk why this works but it does"}}
+item modify entity @s weapon.mainhand {"type":"set_custom_data","tag":{fix:"idk why this works but it does"}}
 
 # Set death time stuff
 data modify entity @s DeathTime set value 19s

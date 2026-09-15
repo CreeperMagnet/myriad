@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:prismarine_flower_pot"
+        "recipes": "myriad:prismarine_flower_pot"
       }
     }
   },

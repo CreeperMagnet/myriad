@@ -22,7 +22,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "myriad:golden_horse_armor"
+        "recipes": "myriad:golden_horse_armor"
       }
     }
   },

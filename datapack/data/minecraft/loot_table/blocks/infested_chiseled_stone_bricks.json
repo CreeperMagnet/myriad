@@ -2,30 +2,14 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "condition": "minecraft:tool/can_silk_touch",
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:infested_chiseled_stone_bricks"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "minecraft:silk_touch",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/infested_chiseled_stone_bricks",

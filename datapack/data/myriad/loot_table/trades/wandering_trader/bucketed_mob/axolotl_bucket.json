@@ -9,28 +9,22 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:axolotl_bucket",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:bucket_entity_data": {
-                      "Variant": 4
-                    },
-                    "minecraft:item_model": "myriad:axolotl_bucket",
-                    "minecraft:custom_model_data" : {
-                      "floats": [
-                        4
-                      ]
-                    }
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:axolotl/variant": "blue",
+                  "minecraft:item_model": "myriad:axolotl_bucket",
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      4
+                    ]
                   }
                 }
-              ],
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.00083333333
-                }
-              ]
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.00083333333
+              }
             },
             {
               "type": "minecraft:group",
@@ -38,62 +32,50 @@
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:axolotl_bucket",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_components",
-                      "components": {
-                        "minecraft:bucket_entity_data": {
-                          "Variant": 1
-                        },
-                        "minecraft:item_model": "myriad:axolotl_bucket",
-                        "minecraft:custom_model_data" : {
-                          "floats": [
-                            1
-                          ]
-                        }
+                  "modifier": {
+                    "type": "minecraft:set_components",
+                    "components": {
+                      "minecraft:axolotl/variant": "wild",
+                      "minecraft:item_model": "myriad:axolotl_bucket",
+                      "minecraft:custom_model_data": {
+                        "floats": [
+                          1
+                        ]
                       }
                     }
-                  ]
+                  }
                 },
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:axolotl_bucket",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_components",
-                      "components": {
-                        "minecraft:bucket_entity_data": {
-                          "Variant": 2
-                        },
-                        "minecraft:item_model": "myriad:axolotl_bucket",
-                        "minecraft:custom_model_data" : {
-                          "floats": [
-                            2
-                          ]
-                        }
+                  "modifier": {
+                    "type": "minecraft:set_components",
+                    "components": {
+                      "minecraft:axolotl/variant": "gold",
+                      "minecraft:item_model": "myriad:axolotl_bucket",
+                      "minecraft:custom_model_data": {
+                        "floats": [
+                          2
+                        ]
                       }
                     }
-                  ]
+                  }
                 },
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:axolotl_bucket",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_components",
-                      "components": {
-                        "minecraft:bucket_entity_data": {
-                          "Variant": 3
-                        },
-                        "minecraft:item_model": "myriad:axolotl_bucket",
-                        "minecraft:custom_model_data" : {
-                          "floats": [
-                            3
-                          ]
-                        }
+                  "modifier": {
+                    "type": "minecraft:set_components",
+                    "components": {
+                      "minecraft:axolotl/variant": "cyan",
+                      "minecraft:item_model": "myriad:axolotl_bucket",
+                      "minecraft:custom_model_data": {
+                        "floats": [
+                          3
+                        ]
                       }
                     }
-                  ]
+                  }
                 },
                 {
                   "type": "minecraft:item",

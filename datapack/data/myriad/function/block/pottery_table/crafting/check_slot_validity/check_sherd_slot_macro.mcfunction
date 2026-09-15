@@ -1,7 +1,7 @@
 # Checks if a sherd is valid, and if it is not, exports it.
 
 # If item is sherd, don't export
-$execute if items block ~ ~ ~ container.$(slot) #minecraft:decorated_pot_sherds run return 0
+$execute if items block ~ ~ ~ container.$(slot) *[minecraft:provides_pottery_pattern] run return 0
 # If item is custom sherd, don't export
 $execute if items block ~ ~ ~ container.$(slot) *[minecraft:custom_data~{myriad:{id:"pottery_sherd"}}] run return 0
 

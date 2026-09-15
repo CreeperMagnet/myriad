@@ -6,5 +6,5 @@ data modify storage myriad:temp root.item.components."minecraft:lore" prepend va
 data modify storage myriad:temp root.item.components."minecraft:lore" append value {"text":""}
 data modify storage myriad:temp root.item.components."minecraft:lore" append value {"color":"dark_purple","italic":false,"translate":"potion.whenDrank"}
 data modify storage myriad:temp root.item.components."minecraft:lore" append value {"color":"blue","italic":false,"translate":"attribute.modifier.plus.0","with":["15",{"translate":"attribute.name.attack_damage"}]}
-data modify storage myriad:temp root.item.components."minecraft:custom_model_data".colors[0] set value 8940032
+data modify storage myriad:temp root.item.components."minecraft:custom_model_data".colors[0] set value 998735
 data modify storage myriad:temp root.item.components."minecraft:custom_data".myriad.potion.multiline_lore set value 1b

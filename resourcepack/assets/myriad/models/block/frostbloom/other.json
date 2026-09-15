@@ -10,7 +10,7 @@
   "elements": [{
       "from": [0.8, 0, 7.995],
       "to": [15.2, 16, 8.005],
-      "shade": false,
+      "shade_direction_override": "up",
       "rotation": {
         "angle": 45,
         "axis": "y",
@@ -53,7 +53,7 @@
     {
       "from": [7.995, 0, 0.8],
       "to": [8.005, 16, 15.2],
-      "shade": false,
+      "shade_direction_override": "up",
       "rotation": {
         "angle": 45,
         "axis": "y",
