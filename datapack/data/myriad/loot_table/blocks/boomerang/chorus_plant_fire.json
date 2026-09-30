@@ -9,15 +9,15 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 1.0,
-              "min": 0.0
+              "max": 1,
+              "min": 0
             },
             "type": "minecraft:set_count"
           },
           "name": "minecraft:popped_chorus_fruit"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "myriad:blocks/boomerang/chorus_plant_fire"

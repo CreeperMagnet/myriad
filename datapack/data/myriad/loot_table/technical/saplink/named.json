@@ -36,6 +36,10 @@
                   "flags": [
                     false
                   ]
+                },
+                "minecraft:cooking_fuel": {
+                  "burn_time": "minecraft:cooking/time_dry_plants",
+                  "speed_multiplier": "minecraft:cooking/speed_default"
                 }
               }
             },

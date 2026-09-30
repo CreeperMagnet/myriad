@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:context_entity_type",
+    "cases": [
+      {
+        "when": "minecraft:wandering_trader",
+        "model": {
+          "type": "minecraft:empty"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/milk_bucket"
+    }
+  },
+  "comment": "This was added to fix #316"
+}

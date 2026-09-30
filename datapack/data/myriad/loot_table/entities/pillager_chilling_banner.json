@@ -17,14 +17,14 @@
           "modifier": [
             {
               "add": false,
-              "count": 1.0,
+              "count": 1,
               "type": "minecraft:set_count"
             },
             {
               "amplifier": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 0.0
+                "max": 4,
+                "min": 0
               },
               "type": "minecraft:set_ominous_bottle_amplifier"
             }

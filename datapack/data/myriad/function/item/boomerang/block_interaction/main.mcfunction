@@ -17,8 +17,6 @@ execute if block ~ ~ ~ minecraft:cocoa[age=2] run function myriad:item/boomerang
 execute if block ~ ~ ~ #minecraft:cave_vines[berries=true] run function myriad:item/boomerang/block_interaction/seeds/cave_vines
 
 execute if block ~ ~ ~ minecraft:mangrove_propagule[age=4] run setblock ~ ~ ~ minecraft:air destroy
-execute unless block ~ ~-0.3 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[layers=1] run setblock ~ ~ ~ minecraft:air destroy
-execute unless block ~ ~-0.6 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[layers=2] run setblock ~ ~ ~ minecraft:air destroy
 
 execute if block ~ ~ ~ minecraft:decorated_pot align xyz positioned ~0.5 ~0.5 ~0.5 run function myriad:item/boomerang/block_interaction/decorated_pot
 execute if block ~ ~ ~ minecraft:cactus run function myriad:item/boomerang/block_interaction/cactus

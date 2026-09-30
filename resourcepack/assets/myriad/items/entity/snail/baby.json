@@ -3,6 +3,18 @@
     "type": "minecraft:select",
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
+    "transformation": {
+      "left_rotation": {
+        "angle": 0,
+        "axis": [0, 0, 0]
+      },
+      "right_rotation": {
+        "angle": 0,
+        "axis": [0, 0, 0]
+      },
+      "scale": [1.71181545, 1.71181545, 1.71181545],
+      "translation": [0, 0, 0]
+    },
     "cases": [
       {
         "when": "Gary",

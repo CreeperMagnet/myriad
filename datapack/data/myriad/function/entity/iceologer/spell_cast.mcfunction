@@ -3,10 +3,10 @@
 scoreboard players add @s myriad.dummy2 0
 execute if entity @s[scores={myriad.dummy2=0..}] run function myriad:entity/illager/line_of_sight
 scoreboard players add @s[scores={myriad.dummy2=0..}] myriad.dummy2 1
-data modify entity @s equipment.chest.components."minecraft:custom_model_data".flags[2] set value true
+data modify entity @s equipment.head.components."minecraft:custom_model_data".flags[2] set value true
 attribute @s minecraft:movement_speed modifier add myriad:slowness -100 add_value
 execute rotated ~ 0 run particle minecraft:effect ^-0.4 ^1.7 ^0.6 0.01 0.01 0.01 0.1 3 force
 execute rotated ~ 0 run particle minecraft:effect ^0.4 ^1.7 ^0.6 0.01 0.01 0.01 0.1 3 force
 execute if entity @s[tag=!myriad.has_line_of_sight] run function myriad:entity/iceologer/spell_end
-rotate @s[tag=myriad.has_line_of_sight] facing entity @n[predicate=myriad:entity_properties/targeted_by_illagers,distance=..16] eyes
+execute facing entity @n[predicate=myriad:entity_properties/targeted_by_illagers,distance=..16] eyes run rotate @s ~ 0
 execute if entity @s[scores={myriad.dummy2=3..}] run function myriad:entity/iceologer/spell_end

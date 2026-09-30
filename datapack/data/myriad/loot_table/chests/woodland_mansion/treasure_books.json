@@ -15,8 +15,8 @@
             "type": "minecraft:enchant_with_levels",
             "levels": {
               "type": "minecraft:uniform",
-              "max": 45.0,
-              "min": 30.0
+              "max": 45,
+              "min": 30
             },
             "options": "#minecraft:on_random_loot"
           }

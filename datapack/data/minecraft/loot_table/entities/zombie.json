@@ -10,16 +10,16 @@
               "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
+                "max": 2,
+                "min": 0
               }
             },
             {
               "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               },
               "enchantment": "minecraft:looting"
             }
@@ -27,7 +27,7 @@
           "name": "minecraft:rotten_flesh"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "entries": [
@@ -47,16 +47,16 @@
               "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               }
             },
             {
               "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               },
               "enchantment": "minecraft:looting"
             }
@@ -64,7 +64,7 @@
           "name": "minecraft:red_mushroom"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "condition": {
@@ -133,7 +133,7 @@
           "name": "minecraft:potato"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "condition": {
@@ -162,7 +162,7 @@
           "name": "minecraft:music_disc_lava_chicken"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "entries": [
@@ -173,8 +173,8 @@
               "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               }
             },
             {
@@ -182,15 +182,15 @@
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               }
             }
           ],
           "name": "minecraft:iron_nugget"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:entities/zombie",

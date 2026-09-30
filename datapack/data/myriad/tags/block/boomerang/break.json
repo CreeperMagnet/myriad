@@ -1,5 +1,8 @@
 {
   "values": [
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:powder_snow",
     "#minecraft:small_flowers",
     "minecraft:sunflower",
     "minecraft:lilac",

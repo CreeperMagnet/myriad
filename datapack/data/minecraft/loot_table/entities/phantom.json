@@ -13,16 +13,16 @@
               "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               }
             },
             {
               "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               },
               "enchantment": "minecraft:looting"
             },
@@ -36,7 +36,7 @@
           "name": "minecraft:phantom_membrane"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:entities/phantom",

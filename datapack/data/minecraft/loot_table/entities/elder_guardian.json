@@ -10,16 +10,16 @@
               "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
+                "max": 2,
+                "min": 0
               }
             },
             {
               "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               },
               "enchantment": "minecraft:looting"
             }
@@ -27,7 +27,7 @@
           "name": "minecraft:prismarine_shard"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "entries": [
@@ -38,8 +38,8 @@
               "type": "minecraft:enchanted_count_increase",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               },
               "enchantment": "minecraft:looting"
             },
@@ -87,8 +87,8 @@
             "type": "minecraft:enchanted_count_increase",
             "count": {
               "type": "minecraft:uniform",
-              "max": 1.0,
-              "min": 0.0
+              "max": 1,
+              "min": 0
             },
             "enchantment": "minecraft:looting"
           },
@@ -99,7 +99,7 @@
           "type": "minecraft:empty"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "condition": {
@@ -121,7 +121,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "condition": {
@@ -182,7 +182,7 @@
           "value": "minecraft:gameplay/fishing/fish"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "entries": [

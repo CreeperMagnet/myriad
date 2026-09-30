@@ -2,6 +2,11 @@
 
 data modify storage myriad:temp root.potion set from storage myriad:temp root.item.components."minecraft:potion_contents".potion
 execute if data storage myriad:temp root.item.components."minecraft:custom_data".myriad{id:"potion"} run data modify storage myriad:temp root.potion set from storage myriad:temp root.item.components."minecraft:custom_data".myriad
+
+# fix for serum dilution
+execute if data storage myriad:temp root.item.components."minecraft:custom_data".myriad{id:"serum_of_sprouting"} run data modify storage myriad:temp root.potion set value "minecraft:thick"
+execute if data storage myriad:temp root.item.components."minecraft:custom_data".myriad{id:"serum_of_shrinking"} run data modify storage myriad:temp root.potion set value "minecraft:thick"
+
 data modify storage myriad:temp root.item set value {id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:item_model":"myriad:diluted_potion","!minecraft:enchantments":{},"minecraft:custom_data":{myriad:{id:"diluted_potion",potion:{uses:[10,10]}}},"minecraft:custom_model_data":{"floats":[10.0f],"colors":[16253176]},"!minecraft:damage":{},"!minecraft:max_damage":{}}}
 data modify storage myriad:temp root.item.components."minecraft:lore" set value [{"translate":"item.myriad.diluted_potion.uses","color":"gray","italic":false,"with":["10","10"]},{"translate":"pack.myriad","color":"white","italic":false,"font":"myriad:tooltip"}]
 data modify storage myriad:temp root.item.components."minecraft:custom_data".myriad.potion.id set from storage myriad:temp root.potion

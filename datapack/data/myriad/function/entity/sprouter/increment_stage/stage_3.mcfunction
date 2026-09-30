@@ -1,5 +1,5 @@
 # Sets the nbt to a specific stage
 
-data modify entity @s equipment.chest.components."minecraft:custom_model_data".floats[0] set value 3.0f
+data modify entity @s equipment.head.components."minecraft:custom_model_data".floats[0] set value 3.0f
 tag @s remove myriad.sprouter.stage_2
 tag @s add myriad.sprouter.stage_3

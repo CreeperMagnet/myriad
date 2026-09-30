@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -22,8 +22,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 3.0,
-              "min": 1.0
+              "max": 3,
+              "min": 1
             },
             "type": "minecraft:set_count"
           },
@@ -36,8 +36,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 3.0,
-              "min": 1.0
+              "max": 3,
+              "min": 1
             },
             "type": "minecraft:set_count"
           },
@@ -50,8 +50,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 3.0,
-              "min": 1.0
+              "max": 3,
+              "min": 1
             },
             "type": "minecraft:set_count"
           },
@@ -64,8 +64,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 3.0,
-              "min": 1.0
+              "max": 3,
+              "min": 1
             },
             "type": "minecraft:set_count"
           },
@@ -78,8 +78,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 3.0,
-              "min": 1.0
+              "max": 3,
+              "min": 1
             },
             "type": "minecraft:set_count"
           },
@@ -89,8 +89,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "max": 5,
+        "min": 1
       }
     }
   ],
